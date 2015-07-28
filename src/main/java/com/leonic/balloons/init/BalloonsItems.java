@@ -8,7 +8,7 @@ import net.minecraft.item.Item;
 public class BalloonsItems {
     // Class-wide variables typically will go here. Not inside methods.
 
-    public static Item itemRubber = new ItemRubber("itemRubber");
+    public static Item itemRubber = new ItemRubber("rubber");
 
     public static void registerItems()
     {
