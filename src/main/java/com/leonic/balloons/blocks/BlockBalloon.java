@@ -23,16 +23,22 @@ public class BlockBalloon extends BlockContainer {
 		this.setCreativeTab(BalloonsCTab);
 	
 	}
+	@Override
 	public int getRenderType() {
 		return -1;
 	}
-	
+	@Override
 	public boolean isOpaqueCube(){
-		return true;	
+		return false;	
 	}
-	
+	@Override
 	public boolean renderAsNormalBlock(){
 		return false;
+	}
+	
+	public boolean isFullCube()
+	{
+	return false;
 	}
 	
 	@Override
