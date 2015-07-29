@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "bm",
+  "name": "Balloons Mod",
+  "description": "A fun mod that adds Balloons to Minecraft.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "http://github.com/ZanyLeonic/Balloons/",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["ZanyLeonic"],
+  "credits": "Everything made by Leonic",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
