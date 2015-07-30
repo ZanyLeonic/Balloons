@@ -27,18 +27,19 @@ public class DropHandler
 		{
 				event.entityLiving.entityDropItem(new ItemStack(itemRubber), dropped);
 		}
-		
+		/*
 		if(event.entityLiving instanceof EntityZombie)
 		{
 				event.entityLiving.entityDropItem(new ItemStack(itemRubber), dropped);
 		}
 
-		if(event.entityLiving instanceof EntityCreeper)
+		if(event.entityLiving instanceof EntitySpider)
 		{
 				event.entityLiving.entityDropItem(new ItemStack(itemRubber), dropped);
 		}
+		*/
 		
-		if(event.entityLiving instanceof EntitySpider)
+		if(event.entityLiving instanceof EntityCreeper)
 		{
 				event.entityLiving.entityDropItem(new ItemStack(itemRubber), dropped);
 		}
