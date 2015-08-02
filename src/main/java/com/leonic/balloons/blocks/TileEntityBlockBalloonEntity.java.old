@@ -1,7 +1,0 @@
-package com.leonic.balloons.blocks;
-
-import net.minecraft.tileentity.TileEntity;
-
-public class TileEntityBlockBalloonEntity extends TileEntity {
-
-}

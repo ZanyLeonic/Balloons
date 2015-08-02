@@ -1,8 +1,9 @@
 package com.leonic.balloons.proxies;
 
-/*
- * @author ZanyLeonic
+/**
  * Renders and does stuff on the client side.
+ * @author ZanyLeonic
+ * @version 0.1
  */
 public class CommonProxy {
 	

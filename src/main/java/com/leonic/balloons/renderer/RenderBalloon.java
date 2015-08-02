@@ -8,9 +8,10 @@ import com.leonic.balloons.models.ModelBalloon;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ResourceLocation;
-/*
- * @author ZanyLeonic
+/**
  * Used to render the Balloon model in OpenGL. Very complicated stuff.
+ * @author ZanyLeonic
+ * @version 0.1
  * 
  */
 
@@ -24,8 +25,10 @@ public class RenderBalloon extends TileEntitySpecialRenderer {
 		this.model = new ModelBalloon();
 	}
 	
-	/*
-	 * ONLY FOR THE BALLOON MODEL. Usually called by {@link #ClientRegistry.bindTileEntitySpecialRenderer(TileEntityBalloonBlock.class, render);} in the ClientProxy.
+
+	@Override
+	/**
+	 * ONLY FOR THE BALLOON MODEL. Usually called by {@link #ClientRegistry.bindTileEntitySpecialRenderer(TileEntityBalloonBlock.class, render)} in the ClientProxy.
 	 * Usually used by Minecraft's game engine
 	 * 
 	 * @param TileEntity
@@ -35,7 +38,6 @@ public class RenderBalloon extends TileEntitySpecialRenderer {
  	 * @param float f [float] ?
 	 *   
 	 */
-	@Override
 	public void renderTileEntityAt(TileEntity tilentity_, double x, double y, double z, float f) {
 		GL11.glPushMatrix();
 			GL11.glTranslatef((float)x + 0.5F, (float)y + 1.5F, (float)z + 0.5F);

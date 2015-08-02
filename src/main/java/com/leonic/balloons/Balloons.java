@@ -21,16 +21,17 @@ import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
-
+/**
+ * Balloons mod main class
+ * @author ZanyLeonic
+ * @version 0.1
+ * 
+ */
 @Mod(modid = References.MODID, name = References.NAME, version = References.VERSION)
 
+
 public class Balloons {
-	/*
-	 * @author ZanyLeonic
-	 * 
-	 * Balloons mod main class
-	 * 
-	 */
+
 	@SidedProxy(clientSide = References.CLIENT_PROXY, serverSide = References.COMMON_PROXY)
 	public static CommonProxy leonicProxy;
 
