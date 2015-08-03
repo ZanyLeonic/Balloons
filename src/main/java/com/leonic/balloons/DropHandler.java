@@ -2,20 +2,18 @@ package com.leonic.balloons;
 
 import java.util.Random;
 
-import com.leonic.balloons.items.ItemRubber;
+import com.leonic.balloons.init.BalloonsItems;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import net.minecraft.entity.passive.*;
-import net.minecraft.item.Item;
+import net.minecraft.entity.monster.EntityCreeper;
+import net.minecraft.entity.passive.EntitySheep;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
-import net.minecraft.entity.monster.*;
 
 public class DropHandler
 {
 	public static Random random;
 	public static int dropped;
-	public static Item itemRubber = new ItemRubber("rubber");
 
 	@SubscribeEvent
 	public void onEntityDrop(LivingDropsEvent event)
@@ -25,7 +23,7 @@ public class DropHandler
 
 		if(event.entityLiving instanceof EntitySheep)
 		{
-				event.entityLiving.entityDropItem(new ItemStack(itemRubber), dropped);
+				event.entityLiving.entityDropItem(new ItemStack(BalloonsItems.itemRubber), dropped);
 		}
 		/*
 		if(event.entityLiving instanceof EntityZombie)
@@ -41,7 +39,7 @@ public class DropHandler
 		
 		if(event.entityLiving instanceof EntityCreeper)
 		{
-				event.entityLiving.entityDropItem(new ItemStack(itemRubber), dropped);
+				event.entityLiving.entityDropItem(new ItemStack(BalloonsItems.itemRubber), dropped);
 		}
 	}
 }

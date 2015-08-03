@@ -12,7 +12,6 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
-import java.lang.*;
 /**
  * An item which places down the BalloonBlock and BlockColls automatically.
  * 
@@ -40,22 +39,23 @@ public class ItemBlueBalloon extends Item {
 	 * @param x [int] x
 	 * @param y [int] y
 	 * @param z [int] z
-	 * @param par7 [int] par7
-	 * @param par8 [float] par8
-	 * @param par9 [float] par9
-	 * @param par10 [float] par10
+	 * @param side [int] par7
+	 * @param hitX [float] par8
+	 * @param hitY [float] par9
+	 * @param hitZ [float] par10
 	 */
 	@Override
-	public boolean onItemUse(ItemStack stack, EntityPlayer player, World world, int x, int y, int z, int par7, float par8, float par9, float par10)
+	public boolean onItemUse(ItemStack stack, EntityPlayer player, World world, int x, int y, int z, int side, float hitX, float hitY, float hitZ)
 	{
-		if(par7 != 1){
+		if(side != 1){
 			LogHelper.warn("Returned false on first line!");
 			return false;
 		} else {
 			if (world.isRemote) {
+				LogHelper.warn("Returned false on second line!");
 				return false;
-			}
-			if(player.canPlayerEdit(x, y + 1, z, par7, stack) && player.canPlayerEdit(x, y + 2, z, par7, stack)){
+			}else{
+			if(player.canPlayerEdit(x, y + 1, z, side, stack) && player.canPlayerEdit(x, y + 2, z, side, stack)){
 				world.setBlock(x, y + 1, z, blockBalloon);
 				world.setBlock(x, y + 2, z, blockColls);
 				world.notifyBlockOfNeighborChange(x, y + 1, z, blockBalloon);
@@ -65,9 +65,10 @@ public class ItemBlueBalloon extends Item {
 				return true;
 		
 			}else{
-				LogHelper.warn("Returned false on second line!");
+				LogHelper.warn("Returned false on third line!");
 				return false;
 			}
 		}
 	}
   }
+}

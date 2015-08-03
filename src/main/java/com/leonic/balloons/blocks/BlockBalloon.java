@@ -70,7 +70,4 @@ public class BlockBalloon extends BlockContainer {
 	public void registerBlockIcons(IIconRegister iconRegister){
 		this.blockIcon = iconRegister.registerIcon(References.MODID + ":" + this.getUnlocalizedName().substring(5));
 	}
-	
-
-
 }

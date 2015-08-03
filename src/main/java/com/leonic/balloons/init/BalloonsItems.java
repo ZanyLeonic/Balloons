@@ -1,7 +1,7 @@
 package com.leonic.balloons.init;
 
 import com.leonic.balloons.helpers.RegisterHelper;
-import com.leonic.balloons.items.ItemBlueBalloon;
+import com.leonic.balloons.items.ItemBalloonPump;
 import com.leonic.balloons.items.ItemRubber;
 
 import net.minecraft.item.Item;
@@ -14,13 +14,14 @@ import net.minecraft.item.Item;
 public class BalloonsItems {
 
     public static Item itemRubber = new ItemRubber("rubber");
-    public static Item itemBluballoon = new ItemBlueBalloon("bluballoon");
+    public static Item itemBalloonPump = new ItemBalloonPump("balloonpump");
     /**
      * Uses RegisterHelper to register all the items.
      */
     public static void registerItems()
     {
         RegisterHelper.registerItem(itemRubber);
-        RegisterHelper.registerItem(itemBluballoon);
+       /* RegisterHelper.registerItem(itemBluballoon);*/
+        RegisterHelper.registerItem(itemBalloonPump);
     }
 }

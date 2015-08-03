@@ -25,19 +25,18 @@ public class RenderBalloon extends TileEntitySpecialRenderer {
 		this.model = new ModelBalloon();
 	}
 	
-
-	@Override
 	/**
-	 * ONLY FOR THE BALLOON MODEL. Usually called by {@link #ClientRegistry.bindTileEntitySpecialRenderer(TileEntityBalloonBlock.class, render)} in the ClientProxy.
+	 * ONLY FOR THE BALLOON MODEL. Usually called by {@link com.leonic.balloons.proxies.ClientRegistry} in the ClientProxy.
 	 * Usually used by Minecraft's game engine
 	 * 
-	 * @param TileEntity
-	 * @param double x [double] x coordinate
-	 * @param double y [double] y coordinate
-	 * @param double z [double] z coordinate
- 	 * @param float f [float] ?
+	 * @param tilentity_
+	 * @param x [double] x coordinate
+	 * @param y [double] y coordinate
+	 * @param z [double] z coordinate
+ 	 * @param f [float] ?
 	 *   
 	 */
+	@Override
 	public void renderTileEntityAt(TileEntity tilentity_, double x, double y, double z, float f) {
 		GL11.glPushMatrix();
 			GL11.glTranslatef((float)x + 0.5F, (float)y + 1.5F, (float)z + 0.5F);
@@ -46,7 +45,7 @@ public class RenderBalloon extends TileEntitySpecialRenderer {
 			this.bindTexture(texture);
 			
 			GL11.glPushMatrix();
-				this.model.renderModel(0.125F); //Old value 0.0625F
+				this.model.renderModel(0.0625F); //Original value 0.0625F Old value 0.125F
 			GL11.glPopMatrix();
 		GL11.glPopMatrix();
 		
