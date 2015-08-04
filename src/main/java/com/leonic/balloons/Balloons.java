@@ -11,14 +11,17 @@ import com.leonic.balloons.proxies.CommonProxy;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 /**
  * Balloons mod main class
@@ -48,7 +51,7 @@ public class Balloons {
 		}
 	};
 	
-    @Mod.EventHandler
+    @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
     	//Registering custom items and blocks
@@ -59,6 +62,9 @@ public class Balloons {
     	//Renderer
     	leonicProxy.registerRenderThings();
     	
+    	//Registering Smelting stuff
+    	GameRegistry.addSmelting(Items.diamond, new ItemStack(Balloons.itemRubber), 1.0F);
+    	
     	//Adds updater as a Event
     	FMLCommonHandler.instance().bus().register(new UpdateHandler());
         UpdateHelper.init();
@@ -67,7 +73,7 @@ public class Balloons {
     	LogHelper.info("Grabbing the Helium tanks...");
     }
 
-    @Mod.EventHandler
+    @EventHandler
     public void init(FMLInitializationEvent event)
     {
     	//Registering drops
@@ -77,7 +83,7 @@ public class Balloons {
     	LogHelper.info("Grabbing Balloons...");
     }
 
-    @Mod.EventHandler
+    @EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
     	//"Mod loaded!" message.
