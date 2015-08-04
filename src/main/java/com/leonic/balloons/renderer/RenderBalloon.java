@@ -3,6 +3,8 @@ package com.leonic.balloons.renderer;
 import org.lwjgl.opengl.GL11;
 
 import com.leonic.balloons.References;
+import com.leonic.balloons.blocks.BlockBalloon;
+import com.leonic.balloons.helpers.ColourHelper;
 import com.leonic.balloons.models.ModelBalloon;
 
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
@@ -16,8 +18,8 @@ import net.minecraft.util.ResourceLocation;
  */
 
 public class RenderBalloon extends TileEntitySpecialRenderer {
-
-	private static final ResourceLocation texture = new ResourceLocation(References.MODID + ":" + "textures/models/balloon.png");
+	
+	private static final ResourceLocation texture = new ResourceLocation(References.MODID + ":" + "textures/models/balloon_" + ColourHelper.BalloonColour(BlockBalloon.BalloonColour) + ".png");
 	
 	private ModelBalloon model;
 	

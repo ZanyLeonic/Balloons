@@ -10,5 +10,7 @@ public class UpdateHandler {
     public void onPlayerLogin(PlayerEvent.PlayerLoggedInEvent event) {
         if(UpdateHelper.show)
             event.player.addChatMessage(new ChatComponentText(UpdateHelper.updateStatus));
+        	event.player.addChatMessage(new ChatComponentText(UpdateHelper.updateURL));
+        	UpdateHelper.show = false;
     }
 }

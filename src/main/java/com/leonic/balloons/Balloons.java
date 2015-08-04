@@ -1,6 +1,7 @@
 package com.leonic.balloons;
 
 import com.leonic.balloons.blocks.BlockBalloon;
+import com.leonic.balloons.helpers.ColourHelper;
 import com.leonic.balloons.helpers.LogHelper;
 import com.leonic.balloons.helpers.UpdateHelper;
 import com.leonic.balloons.init.BalloonsBlocks;
@@ -16,13 +17,10 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
+
 /**
  * Balloons mod main class
  * @author ZanyLeonic
@@ -35,7 +33,6 @@ import net.minecraft.item.ItemStack;
 public class Balloons {
 	//Items & Block declarations
 	public static Item itemRubber = new ItemRubber("rubber");
-	public static Block blockBalloon = new BlockBalloon(Material.cloth);
 	
 	@SidedProxy(clientSide = References.CLIENT_PROXY, serverSide = References.COMMON_PROXY)
 	public static CommonProxy leonicProxy;
@@ -61,6 +58,7 @@ public class Balloons {
     	//Renderer
     	leonicProxy.registerRenderThings();
   
+    	LogHelper.info(ColourHelper.BalloonColour(BlockBalloon.BalloonColour));
     	LogHelper.info("Grabbing the Helium tanks...");
     	
     	FMLCommonHandler.instance().bus().register(new UpdateHandler());
@@ -72,9 +70,6 @@ public class Balloons {
     {
     	//Registering drops
     	FMLCommonHandler.instance().bus().register(new DropHandler());
-    	
-    	//Smelting recipes
-    	GameRegistry.addSmelting(new ItemStack(itemRubber), new ItemStack(blockBalloon), 0.1f);
     	
     	LogHelper.info("Grabbing Balloons...");
     }

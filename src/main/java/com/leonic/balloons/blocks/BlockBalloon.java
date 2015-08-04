@@ -1,10 +1,8 @@
 package com.leonic.balloons.blocks;
 
-import java.util.Random;
-
 import com.leonic.balloons.Balloons;
 import com.leonic.balloons.References;
-import com.leonic.balloons.items.ItemBlueBalloon;
+import com.leonic.balloons.helpers.ColourHelper;
 import com.leonic.balloons.tileentities.TileEntityBalloonBlock;
 
 import cpw.mods.fml.relauncher.Side;
@@ -12,7 +10,6 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.item.Item;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 /**
@@ -23,20 +20,18 @@ import net.minecraft.world.World;
  * 
  */
 public class BlockBalloon extends BlockContainer {
-	
-    public static Item itemBluballoon = new ItemBlueBalloon("bluballoon");	
-	/**
+	public static int BalloonColour = 0;
+ 	/**
 	 * Block Balloon
-	 * @param material [material] Sets the material of the block. Usually material.cloth.
+	 * @param Colour Sets the Colour of the Balloon. 0-15 Check class for more details.
 	 * 
 	 */
-	public BlockBalloon(Material material) {
-
-		super(material);
+	public BlockBalloon(int Colour) {
+		super(Material.cloth);
+		BalloonColour = Colour;
 		this.setHardness(1.0F);
 		this.setResistance(1.0F);
 		this.setCreativeTab(Balloons.balloons);
-	
 	}
 	@Override
 	public int getRenderType() {
@@ -56,11 +51,6 @@ public class BlockBalloon extends BlockContainer {
 	return false;
 	}
 	
-	public Item getItemDropped(int p_149650_1_, Random rnd, int p_149650_3_)
-    {
-        return itemBluballoon;
-    }
-	
 	@Override
 	public TileEntity createNewTileEntity(World var1, int var2) {
 		return new TileEntityBalloonBlock();
@@ -68,6 +58,6 @@ public class BlockBalloon extends BlockContainer {
 	
 	@SideOnly(Side.CLIENT)
 	public void registerBlockIcons(IIconRegister iconRegister){
-		this.blockIcon = iconRegister.registerIcon(References.MODID + ":" + this.getUnlocalizedName().substring(5));
+		this.blockIcon = iconRegister.registerIcon(References.MODID + ":" + "balloon_black");
 	}
 }

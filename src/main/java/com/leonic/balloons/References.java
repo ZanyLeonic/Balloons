@@ -19,7 +19,7 @@ public class References {
     /**
      * The version of the Mod.
      */
-    public static final String VERSION = "0.0.1";
+    public static final String VERSION = "0.1";
     
     /**
      * The location of the CommonProxy.
