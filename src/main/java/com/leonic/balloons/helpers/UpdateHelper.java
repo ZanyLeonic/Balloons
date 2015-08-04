@@ -5,32 +5,53 @@ import java.net.URL;
 import java.util.Scanner;
 
 import com.leonic.balloons.References;
-
+/**
+ * Class that check for updates for the Balloons mod.
+ * 
+ * @author Leonic
+ * @version 0.1
+ */
 public class UpdateHelper {
 	
 	private static String currentVersion = References.VERSION;
 	private static String newestVersion;
 	private static String newestVersionURL = null;
+	//private static String newestVersionInfo = null;
+	//private static String newestVersionInfoURL = null;
+	public static String updateNews = null;
 	public static String updateURL = null;
 	public static String updateStatus = null;
 	public static boolean show = false;
 	
+	/**
+	 * Calls getNewestVersion() to check for new versions and getNewestVersionURL() for the download link. 
+	 */
 	public static void init() {
 		getNewestVersion();
 			if(newestVersion != null) {
 				if(newestVersion.equalsIgnoreCase(currentVersion)) {
 					updateStatus = "§6§l[Balloons]§r§a is up to date!";
 					LogHelper.info("Balloons is up to date!");
+					show = false;
 				}else {
 					show = true;
+					//getNewestFeatures();
 					getNewestVersionURL();
-					updateStatus = "§6§l[Balloons]§r§c There is a new version of Balloons. §6§lYour version:§r " + currentVersion + " §6§lLatest version: §r" + newestVersion;
+					updateStatus = "§6§l[Balloons]§r§c There is a newer version of Balloons. §6§lYour version:§r " + currentVersion + " §6§lLatest version: §r" + newestVersion;
+					/*	Broken
+					if(newestVersionInfo != null && newestVersionInfoURL != null){	
+							updateNews = "§rNew features:\n" + newestVersionInfo + "\n You can look at the full change log at: " + newestVersionInfoURL;
+						}else{
+							updateNews = "§r§l§cFailed§r to get newest features information.";
+						} 
+					*/
 						if(newestVersionURL != null){
 							updateURL = "§6§l[Balloons]§r You can download it at " + newestVersionURL;
 						}else{
-							updateURL = "§6§l[Balloons]§r Couldn't get link, try http://ZanyLeonic.github.io/Balloons/ .";
+							updateURL = "§6§l[Balloons]§r Couldn't get link, try going to http://ZanyLeonic.github.io/Balloons/ .";
 						}
-					LogHelper.info("Balloons out of date! Your version: " + currentVersion + " Latest version: " + newestVersion);
+						
+					LogHelper.info("Balloons is out of date! Your version: " + currentVersion + " Latest version: " + newestVersion);
 				}
 		}else {
 			show = true;
@@ -38,7 +59,10 @@ public class UpdateHelper {
 			LogHelper.error("Failed to connect to check if update are available!");
 		}
 	}
-
+	
+	/**
+	 * Checks with my GitHub for the latest released version.
+	 */
 	private static void getNewestVersion() {
 		try {
 			URL url = new URL("http://zanyleonic.github.io/Balloons/versions/1.7.10/latest.ver");
@@ -52,6 +76,9 @@ public class UpdateHelper {
 		}
 	}
 	
+	/**
+	 * Checks with with my GitHub to get the link to latest version download link.
+	 */
 	private static void getNewestVersionURL() {
 		try{
 			URL url = new URL("http://zanyleonic.github.io/Balloons/versions/1.7.10/latest.url");
@@ -64,4 +91,20 @@ public class UpdateHelper {
 			ex.printStackTrace();
 		}
 	}
+	/* Broken
+	private static void getNewestFeatures() {
+		try {
+			URL url = new URL("http://zanyleonic.github.io/Balloons/versions/1.7.10/latest.notes");
+			Scanner scan = new Scanner(url.openStream());
+			newestVersionInfo = scan.next();
+			newestVersionInfoURL = scan.next();
+			scan.close();
+		}catch(IOException ex){
+			LogHelper.error("Cannot check for release notes for update. Either GitHub is blocked or connection was closed.");
+			LogHelper.error("Stacktrace:");
+			ex.printStackTrace();
+		}
+		
+	}
+	*/
 }

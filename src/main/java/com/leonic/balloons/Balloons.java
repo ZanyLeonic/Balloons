@@ -1,7 +1,6 @@
 package com.leonic.balloons;
 
-import com.leonic.balloons.blocks.BlockBalloon;
-import com.leonic.balloons.helpers.ColourHelper;
+import com.leonic.balloons.helpers.DropHandler;
 import com.leonic.balloons.helpers.LogHelper;
 import com.leonic.balloons.helpers.UpdateHelper;
 import com.leonic.balloons.init.BalloonsBlocks;
@@ -49,20 +48,23 @@ public class Balloons {
 		}
 	};
 	
-
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
+    	//Registering custom items and blocks
     	BalloonsItems.registerItems();
     	BalloonsBlocks.registerBlocks();
+    	BalloonsBlocks.registerCreativeTabs();
+    	
     	//Renderer
     	leonicProxy.registerRenderThings();
-  
-    	LogHelper.info(ColourHelper.BalloonColour(BlockBalloon.BalloonColour));
-    	LogHelper.info("Grabbing the Helium tanks...");
     	
+    	//Adds updater as a Event
     	FMLCommonHandler.instance().bus().register(new UpdateHandler());
         UpdateHelper.init();
+        
+    	//"Got past PreInit stage" message.
+    	LogHelper.info("Grabbing the Helium tanks...");
     }
 
     @Mod.EventHandler
@@ -71,13 +73,14 @@ public class Balloons {
     	//Registering drops
     	FMLCommonHandler.instance().bus().register(new DropHandler());
     	
+    	//"Got past the Init stage" message.
     	LogHelper.info("Grabbing Balloons...");
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-    	
+    	//"Mod loaded!" message.
     	LogHelper.info("Balloons ready! Let's have some fun!");
     }
 

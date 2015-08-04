@@ -7,87 +7,94 @@ import net.minecraft.block.Block;
 
 /**
  * A class which calls the RegisterHelper to register the blocks on startup.
+ * For custom model blocks we don't use RegisterHelper.
  * @author ZanyLeonic
  * @version 0.1
  * 
  */
 public class BalloonsBlocks {
 	
-	private static Block blockBalloon0 = new BlockBalloon(0);
-	private static Block blockBalloon1 = new BlockBalloon(1);
-	private static Block blockBalloon2 = new BlockBalloon(2);
-	private static Block blockBalloon3 = new BlockBalloon(3);
-	private static Block blockBalloon4 = new BlockBalloon(4);
-	private static Block blockBalloon5 = new BlockBalloon(5);
-	private static Block blockBalloon6 = new BlockBalloon(6);
-	private static Block blockBalloon7 = new BlockBalloon(7);
-	private static Block blockBalloon8 = new BlockBalloon(8);
-	private static Block blockBalloon9 = new BlockBalloon(9);
-	private static Block blockBalloon10 = new BlockBalloon(10);
-	private static Block blockBalloon11 = new BlockBalloon(11);
-	private static Block blockBalloon12 = new BlockBalloon(12);
-	private static Block blockBalloon13 = new BlockBalloon(13);
-	private static Block blockBalloon14 = new BlockBalloon(14);
-	private static Block blockBalloon15 = new BlockBalloon(15);
+	private static Block blockBalloonBlack = new BlockBalloonBlack();
+	private static Block blockBalloonBlue = new BlockBalloonBlue();
+	private static Block blockBalloonBrown = new BlockBalloonBrown();
+	private static Block blockBalloonCyan = new BlockBalloonCyan();
+	private static Block blockBalloonDBlue = new BlockBalloonDBlue();
+	private static Block blockBalloonGreen = new BlockBalloonGreen();
+	private static Block blockBalloonGrey = new BlockBalloonGrey();
+	private static Block blockBalloonLGrey = new BlockBalloonLGrey();
+	private static Block blockBalloonLime = new BlockBalloonLime();
+	private static Block blockBalloonMagenta = new BlockBalloonMagenta();
+	private static Block blockBalloonOrange = new BlockBalloonOrange();
+	private static Block blockBalloonPink = new BlockBalloonPink();
+	private static Block blockBalloonPurple = new BlockBalloonPurple();
+	private static Block blockBalloonRed = new BlockBalloonRed();
+	private static Block blockBalloonWhite = new BlockBalloonWhite();
+	private static Block blockBalloonYellow = new BlockBalloonYellow();
+	
 	
     /**
-     * Uses RegisterHelper to register all the blocks.
+     * Uses RegisterHelper to register all the blocks. (Not for custom model blocks.)
      */
 	public static void registerBlocks()
     {
-		blockBalloon0 = new BlockBalloon(0).setBlockName("balloon_white");
-		blockBalloon1 = new BlockBalloon(1).setBlockName("balloon_red");
-		blockBalloon2 = new BlockBalloon(2).setBlockName("balloon_orange");
-		blockBalloon3 = new BlockBalloon(3).setBlockName("balloon_yellow");
-		blockBalloon4 = new BlockBalloon(4).setBlockName("balloon_lime");
-		blockBalloon5 = new BlockBalloon(5).setBlockName("balloon_green");
-		blockBalloon6 = new BlockBalloon(6).setBlockName("balloon_cyan");
-		blockBalloon7 = new BlockBalloon(7).setBlockName("balloon_dblue");
-		blockBalloon8 = new BlockBalloon(8).setBlockName("balloon_blue");
-		blockBalloon9 = new BlockBalloon(9).setBlockName("balloon_purple");
-		blockBalloon10 = new BlockBalloon(10).setBlockName("balloon_mag");
-		blockBalloon11 = new BlockBalloon(11).setBlockName("balloon_pink");
-		blockBalloon12 = new BlockBalloon(12).setBlockName("balloon_lgrey");
-		blockBalloon13 = new BlockBalloon(13).setBlockName("balloon_grey");
-		blockBalloon14 = new BlockBalloon(14).setBlockName("balloon_black");
-		blockBalloon15 = new BlockBalloon(15).setBlockName("balloon_brown");
 		
-    	GameRegistry.registerBlock(blockBalloon0, "balloon_white");
-    	GameRegistry.registerBlock(blockBalloon1, "balloon_red");
-    	GameRegistry.registerBlock(blockBalloon2, "balloon_orange");
-    	GameRegistry.registerBlock(blockBalloon3, "balloon_yellow");
-    	GameRegistry.registerBlock(blockBalloon4, "balloon_lime");
-    	GameRegistry.registerBlock(blockBalloon5, "balloon_green");
-    	GameRegistry.registerBlock(blockBalloon6, "balloon_cyan");
-    	GameRegistry.registerBlock(blockBalloon7, "balloon_dblue");
-    	GameRegistry.registerBlock(blockBalloon8, "balloon_blue");
-    	GameRegistry.registerBlock(blockBalloon9, "balloon_purple");
-    	GameRegistry.registerBlock(blockBalloon10, "balloon_mag");
-    	GameRegistry.registerBlock(blockBalloon11, "balloon_pink");
-    	GameRegistry.registerBlock(blockBalloon12, "balloon_lgrey");
-    	GameRegistry.registerBlock(blockBalloon13, "balloon_grey");
-    	GameRegistry.registerBlock(blockBalloon14, "balloon_black");
-    	GameRegistry.registerBlock(blockBalloon15, "balloon_brown");
+		//Declaring the Blocks names
+		blockBalloonBlack = new BlockBalloonBlack().setBlockName("balloon_black");
+		blockBalloonBlue = new BlockBalloonBlue().setBlockName("balloon_blue");
+		blockBalloonBrown = new BlockBalloonBrown().setBlockName("balloon_brown");
+		blockBalloonCyan = new BlockBalloonCyan().setBlockName("balloon_cyan");
+		blockBalloonDBlue = new BlockBalloonDBlue().setBlockName("balloon_dblue");
+		blockBalloonGreen = new BlockBalloonGreen().setBlockName("balloon_green");
+		blockBalloonGrey = new BlockBalloonGrey().setBlockName("balloon_grey");
+		blockBalloonLGrey = new BlockBalloonLGrey().setBlockName("balloon_lgrey");
+		blockBalloonLime = new BlockBalloonLime().setBlockName("balloon_lime");
+		blockBalloonMagenta = new BlockBalloonMagenta().setBlockName("balloon_magenta");
+		blockBalloonOrange = new BlockBalloonOrange().setBlockName("balloon_orange");
+		blockBalloonPink = new BlockBalloonPink().setBlockName("balloon_pink");
+		blockBalloonPurple = new BlockBalloonPurple().setBlockName("balloon_purple");
+		blockBalloonRed = new BlockBalloonRed().setBlockName("balloon_red");
+		blockBalloonWhite = new BlockBalloonWhite().setBlockName("balloon_white");
+		blockBalloonYellow = new BlockBalloonYellow().setBlockName("balloon_yellow");
     	
-    	
+		//Registering with GameRegistry
+		GameRegistry.registerBlock(blockBalloonBlack, "balloon_black");
+		GameRegistry.registerBlock(blockBalloonBlue, "balloon_blue");
+		GameRegistry.registerBlock(blockBalloonBrown, "balloon_brown");
+		GameRegistry.registerBlock(blockBalloonCyan, "balloon_cyan");
+		GameRegistry.registerBlock(blockBalloonDBlue, "balloon_dblue");
+		GameRegistry.registerBlock(blockBalloonGreen, "balloon_green");
+		GameRegistry.registerBlock(blockBalloonGrey, "balloon_grey");
+		GameRegistry.registerBlock(blockBalloonLGrey, "balloon_lgrey");
+		GameRegistry.registerBlock(blockBalloonLime, "balloon_lime");
+		GameRegistry.registerBlock(blockBalloonMagenta, "balloon_magenta");
+		GameRegistry.registerBlock(blockBalloonOrange, "balloon_orange");
+		GameRegistry.registerBlock(blockBalloonPink, "balloon_pink");
+		GameRegistry.registerBlock(blockBalloonPurple, "balloon_purple");
+		GameRegistry.registerBlock(blockBalloonRed, "balloon_red");
+		GameRegistry.registerBlock(blockBalloonWhite, "balloon_white");
+		GameRegistry.registerBlock(blockBalloonYellow, "balloon_yellow");
     }
-	
+	/**
+	 * Puts all custom blocks into a CreativeTab.
+	 */
 	public static void registerCreativeTabs(){
-		blockBalloon0.setCreativeTab(Balloons.balloons);
-		blockBalloon1.setCreativeTab(Balloons.balloons);
-		blockBalloon2.setCreativeTab(Balloons.balloons);
-		blockBalloon3.setCreativeTab(Balloons.balloons);
-		blockBalloon4.setCreativeTab(Balloons.balloons);
-		blockBalloon5.setCreativeTab(Balloons.balloons);
-		blockBalloon6.setCreativeTab(Balloons.balloons);
-		blockBalloon7.setCreativeTab(Balloons.balloons);
-		blockBalloon8.setCreativeTab(Balloons.balloons);
-		blockBalloon9.setCreativeTab(Balloons.balloons);
-		blockBalloon10.setCreativeTab(Balloons.balloons);
-		blockBalloon11.setCreativeTab(Balloons.balloons);
-		blockBalloon12.setCreativeTab(Balloons.balloons);
-		blockBalloon13.setCreativeTab(Balloons.balloons);
-		blockBalloon14.setCreativeTab(Balloons.balloons);
-		blockBalloon15.setCreativeTab(Balloons.balloons);
+		
+		//Registering CreativeTabs for the Balloons.
+		blockBalloonBlack.setCreativeTab(Balloons.balloons);
+		blockBalloonBlue.setCreativeTab(Balloons.balloons);
+		blockBalloonBrown.setCreativeTab(Balloons.balloons);
+		blockBalloonCyan.setCreativeTab(Balloons.balloons);
+		blockBalloonDBlue.setCreativeTab(Balloons.balloons);
+		blockBalloonGreen.setCreativeTab(Balloons.balloons);
+		blockBalloonGrey.setCreativeTab(Balloons.balloons);
+		blockBalloonLGrey.setCreativeTab(Balloons.balloons);
+		blockBalloonLime.setCreativeTab(Balloons.balloons);
+		blockBalloonMagenta.setCreativeTab(Balloons.balloons);
+		blockBalloonOrange.setCreativeTab(Balloons.balloons);
+		blockBalloonPink.setCreativeTab(Balloons.balloons);
+		blockBalloonPurple.setCreativeTab(Balloons.balloons);
+		blockBalloonRed.setCreativeTab(Balloons.balloons);
+		blockBalloonWhite.setCreativeTab(Balloons.balloons);
+		blockBalloonYellow.setCreativeTab(Balloons.balloons);
 	}
 }
