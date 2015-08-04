@@ -19,13 +19,13 @@ public class ItemRubber extends Item {
 	/**
 	 * The Rubber item
 	 * 
-	 * @param name [String] Put anything. It isn't used by the class at all.
+	 * @param name Sets the Unlocalized name and Texture name.
 	 */
 	public ItemRubber(String name) {
 		super();
 		this.setCreativeTab(Balloons.balloons);
-		this.setUnlocalizedName("rubber");
-		this.setTextureName(References.MODID + ":" + "rubber");
+		this.setUnlocalizedName(name);
+		this.setTextureName(References.MODID + ":" + name);
 	}
 	
 	public void addInformation(ItemStack par1ItemStack, EntityPlayer par2EntityPlayer, List par3List, boolean par4)

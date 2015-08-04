@@ -14,22 +14,22 @@ import net.minecraft.block.Block;
  */
 public class BalloonsBlocks {
 	
-	private static Block blockBalloonBlack = new BlockBalloonBlack();
-	private static Block blockBalloonBlue = new BlockBalloonBlue();
-	private static Block blockBalloonBrown = new BlockBalloonBrown();
-	private static Block blockBalloonCyan = new BlockBalloonCyan();
-	private static Block blockBalloonDBlue = new BlockBalloonDBlue();
-	private static Block blockBalloonGreen = new BlockBalloonGreen();
-	private static Block blockBalloonGrey = new BlockBalloonGrey();
-	private static Block blockBalloonLGrey = new BlockBalloonLGrey();
-	private static Block blockBalloonLime = new BlockBalloonLime();
-	private static Block blockBalloonMagenta = new BlockBalloonMagenta();
-	private static Block blockBalloonOrange = new BlockBalloonOrange();
-	private static Block blockBalloonPink = new BlockBalloonPink();
-	private static Block blockBalloonPurple = new BlockBalloonPurple();
-	private static Block blockBalloonRed = new BlockBalloonRed();
-	private static Block blockBalloonWhite = new BlockBalloonWhite();
-	private static Block blockBalloonYellow = new BlockBalloonYellow();
+	public static Block blockBalloonBlack = new BlockBalloonBlack();
+	public static Block blockBalloonBlue = new BlockBalloonBlue();
+	public static Block blockBalloonBrown = new BlockBalloonBrown();
+	public static Block blockBalloonCyan = new BlockBalloonCyan();
+	public static Block blockBalloonDBlue = new BlockBalloonDBlue();
+	public static Block blockBalloonGreen = new BlockBalloonGreen();
+	public static Block blockBalloonGrey = new BlockBalloonGrey();
+	public static Block blockBalloonLGrey = new BlockBalloonLGrey();
+	public static Block blockBalloonLime = new BlockBalloonLime();
+	public static Block blockBalloonMagenta = new BlockBalloonMagenta();
+	public static Block blockBalloonOrange = new BlockBalloonOrange();
+	public static Block blockBalloonPink = new BlockBalloonPink();
+	public static Block blockBalloonPurple = new BlockBalloonPurple();
+	public static Block blockBalloonRed = new BlockBalloonRed();
+	public static Block blockBalloonWhite = new BlockBalloonWhite();
+	public static Block blockBalloonYellow = new BlockBalloonYellow();
 	
 	
     /**

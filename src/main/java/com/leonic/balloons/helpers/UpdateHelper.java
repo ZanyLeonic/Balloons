@@ -18,9 +18,9 @@ public class UpdateHelper {
 	private static String newestVersionURL = null;
 	//private static String newestVersionInfo = null;
 	//private static String newestVersionInfoURL = null;
-	public static String updateNews = null;
-	public static String updateURL = null;
-	public static String updateStatus = null;
+	//public static String updateNews = "";
+	public static String updateURL = "";
+	public static String updateStatus = "";
 	public static boolean show = false;
 	
 	/**
