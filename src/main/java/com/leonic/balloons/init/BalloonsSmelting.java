@@ -15,7 +15,8 @@ public class BalloonsSmelting {
 	public static void init()
 	{
 		//Registering Smelting stuff
-    	GameRegistry.addSmelting(BalloonsItems.itemRubber, new ItemStack(BalloonsItems.itemRubberSheet), 2.0F);
+    	GameRegistry.addSmelting(BalloonsItems.itemRubber, new ItemStack(BalloonsItems.itemRubberBall, 2), 2.0F);
+    	GameRegistry.addSmelting(BalloonsItems.itemRubberBall, new ItemStack(BalloonsItems.itemRubberSheet), 2.0F);
     	
 	}
 }

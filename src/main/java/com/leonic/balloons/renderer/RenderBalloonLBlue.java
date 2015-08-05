@@ -10,19 +10,19 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ResourceLocation;
 /**
  * Used to render the Balloon model in OpenGL. Very complicated stuff.
- * Dark Blue coloured Balloon
+ * Light Blue coloured Balloon
  * @author ZanyLeonic
  * @version 0.1
  * 
  */
 
-public class RenderBalloonDBlue extends TileEntitySpecialRenderer {
+public class RenderBalloonLBlue extends TileEntitySpecialRenderer {
 	
-	private static final ResourceLocation texture = new ResourceLocation(References.MODID + ":" + "textures/models/balloon_dblue.png");
+	private static final ResourceLocation texture = new ResourceLocation(References.MODID + ":" + "textures/models/balloon_lblue.png");
 	
 	private ModelBalloon model;
 	
-	public RenderBalloonDBlue() {
+	public RenderBalloonLBlue() {
 		this.model = new ModelBalloon();
 	}
 	

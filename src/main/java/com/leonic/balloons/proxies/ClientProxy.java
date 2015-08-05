@@ -4,7 +4,7 @@ import com.leonic.balloons.renderer.RenderBalloonBlack;
 import com.leonic.balloons.renderer.RenderBalloonBlue;
 import com.leonic.balloons.renderer.RenderBalloonBrown;
 import com.leonic.balloons.renderer.RenderBalloonCyan;
-import com.leonic.balloons.renderer.RenderBalloonDBlue;
+import com.leonic.balloons.renderer.RenderBalloonLBlue;
 import com.leonic.balloons.renderer.RenderBalloonGreen;
 import com.leonic.balloons.renderer.RenderBalloonGrey;
 import com.leonic.balloons.renderer.RenderBalloonLGrey;
@@ -20,7 +20,7 @@ import com.leonic.balloons.tileentities.TileEntityBalloonBlockBlack;
 import com.leonic.balloons.tileentities.TileEntityBalloonBlockBlue;
 import com.leonic.balloons.tileentities.TileEntityBalloonBlockBrown;
 import com.leonic.balloons.tileentities.TileEntityBalloonBlockCyan;
-import com.leonic.balloons.tileentities.TileEntityBalloonBlockDBlue;
+import com.leonic.balloons.tileentities.TileEntityBalloonBlockLBlue;
 import com.leonic.balloons.tileentities.TileEntityBalloonBlockGreen;
 import com.leonic.balloons.tileentities.TileEntityBalloonBlockGrey;
 import com.leonic.balloons.tileentities.TileEntityBalloonBlockLGrey;
@@ -54,7 +54,7 @@ public class ClientProxy extends CommonProxy {
 		GameRegistry.registerTileEntity(TileEntityBalloonBlockBlue.class, "ballon_bluetile");
 		GameRegistry.registerTileEntity(TileEntityBalloonBlockBrown.class, "balloon_browntile");
 		GameRegistry.registerTileEntity(TileEntityBalloonBlockCyan.class, "balloon_cyantile");
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockDBlue.class, "balloon_dbluetile");
+		GameRegistry.registerTileEntity(TileEntityBalloonBlockLBlue.class, "balloon_lbluetile");
 		GameRegistry.registerTileEntity(TileEntityBalloonBlockGreen.class, "balloon_greentile");
 		GameRegistry.registerTileEntity(TileEntityBalloonBlockGrey.class, "balloon_greytile");
 		GameRegistry.registerTileEntity(TileEntityBalloonBlockLGrey.class, "balloon_lgreytile");
@@ -80,8 +80,8 @@ public class ClientProxy extends CommonProxy {
 		TileEntitySpecialRenderer cyanrender = new RenderBalloonCyan();
 		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityBalloonBlockCyan.class, cyanrender);
 		
-		TileEntitySpecialRenderer dbluerender = new RenderBalloonDBlue();
-		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityBalloonBlockDBlue.class, dbluerender);
+		TileEntitySpecialRenderer lbluerender = new RenderBalloonLBlue();
+		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityBalloonBlockLBlue.class, lbluerender);
 		
 		TileEntitySpecialRenderer greenrender = new RenderBalloonGreen();
 		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityBalloonBlockGreen.class, greenrender);

@@ -18,7 +18,7 @@ public class BalloonsBlocks {
 	public static Block blockBalloonBlue = new BlockBalloonBlue();
 	public static Block blockBalloonBrown = new BlockBalloonBrown();
 	public static Block blockBalloonCyan = new BlockBalloonCyan();
-	public static Block blockBalloonDBlue = new BlockBalloonDBlue();
+	public static Block blockBalloonLBlue = new BlockBalloonLBlue();
 	public static Block blockBalloonGreen = new BlockBalloonGreen();
 	public static Block blockBalloonGrey = new BlockBalloonGrey();
 	public static Block blockBalloonLGrey = new BlockBalloonLGrey();
@@ -43,7 +43,7 @@ public class BalloonsBlocks {
 		blockBalloonBlue = new BlockBalloonBlue().setBlockName("balloon_blue");
 		blockBalloonBrown = new BlockBalloonBrown().setBlockName("balloon_brown");
 		blockBalloonCyan = new BlockBalloonCyan().setBlockName("balloon_cyan");
-		blockBalloonDBlue = new BlockBalloonDBlue().setBlockName("balloon_dblue");
+		blockBalloonLBlue = new BlockBalloonLBlue().setBlockName("balloon_lblue");
 		blockBalloonGreen = new BlockBalloonGreen().setBlockName("balloon_green");
 		blockBalloonGrey = new BlockBalloonGrey().setBlockName("balloon_grey");
 		blockBalloonLGrey = new BlockBalloonLGrey().setBlockName("balloon_lgrey");
@@ -61,7 +61,7 @@ public class BalloonsBlocks {
 		GameRegistry.registerBlock(blockBalloonBlue, "balloon_blue");
 		GameRegistry.registerBlock(blockBalloonBrown, "balloon_brown");
 		GameRegistry.registerBlock(blockBalloonCyan, "balloon_cyan");
-		GameRegistry.registerBlock(blockBalloonDBlue, "balloon_dblue");
+		GameRegistry.registerBlock(blockBalloonLBlue, "balloon_lblue");
 		GameRegistry.registerBlock(blockBalloonGreen, "balloon_green");
 		GameRegistry.registerBlock(blockBalloonGrey, "balloon_grey");
 		GameRegistry.registerBlock(blockBalloonLGrey, "balloon_lgrey");
@@ -84,7 +84,7 @@ public class BalloonsBlocks {
 		blockBalloonBlue.setCreativeTab(Balloons.balloons);
 		blockBalloonBrown.setCreativeTab(Balloons.balloons);
 		blockBalloonCyan.setCreativeTab(Balloons.balloons);
-		blockBalloonDBlue.setCreativeTab(Balloons.balloons);
+		blockBalloonLBlue.setCreativeTab(Balloons.balloons);
 		blockBalloonGreen.setCreativeTab(Balloons.balloons);
 		blockBalloonGrey.setCreativeTab(Balloons.balloons);
 		blockBalloonLGrey.setCreativeTab(Balloons.balloons);

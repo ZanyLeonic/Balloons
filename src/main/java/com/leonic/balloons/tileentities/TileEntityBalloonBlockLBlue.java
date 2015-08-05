@@ -8,7 +8,7 @@ import net.minecraft.tileentity.TileEntity;
  * @author Leonic
  * @version 0.1
  */
-public class TileEntityBalloonBlockDBlue extends TileEntity {
+public class TileEntityBalloonBlockLBlue extends TileEntity {
 	   
 	@Override
 	   public void writeToNBT(NBTTagCompound par1)

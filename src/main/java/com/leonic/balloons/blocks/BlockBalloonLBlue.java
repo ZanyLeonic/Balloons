@@ -2,7 +2,7 @@ package com.leonic.balloons.blocks;
 
 import com.leonic.balloons.Balloons;
 import com.leonic.balloons.References;
-import com.leonic.balloons.tileentities.TileEntityBalloonBlockDBlue;
+import com.leonic.balloons.tileentities.TileEntityBalloonBlockLBlue;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,14 +13,14 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 /**
  * The Block class for the Balloon.
- * For the Dark Blue coloured balloon.
+ * For the Light Blue coloured balloon.
  * @author ZanyLeonic
  * @version 0.1
  * 
  */
-public class BlockBalloonDBlue extends BlockContainer {
+public class BlockBalloonLBlue extends BlockContainer {
 	
-	public BlockBalloonDBlue() {
+	public BlockBalloonLBlue() {
 		super(Material.cloth);
 		this.setHardness(1.0F);
 		this.setResistance(1.0F);
@@ -46,11 +46,11 @@ public class BlockBalloonDBlue extends BlockContainer {
 	
 	@Override
 	public TileEntity createNewTileEntity(World var1, int var2) {
-		return new TileEntityBalloonBlockDBlue();
+		return new TileEntityBalloonBlockLBlue();
 	}
 	
 	@SideOnly(Side.CLIENT)
 	public void registerBlockIcons(IIconRegister iconRegister){
-		this.blockIcon = iconRegister.registerIcon(References.MODID + ":" + "balloon_dblue");
+		this.blockIcon = iconRegister.registerIcon(References.MODID + ":" + "balloon_lblue");
 	}
 }
