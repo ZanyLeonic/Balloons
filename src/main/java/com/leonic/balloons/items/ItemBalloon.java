@@ -22,18 +22,23 @@ public class ItemBalloon extends Item {
 	public boolean onItemUse(ItemStack stack, EntityPlayer player, World world, int x, int y, int z, int var7, float var8, float var9, float var10)
 	{
 		if(!world.isRemote){
-			if(!world.blockExists(x, y+1, z) && world.blockExists(x, y+2, z)){
-				world.setBlock(x, y+1, z, BalloonsBlocks.blockBalloonBlack);
-				world.setBlock(x, y+2, z, BalloonsBlocks.blockBalloonBlack);
+			if(var7 != 1){
+				return false;
+			
+		}else{
+			if(player.canPlayerEdit(x, y + 1, z, var7, stack) && player.canPlayerEdit(x, y + 2, z, var7, stack)){
+				world.setBlock(x, y + 1, z, BalloonsBlocks.blockBalloonBlack);
+				world.setBlock(x, y + 2, z, BalloonsBlocks.blockBalloonBlack);
+				world.notifyBlockOfNeighborChange(x, y + 1, z, BalloonsBlocks.blockBalloonBlack);
+				world.notifyBlockOfNeighborChange(x, y + 2, z, BalloonsBlocks.blockBalloonBlack);
+				--stack.stackSize;
 				return true;
 			}else{
 				return false;
 			}
-		}else{
-			return false;
 		}
-	    return false;
+	}else{
+		return false;
 	}
-
-	
+}
 }
