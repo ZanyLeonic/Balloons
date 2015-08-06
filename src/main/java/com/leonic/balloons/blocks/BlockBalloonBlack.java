@@ -8,7 +8,10 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 /**
@@ -19,24 +22,39 @@ import net.minecraft.world.World;
  * 
  */
 public class BlockBalloonBlack extends BlockContainer {
-	
+	public EntityPlayer player;
 	public BlockBalloonBlack() {
 		super(Material.cloth);
 		this.setHardness(1.0F);
 		this.setResistance(1.0F);
 		this.setCreativeTab(Balloons.balloons);
 	}
+	
 	@Override
 	public int getRenderType() {
 		return -1;
 	}
+	
 	@Override
 	public boolean isOpaqueCube(){
 		return false;	
 	}
+	
 	@Override
 	public boolean renderAsNormalBlock(){
 		return false;
+	}
+	
+	@Override
+	public void onBlockAdded(World world, int x, int y, int z) {
+		if(!world.isRemote){
+			if(!world.blockExists(x, y+1, z)){
+				world.setBlock(x, y+1, z, this);
+			}else{
+				world.setBlock(x, y, z, Blocks.air);
+				 Minecraft.getMinecraft().thePlayer.sendChatMessage("/give "+ Minecraft.getMinecraft().thePlayer.getDisplayName() + " minecraft:dirt");
+			}
+		}
 	}
 	
 	public boolean isFullCube()

@@ -1,6 +1,7 @@
 package com.leonic.balloons.init;
 
 import com.leonic.balloons.helpers.RegisterHelper;
+import com.leonic.balloons.items.ItemBalloon;
 import com.leonic.balloons.items.ItemRubber;
 import com.leonic.balloons.items.ItemRubberBall;
 import com.leonic.balloons.items.ItemRubberNozzle;
@@ -19,6 +20,7 @@ public class BalloonsItems {
     public static Item itemRubberSheet = new ItemRubberSheet("rubbersheet");
     public static Item itemRubberNozzle = new ItemRubberNozzle("rubbernozzle");
     public static Item itemRubberBall = new ItemRubberBall("rubberball");
+    public static Item itemBalloon = new ItemBalloon("balloon");
     
     /**
      * Uses RegisterHelper to register all the items.
@@ -29,5 +31,6 @@ public class BalloonsItems {
         RegisterHelper.registerItem(itemRubberSheet);
         RegisterHelper.registerItem(itemRubberNozzle);
         RegisterHelper.registerItem(itemRubberBall);
+        RegisterHelper.registerItem(itemBalloon);
     }
 }

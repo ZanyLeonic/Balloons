@@ -6,40 +6,24 @@ import com.leonic.balloons.init.BalloonsItems;
 
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraft.entity.monster.EntityCreeper;
-import net.minecraft.entity.passive.EntitySheep;
-import net.minecraft.item.ItemStack;
+import net.minecraft.entity.monster.EntityWitch;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 
 public class DropHandler
 {
-	public static Random random;
-	public static int dropped;
+	public static double rand;
+	public Random r = new Random();
 
 	@SubscribeEvent
-	public void onEntityDrop(LivingDropsEvent event)
-	{
-		random = new Random();
-		dropped = random.nextInt(2) + 1; //DO NOT CHANGE THIS
-
-		if(event.entityLiving instanceof EntitySheep)
-		{
-				event.entityLiving.entityDropItem(new ItemStack(BalloonsItems.itemRubber), dropped);
-		}
-		/*
-		if(event.entityLiving instanceof EntityZombie)
-		{
-				event.entityLiving.entityDropItem(new ItemStack(itemRubber), dropped);
-		}
-
-		if(event.entityLiving instanceof EntitySpider)
-		{
-				event.entityLiving.entityDropItem(new ItemStack(itemRubber), dropped);
-		}
-		*/
+	public void onEntityDrop(LivingDropsEvent event) {
 		
-		if(event.entityLiving instanceof EntityCreeper)
-		{
-				event.entityLiving.entityDropItem(new ItemStack(BalloonsItems.itemRubber), dropped);
+		if(event.entityLiving instanceof EntityCreeper) {
+			event.entityLiving.dropItem(BalloonsItems.itemRubber, r.nextInt(2));
 		}
+		
+		if(event.entityLiving instanceof EntityWitch) {
+			event.entityLiving.dropItem(BalloonsItems.itemRubber, r.nextInt(2));
+		}
+		
 	}
 }
