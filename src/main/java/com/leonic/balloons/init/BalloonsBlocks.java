@@ -1,7 +1,25 @@
 package com.leonic.balloons.init;
 
 import com.leonic.balloons.Balloons;
-import com.leonic.balloons.blocks.*;
+import com.leonic.balloons.blocks.BlockBalloonBlack;
+import com.leonic.balloons.blocks.BlockBalloonCollision;
+import com.leonic.balloons.blocks.BlockBalloonBlue;
+import com.leonic.balloons.blocks.BlockBalloonBrown;
+import com.leonic.balloons.blocks.BlockBalloonCyan;
+import com.leonic.balloons.blocks.BlockBalloonGreen;
+import com.leonic.balloons.blocks.BlockBalloonGrey;
+import com.leonic.balloons.blocks.BlockBalloonLBlue;
+import com.leonic.balloons.blocks.BlockBalloonLGrey;
+import com.leonic.balloons.blocks.BlockBalloonLime;
+import com.leonic.balloons.blocks.BlockBalloonMagenta;
+import com.leonic.balloons.blocks.BlockBalloonOrange;
+import com.leonic.balloons.blocks.BlockBalloonPink;
+import com.leonic.balloons.blocks.BlockBalloonPurple;
+import com.leonic.balloons.blocks.BlockBalloonRed;
+import com.leonic.balloons.blocks.BlockBalloonWhite;
+import com.leonic.balloons.blocks.BlockBalloonYellow;
+import com.leonic.balloons.helpers.RegisterHelper;
+
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 
@@ -14,6 +32,7 @@ import net.minecraft.block.Block;
  */
 public class BalloonsBlocks {
 	
+	//Balloon blocks
 	public static Block blockBalloonBlack = new BlockBalloonBlack();
 	public static Block blockBalloonBlue = new BlockBalloonBlue();
 	public static Block blockBalloonBrown = new BlockBalloonBrown();
@@ -31,6 +50,24 @@ public class BalloonsBlocks {
 	public static Block blockBalloonWhite = new BlockBalloonWhite();
 	public static Block blockBalloonYellow = new BlockBalloonYellow();
 	
+	//Collision blocks
+	public static Block blockBalloonBlackColls = new BlockBalloonCollision("colls1", "black");
+	public static Block blockBalloonBlueColls = new BlockBalloonCollision("colls2", "blue");
+	public static Block blockBalloonBrownColls = new BlockBalloonCollision("colls3", "brown");
+	public static Block blockBalloonCyanColls = new BlockBalloonCollision("colls4", "cyan");
+	public static Block blockBalloonGreenColls = new BlockBalloonCollision("colls5", "green");
+	public static Block blockBalloonGreyColls = new BlockBalloonCollision("colls6", "grey");
+	public static Block blockBalloonLBlueColls = new BlockBalloonCollision("colls7", "lblue");
+	public static Block blockBalloonLGreyColls = new BlockBalloonCollision("colls8", "lgrey");
+	public static Block blockBalloonLimeColls = new BlockBalloonCollision("colls9", "lime");
+	public static Block blockBalloonMagentaColls = new BlockBalloonCollision("colls10", "magenta2");
+	public static Block blockBalloonOrangeColls = new BlockBalloonCollision("colls11", "orange");
+	public static Block blockBalloonPinkColls = new BlockBalloonCollision("colls12", "pink");
+	public static Block blockBalloonPurpleColls = new BlockBalloonCollision("colls13", "purple");
+	public static Block blockBalloonRedColls = new BlockBalloonCollision("colls14", "red");
+	public static Block blockBalloonWhiteColls = new BlockBalloonCollision("colls15", "white");
+	public static Block blockBalloonYellowColls = new BlockBalloonCollision("colls16", "yellow");
+	
 	
     /**
      * Uses RegisterHelper to register all the blocks. (Not for custom model blocks.)
@@ -38,7 +75,7 @@ public class BalloonsBlocks {
 	public static void registerBlocks()
     {
 		
-		//Declaring the Blocks names
+		//Declaring the Balloons
 		blockBalloonBlack = new BlockBalloonBlack().setBlockName("balloon_black");
 		blockBalloonBlue = new BlockBalloonBlue().setBlockName("balloon_blue");
 		blockBalloonBrown = new BlockBalloonBrown().setBlockName("balloon_brown");
@@ -56,7 +93,7 @@ public class BalloonsBlocks {
 		blockBalloonWhite = new BlockBalloonWhite().setBlockName("balloon_white");
 		blockBalloonYellow = new BlockBalloonYellow().setBlockName("balloon_yellow");
     	
-		//Registering with GameRegistry
+		//Registering with Balloons with GameRegistry
 		GameRegistry.registerBlock(blockBalloonBlack, "balloon_black");
 		GameRegistry.registerBlock(blockBalloonBlue, "balloon_blue");
 		GameRegistry.registerBlock(blockBalloonBrown, "balloon_brown");
@@ -73,6 +110,25 @@ public class BalloonsBlocks {
 		GameRegistry.registerBlock(blockBalloonRed, "balloon_red");
 		GameRegistry.registerBlock(blockBalloonWhite, "balloon_white");
 		GameRegistry.registerBlock(blockBalloonYellow, "balloon_yellow");
+		
+		//Registering the Collision blocks
+		RegisterHelper.registerBlock(blockBalloonBlackColls);
+		RegisterHelper.registerBlock(blockBalloonBlueColls);
+		RegisterHelper.registerBlock(blockBalloonBrownColls);
+		RegisterHelper.registerBlock(blockBalloonCyanColls);
+		RegisterHelper.registerBlock(blockBalloonGreenColls);
+		RegisterHelper.registerBlock(blockBalloonGreyColls);
+		RegisterHelper.registerBlock(blockBalloonLBlueColls);
+		RegisterHelper.registerBlock(blockBalloonLGreyColls);
+		RegisterHelper.registerBlock(blockBalloonLimeColls);
+		RegisterHelper.registerBlock(blockBalloonMagentaColls);
+		RegisterHelper.registerBlock(blockBalloonOrangeColls);
+		RegisterHelper.registerBlock(blockBalloonPinkColls);
+		RegisterHelper.registerBlock(blockBalloonPurpleColls);
+		RegisterHelper.registerBlock(blockBalloonRedColls);
+		RegisterHelper.registerBlock(blockBalloonWhiteColls);
+		RegisterHelper.registerBlock(blockBalloonYellowColls);
+		
     }
 	/**
 	 * Puts all custom blocks into a CreativeTab.
