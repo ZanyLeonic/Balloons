@@ -2,7 +2,6 @@ package com.leonic.balloons.blocks;
 
 import java.util.Random;
 
-import com.leonic.balloons.Balloons;
 import com.leonic.balloons.References;
 import com.leonic.balloons.init.BalloonsItems;
 import com.leonic.balloons.tileentities.TileEntityBalloonBlockBlack;
@@ -28,7 +27,6 @@ public class BlockBalloonBlack extends BlockContainer {
 		super(Material.cloth);
 		this.setHardness(1.0F);
 		this.setResistance(1.0F);
-		this.setCreativeTab(Balloons.balloons);
 	}
 	
 	@Override
@@ -58,7 +56,7 @@ public class BlockBalloonBlack extends BlockContainer {
 	@Override
     public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_)
     {
-        return BalloonsItems.itemBalloon;
+        return BalloonsItems.itemBalloonBlack;
     }
 	
 	@Override

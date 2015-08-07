@@ -8,7 +8,11 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
-
+/**
+ * The item class for the Black Balloon Item.
+ * @author Leonic
+ * @version 0.1
+ */
 public class ItemBalloonBlack extends Item {
 	
 	public ItemBalloonBlack(String name){

@@ -1,4 +1,4 @@
-package com.leonic.balloons.blocks;
+package com.leonic.balloons.blocks.collision;
 
 import java.util.Random;
 
@@ -13,18 +13,34 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.world.World;
-
-public class BlockBalloonCollision extends Block {
+/**
+ * The block class for a Cyan Collision block.
+ * @author Leonic
+ * @version 0.1
+ */
+public class BlockBalloonCollisionCyan extends Block {
 	
-	private static String colourm8;
-	
-	public BlockBalloonCollision(String name, String colour){
+	public BlockBalloonCollisionCyan(String name){
 		super(Material.cloth);
 		setHardness(1.0F);
 		setResistance(1.0F);
-		setBlockTextureName(name);
+		setBlockTextureName("colls");
 		setBlockName(name);
-		colourm8 = colour;
+	}
+	
+	@Override
+	public int getRenderType() {
+		return -1;
+	}
+	
+	@Override
+	public boolean isOpaqueCube(){
+		return false;	
+	}
+	
+	@Override
+	public boolean renderAsNormalBlock(){
+		return false;
 	}
 	
 	@Override
@@ -39,17 +55,12 @@ public class BlockBalloonCollision extends Block {
 	@Override
     public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_)
     {
-		if(colourm8 == "black"){
-			return BalloonsItems.itemBalloon;
-		} else if(colourm8 == "blue"){
-			
-		}
-        
+			return BalloonsItems.itemBalloonCyan;
     }
 	
 	@SideOnly(Side.CLIENT)
 	public void registerBlockIcons(IIconRegister iconRegister){
-		this.blockIcon = iconRegister.registerIcon(References.MODID + ":" + "balloon_" + colourm8);
+		this.blockIcon = iconRegister.registerIcon(References.MODID + ":" + "balloon_cyan");
 	}
 	
 }

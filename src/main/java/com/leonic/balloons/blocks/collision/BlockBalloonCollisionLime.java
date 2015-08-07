@@ -1,4 +1,4 @@
-package com.leonic.balloons.blocks;
+package com.leonic.balloons.blocks.collision;
 
 import java.util.Random;
 
@@ -13,13 +13,34 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.world.World;
-
-public class BlockBalloonBlackCollision extends Block {
-	public BlockBalloonBlackCollision(String name){
+/**
+ * The block class for a Lime Collision block.
+ * @author Leonic
+ * @version 0.1
+ */
+public class BlockBalloonCollisionLime extends Block {
+	
+	public BlockBalloonCollisionLime(String name){
 		super(Material.cloth);
 		setHardness(1.0F);
 		setResistance(1.0F);
+		setBlockTextureName("colls");
 		setBlockName(name);
+	}
+	
+	@Override
+	public int getRenderType() {
+		return -1;
+	}
+	
+	@Override
+	public boolean isOpaqueCube(){
+		return false;	
+	}
+	
+	@Override
+	public boolean renderAsNormalBlock(){
+		return false;
 	}
 	
 	@Override
@@ -34,12 +55,12 @@ public class BlockBalloonBlackCollision extends Block {
 	@Override
     public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_)
     {
-        return BalloonsItems.itemBalloon;
+			return BalloonsItems.itemBalloonLime;
     }
 	
 	@SideOnly(Side.CLIENT)
 	public void registerBlockIcons(IIconRegister iconRegister){
-		this.blockIcon = iconRegister.registerIcon(References.MODID + ":" + "balloon_black");
+		this.blockIcon = iconRegister.registerIcon(References.MODID + ":" + "balloon_lime");
 	}
 	
 }

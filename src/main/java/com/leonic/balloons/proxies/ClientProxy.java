@@ -49,23 +49,6 @@ public class ClientProxy extends CommonProxy {
 	 * @see com.leonic.balloons.proxies.CommonProxy#registerRenderThings()
 	 */
 	public void registerRenderThings() {
-		//Registering the TileEntitys
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockBlack.class, "balloon_blacktile");
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockBlue.class, "ballon_bluetile");
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockBrown.class, "balloon_browntile");
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockCyan.class, "balloon_cyantile");
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockLBlue.class, "balloon_lbluetile");
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockGreen.class, "balloon_greentile");
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockGrey.class, "balloon_greytile");
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockLGrey.class, "balloon_lgreytile");
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockLime.class, "balloon_limetile");
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockMagenta.class, "balloon_magenta2tile");
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockOrange.class, "balloon_orangetile");
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockPink.class, "balloon_pinktile");
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockPurple.class, "balloon_purpletile");
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockRed.class, "balloon_redtile");
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockWhite.class, "balloon_whitetile");
-		GameRegistry.registerTileEntity(TileEntityBalloonBlockYellow.class, "balloon_yellowtile");
 		
 		//Balloon
 		TileEntitySpecialRenderer blackrender = new RenderBalloonBlack();

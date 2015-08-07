@@ -24,28 +24,28 @@ public class BalloonsRecipes {
 				'A',new ItemStack(BalloonsItems.itemRubberBall), 'B', new ItemStack(BalloonsItems.itemRubberSheet));
 		
 		//Black Balloon
-			GameRegistry.addRecipe(new ItemStack(BalloonsBlocks.blockBalloonBlack),
+			GameRegistry.addRecipe(new ItemStack(BalloonsItems.itemBalloonBlack),
 					"BAB",
 					"A A",
 					"BCB",
 					'A',new ItemStack(BalloonsItems.itemRubberSheet), 'B', new ItemStack(Items.dye), 'C', new ItemStack(BalloonsItems.itemRubberNozzle));
 		
 		//Red Balloon
-				GameRegistry.addRecipe(new ItemStack(BalloonsBlocks.blockBalloonRed),
+				GameRegistry.addRecipe(new ItemStack(BalloonsItems.itemBalloonRed),
 					    "BAB",
 					    "A A",
 					    "BCB",
 					    'A',new ItemStack(BalloonsItems.itemRubberSheet), 'B', new ItemStack(Items.dye,1 ,1), 'C', new ItemStack(BalloonsItems.itemRubberNozzle));
 		
 		//Green Balloon
-				GameRegistry.addRecipe(new ItemStack(BalloonsBlocks.blockBalloonGreen),
+				GameRegistry.addRecipe(new ItemStack(BalloonsItems.itemBalloonGreen),
 						"BAB",
 					    "A A",
 					    "BCB",
 					    'A',new ItemStack(BalloonsItems.itemRubberSheet), 'B', new ItemStack(Items.dye,1 ,2), 'C', new ItemStack(BalloonsItems.itemRubberNozzle));
 		
 		//Brown Balloon
-				GameRegistry.addRecipe(new ItemStack(BalloonsBlocks.blockBalloonBrown),
+				GameRegistry.addRecipe(new ItemStack(BalloonsItems.itemBalloonBrown),
 						"BAB",
 					    "A A",
 					    "BCB",
@@ -53,84 +53,84 @@ public class BalloonsRecipes {
 		
 				
 		//Blue Balloon
-				GameRegistry.addRecipe(new ItemStack(BalloonsBlocks.blockBalloonBlue),
+				GameRegistry.addRecipe(new ItemStack(BalloonsItems.itemBalloonBlue),
 						"BAB",
 					    "A A",
 					    "BCB",
 					    'A',new ItemStack(BalloonsItems.itemRubberSheet), 'B', new ItemStack(Items.dye,1 ,4), 'C', new ItemStack(BalloonsItems.itemRubberNozzle));
 				
 		//Purple Balloon
-				GameRegistry.addRecipe(new ItemStack(BalloonsBlocks.blockBalloonPurple),
+				GameRegistry.addRecipe(new ItemStack(BalloonsItems.itemBalloonPurple),
 						"BAB",
 					    "A A",
 					    "BCB",
 					    'A',new ItemStack(BalloonsItems.itemRubberSheet), 'B', new ItemStack(Items.dye,1 ,5), 'C', new ItemStack(BalloonsItems.itemRubberNozzle));
 				
 		//Cyan Balloon
-				GameRegistry.addRecipe(new ItemStack(BalloonsBlocks.blockBalloonCyan),
+				GameRegistry.addRecipe(new ItemStack(BalloonsItems.itemBalloonCyan),
 						"BAB",
 					    "A A",
 					    "BCB",
 					    'A',new ItemStack(BalloonsItems.itemRubberSheet), 'B', new ItemStack(Items.dye,1 ,6), 'C', new ItemStack(BalloonsItems.itemRubberNozzle));
 				
 		//Light Grey Balloon
-				GameRegistry.addRecipe(new ItemStack(BalloonsBlocks.blockBalloonLGrey),
+				GameRegistry.addRecipe(new ItemStack(BalloonsItems.itemBalloonLGrey),
 						"BAB",
 					    "A A",
 					    "BCB",
 					    'A',new ItemStack(BalloonsItems.itemRubberSheet), 'B', new ItemStack(Items.dye,1 ,7), 'C', new ItemStack(BalloonsItems.itemRubberNozzle));
 				
 		//Grey Balloon
-				GameRegistry.addRecipe(new ItemStack(BalloonsBlocks.blockBalloonGrey),
+				GameRegistry.addRecipe(new ItemStack(BalloonsItems.itemBalloonGrey),
 						"BAB",
 					    "A A",
 					    "BCB",
 					    'A',new ItemStack(BalloonsItems.itemRubberSheet), 'B', new ItemStack(Items.dye,1 ,8), 'C', new ItemStack(BalloonsItems.itemRubberNozzle));
 				
 		//Pink Balloon
-				GameRegistry.addRecipe(new ItemStack(BalloonsBlocks.blockBalloonPink),
+				GameRegistry.addRecipe(new ItemStack(BalloonsItems.itemBalloonPink),
 						"BAB",
 					    "A A",
 					    "BCB",
 					    'A',new ItemStack(BalloonsItems.itemRubberSheet), 'B', new ItemStack(Items.dye,1 ,9), 'C', new ItemStack(BalloonsItems.itemRubberNozzle));
 				
 		//Lime Balloon
-				GameRegistry.addRecipe(new ItemStack(BalloonsBlocks.blockBalloonLime),
+				GameRegistry.addRecipe(new ItemStack(BalloonsItems.itemBalloonLime),
 						"BAB",
 					    "A A",
 					    "BCB",
 					    'A',new ItemStack(BalloonsItems.itemRubberSheet), 'B', new ItemStack(Items.dye,1 ,10), 'C', new ItemStack(BalloonsItems.itemRubberNozzle));
 				
 		//Yellow Balloon
-				GameRegistry.addRecipe(new ItemStack(BalloonsBlocks.blockBalloonYellow),
+				GameRegistry.addRecipe(new ItemStack(BalloonsItems.itemBalloonYellow),
 						"BAB",
 					    "A A",
 					    "BCB",
 					    'A',new ItemStack(BalloonsItems.itemRubberSheet), 'B', new ItemStack(Items.dye,1 ,11), 'C', new ItemStack(BalloonsItems.itemRubberNozzle));
 				
 		//Light Blue Balloon
-				GameRegistry.addRecipe(new ItemStack(BalloonsBlocks.blockBalloonLBlue),
+				GameRegistry.addRecipe(new ItemStack(BalloonsItems.itemBalloonLBlue),
 						"BAB",
 					    "A A",
 					    "BCB",
 					    'A',new ItemStack(BalloonsItems.itemRubberSheet), 'B', new ItemStack(Items.dye,1 ,12), 'C', new ItemStack(BalloonsItems.itemRubberNozzle));
 				
 		//Magenta Balloon
-				GameRegistry.addRecipe(new ItemStack(BalloonsBlocks.blockBalloonMagenta),
+				GameRegistry.addRecipe(new ItemStack(BalloonsItems.itemBalloonMagenta),
 						"BAB",
 					    "A A",
 					    "BCB",
 					    'A',new ItemStack(BalloonsItems.itemRubberSheet), 'B', new ItemStack(Items.dye,1 ,13), 'C', new ItemStack(BalloonsItems.itemRubberNozzle));
 				
 		//Orange Balloon
-				GameRegistry.addRecipe(new ItemStack(BalloonsBlocks.blockBalloonOrange),
+				GameRegistry.addRecipe(new ItemStack(BalloonsItems.itemBalloonOrange),
 						"BAB",
 					    "A A",
 					    "BCB",
 					    'A',new ItemStack(BalloonsItems.itemRubberSheet), 'B', new ItemStack(Items.dye,1 ,14), 'C', new ItemStack(BalloonsItems.itemRubberNozzle));
 				
 		//White Balloon
-				GameRegistry.addRecipe(new ItemStack(BalloonsBlocks.blockBalloonWhite),
+				GameRegistry.addRecipe(new ItemStack(BalloonsItems.itemBalloonWhite),
 						"BAB",
 					    "A A",
 					    "BCB",

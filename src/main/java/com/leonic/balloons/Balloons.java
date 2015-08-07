@@ -7,6 +7,7 @@ import com.leonic.balloons.init.BalloonsBlocks;
 import com.leonic.balloons.init.BalloonsItems;
 import com.leonic.balloons.init.BalloonsRecipes;
 import com.leonic.balloons.init.BalloonsSmelting;
+import com.leonic.balloons.init.BalloonsTileEntities;
 import com.leonic.balloons.init.UpdateHandler;
 import com.leonic.balloons.proxies.CommonProxy;
 
@@ -56,12 +57,12 @@ public class Balloons {
     public void preInit(FMLPreInitializationEvent event)
     {
     	
-    //Registering custom Items, Blocks, CreativeTabs, Crafting recipes & Smelting recipes.
+    //Registering custom Items, Blocks, CreativeTabs, Crafting recipes, Smelting recipes & TileEntities.
     	BalloonsItems.registerItems();
     	BalloonsBlocks.registerBlocks();
-    	BalloonsBlocks.registerCreativeTabs();
        	BalloonsRecipes.init();
        	BalloonsSmelting.init();
+       	BalloonsTileEntities.register();
     	
     //Renderer
     	leonicProxy.registerRenderThings();
@@ -89,8 +90,6 @@ public class Balloons {
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-    	
-    	
     	//"Got past the Init stage" message.
     	LogHelper.info("Grabbing Balloons...");
     }

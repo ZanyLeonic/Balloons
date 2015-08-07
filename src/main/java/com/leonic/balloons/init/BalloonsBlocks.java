@@ -1,8 +1,6 @@
 package com.leonic.balloons.init;
 
-import com.leonic.balloons.Balloons;
 import com.leonic.balloons.blocks.BlockBalloonBlack;
-import com.leonic.balloons.blocks.BlockBalloonCollision;
 import com.leonic.balloons.blocks.BlockBalloonBlue;
 import com.leonic.balloons.blocks.BlockBalloonBrown;
 import com.leonic.balloons.blocks.BlockBalloonCyan;
@@ -18,6 +16,22 @@ import com.leonic.balloons.blocks.BlockBalloonPurple;
 import com.leonic.balloons.blocks.BlockBalloonRed;
 import com.leonic.balloons.blocks.BlockBalloonWhite;
 import com.leonic.balloons.blocks.BlockBalloonYellow;
+import com.leonic.balloons.blocks.collision.BlockBalloonCollisionBlack;
+import com.leonic.balloons.blocks.collision.BlockBalloonCollisionBlue;
+import com.leonic.balloons.blocks.collision.BlockBalloonCollisionBrown;
+import com.leonic.balloons.blocks.collision.BlockBalloonCollisionCyan;
+import com.leonic.balloons.blocks.collision.BlockBalloonCollisionGreen;
+import com.leonic.balloons.blocks.collision.BlockBalloonCollisionGrey;
+import com.leonic.balloons.blocks.collision.BlockBalloonCollisionLBlue;
+import com.leonic.balloons.blocks.collision.BlockBalloonCollisionLGrey;
+import com.leonic.balloons.blocks.collision.BlockBalloonCollisionLime;
+import com.leonic.balloons.blocks.collision.BlockBalloonCollisionMagenta;
+import com.leonic.balloons.blocks.collision.BlockBalloonCollisionOrange;
+import com.leonic.balloons.blocks.collision.BlockBalloonCollisionPink;
+import com.leonic.balloons.blocks.collision.BlockBalloonCollisionPurple;
+import com.leonic.balloons.blocks.collision.BlockBalloonCollisionRed;
+import com.leonic.balloons.blocks.collision.BlockBalloonCollisionWhite;
+import com.leonic.balloons.blocks.collision.BlockBalloonCollisionYellow;
 import com.leonic.balloons.helpers.RegisterHelper;
 
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -51,22 +65,22 @@ public class BalloonsBlocks {
 	public static Block blockBalloonYellow = new BlockBalloonYellow();
 	
 	//Collision blocks
-	public static Block blockBalloonBlackColls = new BlockBalloonCollision("colls1", "black");
-	public static Block blockBalloonBlueColls = new BlockBalloonCollision("colls2", "blue");
-	public static Block blockBalloonBrownColls = new BlockBalloonCollision("colls3", "brown");
-	public static Block blockBalloonCyanColls = new BlockBalloonCollision("colls4", "cyan");
-	public static Block blockBalloonGreenColls = new BlockBalloonCollision("colls5", "green");
-	public static Block blockBalloonGreyColls = new BlockBalloonCollision("colls6", "grey");
-	public static Block blockBalloonLBlueColls = new BlockBalloonCollision("colls7", "lblue");
-	public static Block blockBalloonLGreyColls = new BlockBalloonCollision("colls8", "lgrey");
-	public static Block blockBalloonLimeColls = new BlockBalloonCollision("colls9", "lime");
-	public static Block blockBalloonMagentaColls = new BlockBalloonCollision("colls10", "magenta2");
-	public static Block blockBalloonOrangeColls = new BlockBalloonCollision("colls11", "orange");
-	public static Block blockBalloonPinkColls = new BlockBalloonCollision("colls12", "pink");
-	public static Block blockBalloonPurpleColls = new BlockBalloonCollision("colls13", "purple");
-	public static Block blockBalloonRedColls = new BlockBalloonCollision("colls14", "red");
-	public static Block blockBalloonWhiteColls = new BlockBalloonCollision("colls15", "white");
-	public static Block blockBalloonYellowColls = new BlockBalloonCollision("colls16", "yellow");
+	public static Block blockBalloonBlackColls = new BlockBalloonCollisionBlack("colls1");
+	public static Block blockBalloonBlueColls = new BlockBalloonCollisionBlue("colls2");
+	public static Block blockBalloonBrownColls = new BlockBalloonCollisionBrown("colls3");
+	public static Block blockBalloonCyanColls = new BlockBalloonCollisionCyan("colls4");
+	public static Block blockBalloonGreenColls = new BlockBalloonCollisionGreen("colls5");
+	public static Block blockBalloonGreyColls = new BlockBalloonCollisionGrey("colls6");
+	public static Block blockBalloonLBlueColls = new BlockBalloonCollisionLBlue("colls7");
+	public static Block blockBalloonLGreyColls = new BlockBalloonCollisionLGrey("colls8");
+	public static Block blockBalloonLimeColls = new BlockBalloonCollisionLime("colls9");
+	public static Block blockBalloonMagentaColls = new BlockBalloonCollisionMagenta("colls10");
+	public static Block blockBalloonOrangeColls = new BlockBalloonCollisionOrange("colls11");
+	public static Block blockBalloonPinkColls = new BlockBalloonCollisionPink("colls12");
+	public static Block blockBalloonPurpleColls = new BlockBalloonCollisionPurple("colls13");
+	public static Block blockBalloonRedColls = new BlockBalloonCollisionRed("colls14");
+	public static Block blockBalloonWhiteColls = new BlockBalloonCollisionWhite("colls15");
+	public static Block blockBalloonYellowColls = new BlockBalloonCollisionYellow("colls16");
 	
 	
     /**
@@ -131,26 +145,10 @@ public class BalloonsBlocks {
 		
     }
 	/**
-	 * Puts all custom blocks into a CreativeTab.
+	 * @deprecated Puts all custom blocks into a CreativeTab. Will be removed in next version.
 	 */
+	@Deprecated
 	public static void registerCreativeTabs(){
 		
-		//Registering CreativeTabs for the Balloons.
-		blockBalloonBlack.setCreativeTab(Balloons.balloons);
-		blockBalloonBlue.setCreativeTab(Balloons.balloons);
-		blockBalloonBrown.setCreativeTab(Balloons.balloons);
-		blockBalloonCyan.setCreativeTab(Balloons.balloons);
-		blockBalloonLBlue.setCreativeTab(Balloons.balloons);
-		blockBalloonGreen.setCreativeTab(Balloons.balloons);
-		blockBalloonGrey.setCreativeTab(Balloons.balloons);
-		blockBalloonLGrey.setCreativeTab(Balloons.balloons);
-		blockBalloonLime.setCreativeTab(Balloons.balloons);
-		blockBalloonMagenta.setCreativeTab(Balloons.balloons);
-		blockBalloonOrange.setCreativeTab(Balloons.balloons);
-		blockBalloonPink.setCreativeTab(Balloons.balloons);
-		blockBalloonPurple.setCreativeTab(Balloons.balloons);
-		blockBalloonRed.setCreativeTab(Balloons.balloons);
-		blockBalloonWhite.setCreativeTab(Balloons.balloons);
-		blockBalloonYellow.setCreativeTab(Balloons.balloons);
 	}
 }

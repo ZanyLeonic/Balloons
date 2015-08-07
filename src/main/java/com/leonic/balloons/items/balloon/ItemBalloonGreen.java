@@ -1,4 +1,4 @@
-package com.leonic.balloons.items;
+package com.leonic.balloons.items.balloon;
 
 import com.leonic.balloons.Balloons;
 import com.leonic.balloons.References;
@@ -8,14 +8,18 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
-
-public class ItemBalloon extends Item {
+/**
+ * The item class for the Green Balloon Item.
+ * @author Leonic
+ * @version 0.1
+ */
+public class ItemBalloonGreen extends Item {
 	
-	public ItemBalloon(String name){
+	public ItemBalloonGreen(String name){
 		super();
 		setCreativeTab(Balloons.balloons);
-		setTextureName(References.MODID + ":" + name);
-		setUnlocalizedName(name);
+		setTextureName(References.MODID + ":" + name + "_green");
+		setUnlocalizedName(name + "_green");
 	}
 	
 	@Override
@@ -27,10 +31,10 @@ public class ItemBalloon extends Item {
 			
 		}else{
 			if(player.canPlayerEdit(x, y + 1, z, var7, stack) && player.canPlayerEdit(x, y + 2, z, var7, stack)){
-				world.setBlock(x, y + 1, z, BalloonsBlocks.blockBalloonBlack);
-				world.setBlock(x, y + 2, z, BalloonsBlocks.blockBalloonBlack);
-				world.notifyBlockOfNeighborChange(x, y + 1, z, BalloonsBlocks.blockBalloonBlack);
-				world.notifyBlockOfNeighborChange(x, y + 2, z, BalloonsBlocks.blockBalloonBlack);
+				world.setBlock(x, y + 1, z, BalloonsBlocks.blockBalloonGreen);
+				world.setBlock(x, y + 2, z, BalloonsBlocks.blockBalloonGreenColls);
+				world.notifyBlockOfNeighborChange(x, y + 1, z, BalloonsBlocks.blockBalloonGreen);
+				world.notifyBlockOfNeighborChange(x, y + 2, z, BalloonsBlocks.blockBalloonGreenColls);
 				--stack.stackSize;
 				return true;
 			}else{
