@@ -12,12 +12,12 @@
 	<link rel="icon" type="image/x-icon" href="../../favicon.ico" />
 	<script type="text/javascript">
 	  var downloadButton = document.getElementById("download");
-    var counter = 10;
-    var newElement = document.createElement("p");
-    newElement.innerHTML = "Your download will commence 10 seconds.";
-    var id;
+    	  var counter = 10;
+          var newElement = document.createElement("p");
+          newElement.innerHTML = "Your download will commence 10 seconds.";
+          var id;
 
-    downloadButton.parentNode.replaceChild(newElement, downloadButton);
+          downloadButton.parentNode.replaceChild(newElement, downloadButton);
 
     id = setInterval(function() {
       counter--;
