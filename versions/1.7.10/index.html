@@ -8,27 +8,9 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="../../stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="../../stylesheets/github-light.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="../../stylesheets/homepage.css" media="screen">
-	<link rel="icon" type="image/x-icon" href="../../favicon.ico" />
-	<script type="text/javascript">
-	  var downloadButton = document.getElementById("download");
-    	  var counter = 10;
-          var newElement = document.createElement("p");
-          newElement.innerHTML = "Your download will commence 10 seconds.";
-          var id;
-
-          downloadButton.parentNode.replaceChild(newElement, downloadButton);
-
-    id = setInterval(function() {
-      counter--;
-      if(counter < 0) {
-           newElement.parentNode.replaceChild(downloadButton, newElement);
-          clearInterval(id);
-      } else {
-          newElement.innerHTML = "Your download will commence " + counter.toString() + " seconds.";
-      }
-  }, 1000);
-</script>
+    <link rel="stylesheet" type="text/css" href="../../stylesheets/homepage.css" media="screen">  
+    <link rel="icon" type="image/x-icon" href="../../favicon.ico" />
+    <script type="text/javascript" src="script.js" />
   </head>
   <body>
     <section class="page-header">
