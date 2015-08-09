@@ -5,10 +5,10 @@
   "description": "A fun mod that adds Balloons to Minecraft.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "http://github.com/ZanyLeonic/Balloons/",
+  "url": "http://zanyleonic.github.io/Balloons/",
   "updateUrl": "",
   "authorList": ["ZanyLeonic"],
-  "credits": "Everything made by Leonic",
+  "credits": "Created by ZanyLeonic",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

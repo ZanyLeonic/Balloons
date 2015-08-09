@@ -30,14 +30,14 @@ public class UpdateHelper {
 		getNewestVersion();
 			if(newestVersion != null) {
 				if(newestVersion.equalsIgnoreCase(currentVersion)) {
-					updateStatus = "§6§l[Balloons]§r§a is up to date!";
+					updateStatus = "Balloons is up to date!";
 					LogHelper.info("Balloons is up to date!");
 					show = false;
 				}else {
 					show = true;
 					//getNewestFeatures();
 					getNewestVersionURL();
-					updateStatus = "§6§l[Balloons]§r§c There is a newer version of Balloons. §6§lYour version:§r " + currentVersion + " §6§lLatest version: §r" + newestVersion;
+					updateStatus = "There is a newer version of Balloons. Your version:" + currentVersion + " Latest version: " + newestVersion;
 					/*	Broken
 					if(newestVersionInfo != null && newestVersionInfoURL != null){	
 							updateNews = "§rNew features:\n" + newestVersionInfo + "\n You can look at the full change log at: " + newestVersionInfoURL;
@@ -46,16 +46,16 @@ public class UpdateHelper {
 						} 
 					*/
 						if(newestVersionURL != null){
-							updateURL = "§6§l[Balloons]§r You can download it at " + newestVersionURL;
+							updateURL = "You can download it at " + newestVersionURL;
 						}else{
-							updateURL = "§6§l[Balloons]§r Couldn't get link, try going to http://ZanyLeonic.github.io/Balloons/ .";
+							updateURL = "Couldn't get link, try going to http://ZanyLeonic.github.io/Balloons/ .";
 						}
 						
 					LogHelper.info("Balloons is out of date! Your version: " + currentVersion + " Latest version: " + newestVersion);
 				}
 		}else {
 			show = true;
-			updateStatus = "§6§l[Balloons]§r§c Failed to connect to check if update are available!";
+			updateStatus = "Balloons failed to connect to check if update are available!";
 			LogHelper.error("Failed to connect to check if update are available!");
 		}
 	}
