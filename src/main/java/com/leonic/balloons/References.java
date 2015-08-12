@@ -30,4 +30,10 @@ public class References {
      * The location of the ClientProxy.
      */
     public static final String CLIENT_PROXY = "com.leonic.balloons.proxies.ClientProxy";
+    
+    /**
+     * Bunch of Balloons Entity id
+     */
+    public static int ENTITY_BALLOONS_ID = 580;
+    
 }
