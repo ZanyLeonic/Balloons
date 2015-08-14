@@ -25,17 +25,17 @@ public class EntityBalloon extends Entity implements IEntityAdditionalSpawnData 
 
 	private static Map<EntityPlayer, EntityBalloon> balloonMap = new MapMaker().weakKeys().weakValues().makeMap();
 
-	public static boolean isEntityHoldingGlider(Entity player) {
+	public static boolean isEntityHoldingBalloon(Entity player) {
 		EntityBalloon balloon = balloonMap.get(player);
 		return balloon != null;
 	}
 
-	public static boolean isGliderDeployed(Entity player) {
+	public static boolean isBalloonDeployed(Entity player) {
 		EntityBalloon balloon = balloonMap.get(player);
 		return balloon == null || balloon.isDeployed();
 	}
 
-	private static boolean isGliderValid(EntityPlayer player, EntityBalloon balloon) {
+	private static boolean isBalloonValid(EntityPlayer player, EntityBalloon balloon) {
 		if (player == null || player.isDead || balloon == null || balloon.isDead) return false;
 
 		ItemStack held = player.getHeldItem();
@@ -45,11 +45,11 @@ public class EntityBalloon extends Entity implements IEntityAdditionalSpawnData 
 	}
 
 	@SideOnly(Side.CLIENT)
-	public static void updateGliders(World worldObj) {
+	public static void updateBalloons(World worldObj) {
 		for (Map.Entry<EntityPlayer, EntityBalloon> e : balloonMap.entrySet()) {
 			EntityPlayer player = e.getKey();
 			EntityBalloon balloon = e.getValue();
-			if (isGliderValid(player, balloon)) balloon.fixPositions(player, player instanceof EntityPlayerSP);
+			if (isBalloonValid(player, balloon)) balloon.fixPositions(player, player instanceof EntityPlayerSP);
 			else balloon.setDead();
 		}
 	}
@@ -100,7 +100,7 @@ public class EntityBalloon extends Entity implements IEntityAdditionalSpawnData 
 
 	@Override
 	public void onUpdate() {
-		if (!isGliderValid(player, this)) {
+		if (!isBalloonValid(player, this)) {
 			setDead();
 		}
 

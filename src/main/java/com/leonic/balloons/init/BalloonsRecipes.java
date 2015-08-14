@@ -137,4 +137,13 @@ public class BalloonsRecipes {
 					    'A',new ItemStack(BalloonsItems.itemRubberSheet), 'B', new ItemStack(Items.dye,1 ,15), 'C', new ItemStack(BalloonsItems.itemRubberNozzle));
 				
 	}
+	
+	/**
+	 * Adds support for other mods (e.g IC2 and Minefactory Reloaded.)
+	 */
+	public static void externalRecpies() {
+		
+	}
+	
+
 }

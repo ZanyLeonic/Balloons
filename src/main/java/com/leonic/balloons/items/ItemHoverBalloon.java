@@ -20,6 +20,7 @@ public class ItemHoverBalloon extends Item {
 	
 	public ItemHoverBalloon(String name) {
 		itemName = name;
+		setUnlocalizedName(name);
 		setCreativeTab(Balloons.balloons);
 	}
 

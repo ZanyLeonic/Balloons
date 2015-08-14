@@ -110,9 +110,7 @@ public class Balloons {
        	BalloonsRecipes.init();
        	BalloonsSmelting.init();
        	BalloonsTileEntities.register();
-       	
-    //Runs Minetweaker scripts
-    	
+        
     //Renderer
     	leonicProxy.registerRenderThings();
  
@@ -139,6 +137,7 @@ public class Balloons {
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
+    	leonicProxy.registerRenderInformation();
     	//"Got past the Init stage" message.
     	LogHelper.info("Grabbing Balloons...");
     }

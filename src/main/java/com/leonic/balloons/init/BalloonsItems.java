@@ -1,10 +1,13 @@
 package com.leonic.balloons.init;
 
+import com.leonic.balloons.Balloons;
 import com.leonic.balloons.helpers.RegisterHelper;
+import com.leonic.balloons.items.ItemHoverBalloon;
 import com.leonic.balloons.items.ItemRubber;
 import com.leonic.balloons.items.ItemRubberBall;
 import com.leonic.balloons.items.ItemRubberNozzle;
 import com.leonic.balloons.items.ItemRubberSheet;
+import com.leonic.balloons.items.DropIt;
 import com.leonic.balloons.items.balloon.ItemBalloonBlack;
 import com.leonic.balloons.items.balloon.ItemBalloonBlue;
 import com.leonic.balloons.items.balloon.ItemBalloonBrown;
@@ -23,6 +26,7 @@ import com.leonic.balloons.items.balloon.ItemBalloonWhite;
 import com.leonic.balloons.items.balloon.ItemBalloonYellow;
 
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemRecord;
 /**
  * A class which calls the RegisterHelper to register the items on startup.
  * @author ZanyLeonic
@@ -36,6 +40,7 @@ public class BalloonsItems {
     public static Item itemRubberSheet = new ItemRubberSheet("rubbersheet");
     public static Item itemRubberNozzle = new ItemRubberNozzle("rubbernozzle");
     public static Item itemRubberBall = new ItemRubberBall("rubberball");
+    public static Item itemBunchOfBalloon = new ItemHoverBalloon("bunchofballoon");
     
     //Balloons block items
     public static Item itemBalloonBlack = new ItemBalloonBlack("ballooni");
@@ -55,15 +60,22 @@ public class BalloonsItems {
     public static Item itemBalloonWhite = new ItemBalloonWhite("ballooni");
     public static Item itemBalloonYellow = new ItemBalloonYellow("ballooni");
     
+    //Records... lol
+    public static Item record_dropit;
+    
+    
     /**
      * Uses RegisterHelper to register all the items.
      */
     public static void registerItems()
     {
+    	record_dropit = new DropIt("dropit").setUnlocalizedName("record_dropit").setCreativeTab(Balloons.balloons);
+    	
         RegisterHelper.registerItem(itemRubber);
         RegisterHelper.registerItem(itemRubberSheet);
         RegisterHelper.registerItem(itemRubberNozzle);
         RegisterHelper.registerItem(itemRubberBall);
+        RegisterHelper.registerItem(itemBunchOfBalloon);
         
         RegisterHelper.registerItem(itemBalloonBlack);
         RegisterHelper.registerItem(itemBalloonBlue);
@@ -81,5 +93,7 @@ public class BalloonsItems {
         RegisterHelper.registerItem(itemBalloonRed);
         RegisterHelper.registerItem(itemBalloonWhite);
         RegisterHelper.registerItem(itemBalloonYellow);
+        
+        RegisterHelper.registerItem(record_dropit);
     }
 }

@@ -1,0 +1,47 @@
+{
+    "records.dropit": {
+        "category": "record",
+        "sounds": [
+            {
+                "name": "records/dropit",
+                "stream": true
+            }
+        ]
+    },
+    "block.balloon1": {
+        "category": "block",
+        "sounds": [
+            {
+                "name": "balloon1",
+                "stream": false
+            }
+        ]
+    },
+    "block.balloon2": {
+        "category": "block",
+        "sounds": [
+            {
+                "name": "balloon2",
+                "stream": false
+            }
+        ]
+    },
+    "block.balloon3": {
+        "category": "block",
+        "sounds": [
+            {
+                "name": "balloon3",
+                "stream": false
+            }
+        ]
+    },
+    "block.balloon4": {
+        "category": "block",
+        "sounds": [
+            {
+                "name": "balloon4",
+                "stream": false
+            }
+        ]
+    }
+}
