@@ -1,0 +1,1163 @@
+[19:32:34] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[19:32:34] [main/INFO] [FML/]: Forge Mod Loader version 7.99.30.1492 for Minecraft 1.7.10 loading
+[19:32:34] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_79, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jre7
+[19:32:34] [main/DEBUG] [FML/]: Java classpath at launch is C:\Users\Leonic\workspace\Forge\bin;C:\Users\Leonic\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1492-1.7.10\forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.0.3\f9e364ae2a66ce2a543012a4668856e84e5dab74\asm-debug-all-5.0.3.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-xml_2.11\1.0.2\7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0\scala-xml_2.11-1.0.2.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\4.5\6065cc95c661255349c1d0756657be17c29a4fd3\jopt-simple-4.5.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.3.5\807ae355ee63583becd7ea60e76aab1532bb42e\realms-1.3.5.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.3.1\a0ae4f51da409fa0c20fa0ca59e6bbc9413ae71d\vecmath-1.3.1.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.0.10.Final\9e50bd52ffe257a0e2cd8d971688d6ce7d174325\netty-all-4.0.10.Final.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\17.0\9c6ef172e8de35fd8d4d8783e4821e57cdef7445\guava-17.0.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.3.2\90a3822c38ec8c996e84c16a3477ef632cbc87a3\commons-lang3-3.3.2.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.4\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.9\9ce04e34240f674bc72680f8b843b1457383161a\commons-codec-1.9.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.16\ef1582b11fd0943d069cdcb72e99008ac209a283\authlib-1.5.16.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.0-beta9\1dd66e68cccd907880229f9e2de1314bd13ff785\log4j-api-2.0-beta9.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.0-beta9\678861ba1b2e1fccb594bb0ca03114bb05da9695\log4j-core-2.0-beta9.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.1\f58c5aabcef0e41718a564be9f8e412fff8db847\lwjgl-2.9.1.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.1\290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e\lwjgl_util-2.9.1.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch\5.16\1f55f009c61637c10c0acfb8b5ffc600f30044b4\twitch-5.16.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\7c6affe439099806a4f552da14c42f9d643d8b23\twitch-platform-5.16-natives-windows-32.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\39d0c3d363735b4785598e0e7fbf8297c706a9f9\twitch-platform-5.16-natives-windows-64.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\62503ee712766cf77f97252e5902786fd834b8c5\twitch-platform-5.16-natives-osx.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\18215140f010c05b9f86ef6f0f8871954d2ccebf\twitch-external-platform-4.5-natives-windows-32.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\c3cde57891b935d41b6680a9c5e1502eeab76d86\twitch-external-platform-4.5-natives-windows-64.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\4c517eca808522457dd95ee8fc1fbcdbb602efbe\lwjgl-platform-2.9.1-natives-windows.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\aa9aae879af8eb378e22cfc64db56ec2ca9a44d1\lwjgl-platform-2.9.1-natives-linux.jar;C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac\lwjgl-platform-2.9.1-natives-osx.jar;C:\Users\Leonic\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1492-1.7.10\start;C:\Users\Leonic\workspace\Forge\libs\industrialcraft-2-2.2.763-experimental-api.jar
+[19:32:34] [main/DEBUG] [FML/]: Java library path at launch is C:\Program Files\Java\jre7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft Network Monitor 3\;C:\Program Files (x86)\Common Files\Adobe\AGL;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Skype\Phone\;E:\Program Files (x86)\Steam\steamapps\sourcemods\bin;.;C:/Users/Leonic/.gradle/caches/minecraft/net/minecraft/minecraft_natives/1.7.10
+[19:32:34] [main/INFO] [FML/]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[19:32:34] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[19:32:34] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[19:32:34] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[19:32:34] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[19:32:34] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[19:32:34] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[19:32:34] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[19:32:34] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\Leonic\workspace\Forge\.
+[19:32:34] [main/DEBUG] [FML/]: Discovering coremods
+[19:32:34] [main/DEBUG] [FML/]: Examining for coremod candidacy CoFHCore-[1.7.10]3.0.4B1-308-dev.jar
+[19:32:34] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in CoFHCore-[1.7.10]3.0.4B1-308-dev.jar, it will be examined later for regular @Mod instances
+[19:32:34] [main/DEBUG] [FML/]: Instantiating coremod class LoadingPlugin
+[19:32:35] [main/WARN] [FML/]: The coremod cofh.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[19:32:35] [main/DEBUG] [FML/]: Added access transformer class cofh.asm.CoFHAccessTransformer to enqueued access transformers
+[19:32:35] [main/DEBUG] [FML/]: Enqueued coremod LoadingPlugin
+[19:32:35] [main/DEBUG] [FML/]: Examining for coremod candidacy industrialcraft-2-2.2.763-experimental-dev.jar
+[19:32:35] [main/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in industrialcraft-2-2.2.763-experimental-dev.jar, it will be examined later for regular @Mod instances
+[19:32:35] [main/DEBUG] [FML/]: Instantiating coremod class IC2core
+[19:32:35] [main/WARN] [FML/]: The coremod ic2.core.coremod.IC2core does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[19:32:35] [main/DEBUG] [FML/]: Enqueued coremod IC2core
+[19:32:35] [main/DEBUG] [FML/]: Examining for coremod candidacy MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:32:35] [main/DEBUG] [FML/]: Not found coremod data in MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:32:35] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:32:35] [main/INFO] [GradleStart/]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[19:32:35] [main/INFO] [GradleStart/]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[19:32:35] [main/INFO] [GradleStart/]: Injecting location in coremod cofh.asm.LoadingPlugin
+[19:32:35] [main/INFO] [GradleStart/]: Injecting location in coremod ic2.core.coremod.IC2core
+[19:32:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:32:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[19:32:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[19:32:35] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:32:35] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:32:35] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:32:35] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[19:32:35] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[19:32:35] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[19:32:35] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[19:32:35] [main/DEBUG] [FML/]: Injection complete
+[19:32:35] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[19:32:35] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[19:32:35] [main/ERROR] [FML/]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[19:32:39] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[19:32:39] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[19:32:39] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:32:39] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[19:32:39] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[19:32:39] [main/DEBUG] [FML/]: Injection complete
+[19:32:39] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[19:32:39] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[19:32:39] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[19:32:39] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:32:39] [main/DEBUG] [FML/]: Injecting coremod IC2core {ic2.core.coremod.IC2core} class transformers
+[19:32:39] [main/DEBUG] [FML/]: Injection complete
+[19:32:39] [main/DEBUG] [FML/]: Running coremod plugin for IC2core {ic2.core.coremod.IC2core}
+[19:32:39] [main/DEBUG] [FML/]: Running coremod plugin IC2core
+[19:32:39] [main/INFO] [IC2-core/]: Loaded library EJML-core-0.26.jar.
+[19:32:39] [main/DEBUG] [FML/]: Coremod plugin class IC2core run successfully
+[19:32:39] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[19:32:39] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[19:32:39] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[19:32:39] [main/DEBUG] [FML/]: Loaded 3 rules from AccessTransformer mod jar file C:\Users\Leonic\workspace\Forge\mods\MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar!META-INF/MFR_at.cfg
+
+[19:32:39] [main/DEBUG] [FML/]: Validating minecraft
+[19:32:41] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[19:32:41] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:32:41] [main/DEBUG] [FML/]: Injecting coremod LoadingPlugin {cofh.asm.LoadingPlugin} class transformers
+[19:32:41] [main/TRACE] [FML/]: Registering transformer cofh.asm.CoFHClassTransformer
+[19:32:41] [main/DEBUG] [FML/]: Injection complete
+[19:32:41] [main/DEBUG] [FML/]: Running coremod plugin for LoadingPlugin {cofh.asm.LoadingPlugin}
+[19:32:41] [main/DEBUG] [FML/]: Running coremod plugin LoadingPlugin
+[19:32:41] [main/DEBUG] [FML/]: Coremod plugin class LoadingPlugin run successfully
+[19:32:41] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[19:32:41] [main/DEBUG] [GradleStart/]: Reading CSV file: C:\Users\Leonic\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1492-1.7.10\unpacked\conf\fields.csv
+[19:32:41] [main/DEBUG] [GradleStart/]: Reading CSV file: C:\Users\Leonic\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1492-1.7.10\unpacked\conf\methods.csv
+[19:32:41] [main/INFO] [GradleStart/]: Remapping AccessTransformer rules...
+[19:32:41] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[19:32:41] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[19:32:41] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[19:32:50] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.076s
+[19:32:50] [Client thread/INFO] [STDOUT/]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 14/08/15 19:32
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.7.0_79, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 958374760 bytes (913 MB) / 1029701632 bytes (982 MB) up to 1029701632 bytes (982 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.5.13399 Compatibility Profile Context 15.200.1046.2' Renderer: 'AMD Radeon HD 7660G + HD 7600M Dual Graphics'
+[19:32:50] [Client thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[19:32:50] [Client thread/INFO] [FML/]: MinecraftForge v10.13.4.1492 Initialized
+[19:32:50] [Client thread/INFO] [FML/]: Replaced 183 ore recipies
+[19:32:50] [Client thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[19:32:50] [Client thread/DEBUG] [FML/]: File C:\Users\Leonic\workspace\Forge\config\injectedDependencies.json not found. No dependencies injected
+[19:32:51] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, cofh.asm.LoadingPlugin$CoFHDummyContainer]
+[19:32:51] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[19:32:51] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at C:\Users\Leonic\workspace\Forge\bin, examining for mod candidates
+[19:32:51] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1492-1.7.10\forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar, examining for mod candidates
+[19:32:51] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\net.minecraft\launchwrapper\1.12\111e7bea9c968cdb3d06ef4632bf7ff0824d0f36\launchwrapper-1.12.jar, examining for mod candidates
+[19:32:51] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar, examining for mod candidates
+[19:32:51] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-debug-all\5.0.3\f9e364ae2a66ce2a543012a4668856e84e5dab74\asm-debug-all-5.0.3.jar, examining for mod candidates
+[19:32:51] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.typesafe.akka\akka-actor_2.11\2.3.3\ed62e9fc709ca0f2ff1a3220daa8b70a2870078e\akka-actor_2.11-2.3.3.jar, examining for mod candidates
+[19:32:51] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.typesafe\config\1.2.1\f771f71fdae3df231bcd54d5ca2d57f0bf93f467\config-1.2.1.jar, examining for mod candidates
+[19:32:51] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors-migration_2.11\1.1.0\dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f\scala-actors-migration_2.11-1.1.0.jar, examining for mod candidates
+[19:32:51] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-compiler\2.11.1\56ea2e6c025e0821f28d73ca271218b8dd04926a\scala-compiler-2.11.1.jar, examining for mod candidates
+[19:32:51] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-library_2.11\1.0.2\e517c53a7e9acd6b1668c5a35eccbaa3bab9aac\scala-continuations-library_2.11-1.0.2.jar, examining for mod candidates
+[19:32:51] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang.plugins\scala-continuations-plugin_2.11.1\1.0.2\f361a3283452c57fa30c1ee69448995de23c60f7\scala-continuations-plugin_2.11.1-1.0.2.jar, examining for mod candidates
+[19:32:51] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.1\e11da23da3eabab9f4777b9220e60d44c1aab6a\scala-library-2.11.1.jar, examining for mod candidates
+[19:32:51] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[19:32:51] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-reflect\2.11.1\6580347e61cc7f8e802941e7fde40fa83b8badeb\scala-reflect-2.11.1.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-swing_2.11\1.0.1\b1cdd92bd47b1e1837139c1c53020e86bb9112ae\scala-swing_2.11-1.0.1.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-xml_2.11\1.0.2\7a80ec00aec122fba7cd4e0d4cdd87ff7e4cb6d0\scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\4.5\6065cc95c661255349c1d0756657be17c29a4fd3\jopt-simple-4.5.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\lzma\lzma\0.0.1\521616dc7487b42bef0e803bd2fa3faf668101d7\lzma-0.0.1.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.mojang\realms\1.3.5\807ae355ee63583becd7ea60e76aab1532bb42e\realms-1.3.5.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.8.1\a698750c16740fd5b3871425f4cb3bbaa87f529d\commons-compress-1.8.1.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.3.3\18f4247ff4572a074444572cee34647c43e7c9c7\httpclient-4.3.3.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.1.3\f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f\commons-logging-1.1.3.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\java3d\vecmath\1.3.1\a0ae4f51da409fa0c20fa0ca59e6bbc9413ae71d\vecmath-1.3.1.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\net.sf.trove4j\trove4j\3.0.3\42ccaf4761f0dfdfa805c9e340d99a755907e2dd\trove4j-3.0.3.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j-core-mojang\51.2\63d216a9311cca6be337c1e458e587f99d382b84\icu4j-core-mojang-51.2.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.paulscode\codecjorbis\20101023\c73b5636faf089d9f00e8732a829577de25237ee\codecjorbis-20101023.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.paulscode\codecwav\20101023\12f031cfe88fef5c1dd36c563c0a3a69bd7261da\codecwav-20101023.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.paulscode\libraryjavasound\20101123\5c5e304366f75f9eaa2e8cca546a1fb6109348b3\libraryjavasound-20101123.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.paulscode\librarylwjglopenal\20100824\73e80d0794c39665aec3f62eee88ca91676674ef\librarylwjglopenal-20100824.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.paulscode\soundsystem\20120107\419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6\soundsystem-20120107.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\io.netty\netty-all\4.0.10.Final\9e50bd52ffe257a0e2cd8d971688d6ce7d174325\netty-all-4.0.10.Final.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\17.0\9c6ef172e8de35fd8d4d8783e4821e57cdef7445\guava-17.0.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.3.2\90a3822c38ec8c996e84c16a3477ef632cbc87a3\commons-lang3-3.3.2.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.4\b1b6ea3b7e4aa4f492509a4952029cd8e48019ad\commons-io-2.4.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.9\9ce04e34240f674bc72680f8b843b1457383161a\commons-codec-1.9.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput\2.0.5\39c7796b469a600f72380316f6b1f11db6c2c7c4\jinput-2.0.5.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\net.java.jutils\jutils\1.0.0\e12fe1fda814bd348c1579329c86943d2cd3c6a6\jutils-1.0.0.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\1.5.16\ef1582b11fd0943d069cdcb72e99008ac209a283\authlib-1.5.16.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.0-beta9\1dd66e68cccd907880229f9e2de1314bd13ff785\log4j-api-2.0-beta9.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.0-beta9\678861ba1b2e1fccb594bb0ca03114bb05da9695\log4j-core-2.0-beta9.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl\2.9.1\f58c5aabcef0e41718a564be9f8e412fff8db847\lwjgl-2.9.1.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl_util\2.9.1\290d7ba8a1bd9566f5ddf16ad06f09af5ec9b20e\lwjgl_util-2.9.1.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch\5.16\1f55f009c61637c10c0acfb8b5ffc600f30044b4\twitch-5.16.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-actors\2.11.0\8ccfb6541de179bb1c4d45cf414acee069b7f78b\scala-actors-2.11.0.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-xml_2.11\1.0.2\820fbca7e524b530fdadc594c39d49a21ea0337e\scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.scala-lang.modules\scala-parser-combinators_2.11\1.0.1\f05d7345bf5a58924f2837c6c1f4d73a938e1ff0\scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\7ff832a6eb9ab6a767f1ade2b548092d0fa64795\jinput-platform-2.0.5-natives-linux.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\7c6affe439099806a4f552da14c42f9d643d8b23\twitch-platform-5.16-natives-windows-32.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\39d0c3d363735b4785598e0e7fbf8297c706a9f9\twitch-platform-5.16-natives-windows-64.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-platform\5.16\62503ee712766cf77f97252e5902786fd834b8c5\twitch-platform-5.16-natives-osx.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\18215140f010c05b9f86ef6f0f8871954d2ccebf\twitch-external-platform-4.5-natives-windows-32.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\tv.twitch\twitch-external-platform\4.5\c3cde57891b935d41b6680a9c5e1502eeab76d86\twitch-external-platform-4.5-natives-windows-64.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\4c517eca808522457dd95ee8fc1fbcdbb602efbe\lwjgl-platform-2.9.1-natives-windows.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\aa9aae879af8eb378e22cfc64db56ec2ca9a44d1\lwjgl-platform-2.9.1-natives-linux.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\.gradle\caches\modules-2\files-2.1\org.lwjgl.lwjgl\lwjgl-platform\2.9.1\2d12c83fdfbc04ecabf02c7bc8cc54d034f0daac\lwjgl-platform-2.9.1-natives-osx.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at C:\Users\Leonic\.gradle\caches\minecraft\net\minecraftforge\forge\1.7.10-10.13.4.1492-1.7.10\start, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\workspace\Forge\libs\industrialcraft-2-2.2.763-experimental-api.jar, examining for mod candidates
+[19:32:52] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\Leonic\workspace\Forge\mods\CoFHCore-[1.7.10]3.0.4B1-308-dev.jar
+[19:32:52] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\Leonic\workspace\Forge\mods\industrialcraft-2-2.2.763-experimental-dev.jar
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Leonic\workspace\Forge\.\mods\ic2\EJML-core-0.26.jar, examining for mod candidates
+[19:32:52] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[19:32:52] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[19:32:52] [Client thread/INFO] [FML/]: Searching C:\Users\Leonic\workspace\Forge\mods for mods
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file CoFHCore-[1.7.10]3.0.4B1-308-dev.jar
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a candidate mod directory ic2
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file industrialcraft-2-2.2.763-experimental-dev.jar
+[19:32:52] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:32:52] [Client thread/DEBUG] [FML/]: Examining directory bin for potential mods
+[19:32:52] [Client thread/DEBUG] [FML/]: Found an mcmod.info file in directory bin
+[19:32:52] [Client thread/TRACE] [FML/]: Recursing into package assets
+[19:32:52] [Client thread/TRACE] [FML/]: Recursing into package assets.bm
+[19:32:52] [Client thread/TRACE] [FML/]: Recursing into package assets.bm.lang
+[19:32:52] [Client thread/TRACE] [FML/]: Recursing into package assets.bm.sounds
+[19:32:52] [Client thread/TRACE] [FML/]: Recursing into package assets.bm.sounds.records
+[19:32:52] [Client thread/TRACE] [FML/]: Recursing into package assets.bm.textures
+[19:32:52] [Client thread/TRACE] [FML/]: Recursing into package assets.bm.textures.blocks
+[19:32:52] [Client thread/TRACE] [FML/]: Recursing into package assets.bm.textures.items
+[19:32:52] [Client thread/TRACE] [FML/]: Recursing into package assets.bm.textures.models
+[19:32:52] [Client thread/TRACE] [FML/]: Recursing into package com
+[19:32:52] [Client thread/TRACE] [FML/]: Recursing into package com.leonic
+[19:32:52] [Client thread/TRACE] [FML/]: Recursing into package com.leonic.balloons
+[19:32:52] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.leonic.balloons.Balloons) - loading
+[19:32:52] [Client thread/TRACE] [bm/]: Parsed dependency info : [] [] []
+[19:32:52] [Client thread/TRACE] [FML/]: Recursing into package com.leonic.balloons.blocks
+[19:32:52] [Client thread/TRACE] [FML/]: Recursing into package com.leonic.balloons.blocks.collision
+[19:32:53] [Client thread/TRACE] [FML/]: Recursing into package com.leonic.balloons.client
+[19:32:53] [Client thread/TRACE] [FML/]: Recursing into package com.leonic.balloons.entity
+[19:32:53] [Client thread/TRACE] [FML/]: Recursing into package com.leonic.balloons.helpers
+[19:32:53] [Client thread/TRACE] [FML/]: Recursing into package com.leonic.balloons.init
+[19:32:53] [Client thread/TRACE] [FML/]: Recursing into package com.leonic.balloons.items
+[19:32:53] [Client thread/TRACE] [FML/]: Recursing into package com.leonic.balloons.items.balloon
+[19:32:54] [Client thread/TRACE] [FML/]: Recursing into package com.leonic.balloons.models
+[19:32:54] [Client thread/TRACE] [FML/]: Recursing into package com.leonic.balloons.proxies
+[19:32:54] [Client thread/TRACE] [FML/]: Recursing into package com.leonic.balloons.renderer
+[19:32:54] [Client thread/TRACE] [FML/]: Recursing into package com.leonic.balloons.renderer.entity
+[19:32:54] [Client thread/TRACE] [FML/]: Recursing into package com.leonic.balloons.renderer.item
+[19:32:54] [Client thread/TRACE] [FML/]: Recursing into package com.leonic.balloons.tileentities
+[19:32:55] [Client thread/TRACE] [FML/]: Recursing into package com.leonic.balloons.utils
+[19:32:55] [Client thread/TRACE] [FML/]: Recursing into package ic2
+[19:32:55] [Client thread/TRACE] [FML/]: Recursing into package ic2.api
+[19:32:55] [Client thread/TRACE] [FML/]: Recursing into package ic2.api.crops
+[19:32:55] [Client thread/TRACE] [FML/]: Recursing into package ic2.api.energy
+[19:32:55] [Client thread/TRACE] [FML/]: Recursing into package ic2.api.energy.event
+[19:32:55] [Client thread/TRACE] [FML/]: Recursing into package ic2.api.energy.prefab
+[19:32:55] [Client thread/TRACE] [FML/]: Recursing into package ic2.api.energy.tile
+[19:32:55] [Client thread/TRACE] [FML/]: Recursing into package ic2.api.event
+[19:32:55] [Client thread/TRACE] [FML/]: Recursing into package ic2.api.info
+[19:32:55] [Client thread/TRACE] [FML/]: Recursing into package ic2.api.item
+[19:32:56] [Client thread/TRACE] [FML/]: Recursing into package ic2.api.network
+[19:32:56] [Client thread/TRACE] [FML/]: Recursing into package ic2.api.reactor
+[19:32:56] [Client thread/TRACE] [FML/]: Recursing into package ic2.api.recipe
+[19:32:56] [Client thread/TRACE] [FML/]: Recursing into package ic2.api.tile
+[19:32:56] [Client thread/TRACE] [FML/]: Recursing into package ic2.api.util
+[19:32:56] [Client thread/TRACE] [FML/]: Recursing into package powercrystals
+[19:32:56] [Client thread/TRACE] [FML/]: Recursing into package powercrystals.minefactoryreloaded
+[19:32:56] [Client thread/TRACE] [FML/]: Recursing into package powercrystals.minefactoryreloaded.api
+[19:32:56] [Client thread/TRACE] [FML/]: Recursing into package powercrystals.minefactoryreloaded.api.rednet
+[19:32:56] [Client thread/TRACE] [FML/]: Recursing into package powercrystals.minefactoryreloaded.api.rednet.connectivity
+[19:32:56] [Client thread/DEBUG] [FML/]: Examining file forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar for potential mods
+[19:32:56] [Client thread/DEBUG] [FML/]: The mod container forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar appears to be missing an mcmod.info file
+[19:32:58] [Client thread/DEBUG] [FML/]: Examining file launchwrapper-1.12.jar for potential mods
+[19:32:58] [Client thread/DEBUG] [FML/]: The mod container launchwrapper-1.12.jar appears to be missing an mcmod.info file
+[19:32:58] [Client thread/DEBUG] [FML/]: Examining file jsr305-1.3.9.jar for potential mods
+[19:32:58] [Client thread/DEBUG] [FML/]: The mod container jsr305-1.3.9.jar appears to be missing an mcmod.info file
+[19:32:58] [Client thread/DEBUG] [FML/]: Examining file asm-debug-all-5.0.3.jar for potential mods
+[19:32:58] [Client thread/DEBUG] [FML/]: The mod container asm-debug-all-5.0.3.jar appears to be missing an mcmod.info file
+[19:32:58] [Client thread/DEBUG] [FML/]: Examining file akka-actor_2.11-2.3.3.jar for potential mods
+[19:32:58] [Client thread/DEBUG] [FML/]: The mod container akka-actor_2.11-2.3.3.jar appears to be missing an mcmod.info file
+[19:32:59] [Client thread/DEBUG] [FML/]: Examining file config-1.2.1.jar for potential mods
+[19:32:59] [Client thread/DEBUG] [FML/]: The mod container config-1.2.1.jar appears to be missing an mcmod.info file
+[19:32:59] [Client thread/DEBUG] [FML/]: Examining file scala-actors-migration_2.11-1.1.0.jar for potential mods
+[19:32:59] [Client thread/DEBUG] [FML/]: The mod container scala-actors-migration_2.11-1.1.0.jar appears to be missing an mcmod.info file
+[19:32:59] [Client thread/DEBUG] [FML/]: Examining file scala-compiler-2.11.1.jar for potential mods
+[19:32:59] [Client thread/DEBUG] [FML/]: The mod container scala-compiler-2.11.1.jar appears to be missing an mcmod.info file
+[19:33:02] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-library_2.11-1.0.2.jar for potential mods
+[19:33:02] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-library_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[19:33:02] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-plugin_2.11.1-1.0.2.jar for potential mods
+[19:33:02] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-plugin_2.11.1-1.0.2.jar appears to be missing an mcmod.info file
+[19:33:02] [Client thread/DEBUG] [FML/]: Examining file scala-library-2.11.1.jar for potential mods
+[19:33:02] [Client thread/DEBUG] [FML/]: The mod container scala-library-2.11.1.jar appears to be missing an mcmod.info file
+[19:33:03] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[19:33:03] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[19:33:03] [Client thread/DEBUG] [FML/]: Examining file scala-reflect-2.11.1.jar for potential mods
+[19:33:03] [Client thread/DEBUG] [FML/]: The mod container scala-reflect-2.11.1.jar appears to be missing an mcmod.info file
+[19:33:04] [Client thread/DEBUG] [FML/]: Examining file scala-swing_2.11-1.0.1.jar for potential mods
+[19:33:04] [Client thread/DEBUG] [FML/]: The mod container scala-swing_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[19:33:04] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[19:33:04] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[19:33:04] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[19:33:04] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[19:33:04] [Client thread/DEBUG] [FML/]: Examining file lzma-0.0.1.jar for potential mods
+[19:33:04] [Client thread/DEBUG] [FML/]: The mod container lzma-0.0.1.jar appears to be missing an mcmod.info file
+[19:33:04] [Client thread/DEBUG] [FML/]: Examining file realms-1.3.5.jar for potential mods
+[19:33:04] [Client thread/DEBUG] [FML/]: The mod container realms-1.3.5.jar appears to be missing an mcmod.info file
+[19:33:04] [Client thread/DEBUG] [FML/]: Examining file commons-compress-1.8.1.jar for potential mods
+[19:33:04] [Client thread/DEBUG] [FML/]: The mod container commons-compress-1.8.1.jar appears to be missing an mcmod.info file
+[19:33:04] [Client thread/DEBUG] [FML/]: Examining file httpclient-4.3.3.jar for potential mods
+[19:33:04] [Client thread/DEBUG] [FML/]: The mod container httpclient-4.3.3.jar appears to be missing an mcmod.info file
+[19:33:04] [Client thread/DEBUG] [FML/]: Examining file commons-logging-1.1.3.jar for potential mods
+[19:33:04] [Client thread/DEBUG] [FML/]: The mod container commons-logging-1.1.3.jar appears to be missing an mcmod.info file
+[19:33:04] [Client thread/DEBUG] [FML/]: Examining file httpcore-4.3.2.jar for potential mods
+[19:33:04] [Client thread/DEBUG] [FML/]: The mod container httpcore-4.3.2.jar appears to be missing an mcmod.info file
+[19:33:04] [Client thread/DEBUG] [FML/]: Examining file vecmath-1.3.1.jar for potential mods
+[19:33:04] [Client thread/DEBUG] [FML/]: The mod container vecmath-1.3.1.jar appears to be missing an mcmod.info file
+[19:33:04] [Client thread/DEBUG] [FML/]: Examining file trove4j-3.0.3.jar for potential mods
+[19:33:04] [Client thread/DEBUG] [FML/]: The mod container trove4j-3.0.3.jar appears to be missing an mcmod.info file
+[19:33:05] [Client thread/DEBUG] [FML/]: Examining file icu4j-core-mojang-51.2.jar for potential mods
+[19:33:05] [Client thread/DEBUG] [FML/]: The mod container icu4j-core-mojang-51.2.jar appears to be missing an mcmod.info file
+[19:33:05] [Client thread/DEBUG] [FML/]: Examining file codecjorbis-20101023.jar for potential mods
+[19:33:05] [Client thread/DEBUG] [FML/]: The mod container codecjorbis-20101023.jar appears to be missing an mcmod.info file
+[19:33:05] [Client thread/DEBUG] [FML/]: Examining file codecwav-20101023.jar for potential mods
+[19:33:05] [Client thread/DEBUG] [FML/]: The mod container codecwav-20101023.jar appears to be missing an mcmod.info file
+[19:33:05] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[19:33:05] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[19:33:05] [Client thread/DEBUG] [FML/]: Examining file librarylwjglopenal-20100824.jar for potential mods
+[19:33:05] [Client thread/DEBUG] [FML/]: The mod container librarylwjglopenal-20100824.jar appears to be missing an mcmod.info file
+[19:33:05] [Client thread/DEBUG] [FML/]: Examining file soundsystem-20120107.jar for potential mods
+[19:33:05] [Client thread/DEBUG] [FML/]: The mod container soundsystem-20120107.jar appears to be missing an mcmod.info file
+[19:33:05] [Client thread/DEBUG] [FML/]: Examining file netty-all-4.0.10.Final.jar for potential mods
+[19:33:05] [Client thread/DEBUG] [FML/]: The mod container netty-all-4.0.10.Final.jar appears to be missing an mcmod.info file
+[19:33:05] [Client thread/DEBUG] [FML/]: Examining file guava-17.0.jar for potential mods
+[19:33:05] [Client thread/DEBUG] [FML/]: The mod container guava-17.0.jar appears to be missing an mcmod.info file
+[19:33:06] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.3.2.jar for potential mods
+[19:33:06] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.3.2.jar appears to be missing an mcmod.info file
+[19:33:06] [Client thread/DEBUG] [FML/]: Examining file commons-io-2.4.jar for potential mods
+[19:33:06] [Client thread/DEBUG] [FML/]: The mod container commons-io-2.4.jar appears to be missing an mcmod.info file
+[19:33:06] [Client thread/DEBUG] [FML/]: Examining file commons-codec-1.9.jar for potential mods
+[19:33:06] [Client thread/DEBUG] [FML/]: The mod container commons-codec-1.9.jar appears to be missing an mcmod.info file
+[19:33:06] [Client thread/DEBUG] [FML/]: Examining file jinput-2.0.5.jar for potential mods
+[19:33:06] [Client thread/DEBUG] [FML/]: The mod container jinput-2.0.5.jar appears to be missing an mcmod.info file
+[19:33:06] [Client thread/DEBUG] [FML/]: Examining file jutils-1.0.0.jar for potential mods
+[19:33:06] [Client thread/DEBUG] [FML/]: The mod container jutils-1.0.0.jar appears to be missing an mcmod.info file
+[19:33:06] [Client thread/DEBUG] [FML/]: Examining file gson-2.2.4.jar for potential mods
+[19:33:06] [Client thread/DEBUG] [FML/]: The mod container gson-2.2.4.jar appears to be missing an mcmod.info file
+[19:33:06] [Client thread/DEBUG] [FML/]: Examining file authlib-1.5.16.jar for potential mods
+[19:33:06] [Client thread/DEBUG] [FML/]: The mod container authlib-1.5.16.jar appears to be missing an mcmod.info file
+[19:33:06] [Client thread/DEBUG] [FML/]: Examining file log4j-api-2.0-beta9.jar for potential mods
+[19:33:06] [Client thread/DEBUG] [FML/]: The mod container log4j-api-2.0-beta9.jar appears to be missing an mcmod.info file
+[19:33:06] [Client thread/DEBUG] [FML/]: Examining file log4j-core-2.0-beta9.jar for potential mods
+[19:33:06] [Client thread/DEBUG] [FML/]: The mod container log4j-core-2.0-beta9.jar appears to be missing an mcmod.info file
+[19:33:06] [Client thread/DEBUG] [FML/]: Examining file lwjgl-2.9.1.jar for potential mods
+[19:33:06] [Client thread/DEBUG] [FML/]: The mod container lwjgl-2.9.1.jar appears to be missing an mcmod.info file
+[19:33:06] [Client thread/DEBUG] [FML/]: Examining file lwjgl_util-2.9.1.jar for potential mods
+[19:33:06] [Client thread/DEBUG] [FML/]: The mod container lwjgl_util-2.9.1.jar appears to be missing an mcmod.info file
+[19:33:06] [Client thread/DEBUG] [FML/]: Examining file twitch-5.16.jar for potential mods
+[19:33:06] [Client thread/DEBUG] [FML/]: The mod container twitch-5.16.jar appears to be missing an mcmod.info file
+[19:33:06] [Client thread/DEBUG] [FML/]: Examining file scala-actors-2.11.0.jar for potential mods
+[19:33:06] [Client thread/DEBUG] [FML/]: The mod container scala-actors-2.11.0.jar appears to be missing an mcmod.info file
+[19:33:06] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[19:33:06] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[19:33:06] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[19:33:06] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-linux.jar for potential mods
+[19:33:07] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-linux.jar appears to be missing an mcmod.info file
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-windows.jar for potential mods
+[19:33:07] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-windows.jar appears to be missing an mcmod.info file
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining file jinput-platform-2.0.5-natives-osx.jar for potential mods
+[19:33:07] [Client thread/DEBUG] [FML/]: The mod container jinput-platform-2.0.5-natives-osx.jar appears to be missing an mcmod.info file
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-windows-32.jar for potential mods
+[19:33:07] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-windows-32.jar appears to be missing an mcmod.info file
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-windows-64.jar for potential mods
+[19:33:07] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-windows-64.jar appears to be missing an mcmod.info file
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining file twitch-platform-5.16-natives-osx.jar for potential mods
+[19:33:07] [Client thread/DEBUG] [FML/]: The mod container twitch-platform-5.16-natives-osx.jar appears to be missing an mcmod.info file
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining file twitch-external-platform-4.5-natives-windows-32.jar for potential mods
+[19:33:07] [Client thread/DEBUG] [FML/]: The mod container twitch-external-platform-4.5-natives-windows-32.jar appears to be missing an mcmod.info file
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining file twitch-external-platform-4.5-natives-windows-64.jar for potential mods
+[19:33:07] [Client thread/DEBUG] [FML/]: The mod container twitch-external-platform-4.5-natives-windows-64.jar appears to be missing an mcmod.info file
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-windows.jar for potential mods
+[19:33:07] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-windows.jar appears to be missing an mcmod.info file
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-linux.jar for potential mods
+[19:33:07] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-linux.jar appears to be missing an mcmod.info file
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining file lwjgl-platform-2.9.1-natives-osx.jar for potential mods
+[19:33:07] [Client thread/DEBUG] [FML/]: The mod container lwjgl-platform-2.9.1-natives-osx.jar appears to be missing an mcmod.info file
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining directory start for potential mods
+[19:33:07] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory start
+[19:33:07] [Client thread/TRACE] [FML/]: Recursing into package net
+[19:33:07] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge
+[19:33:07] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle
+[19:33:07] [Client thread/TRACE] [FML/]: Recursing into package net.minecraftforge.gradle.tweakers
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining file industrialcraft-2-2.2.763-experimental-api.jar for potential mods
+[19:33:07] [Client thread/DEBUG] [FML/]: The mod container industrialcraft-2-2.2.763-experimental-api.jar appears to be missing an mcmod.info file
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining file EJML-core-0.26.jar for potential mods
+[19:33:07] [Client thread/DEBUG] [FML/]: The mod container EJML-core-0.26.jar appears to be missing an mcmod.info file
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining file CoFHCore-[1.7.10]3.0.4B1-308-dev.jar for potential mods
+[19:33:07] [Client thread/TRACE] [FML/]: Located mcmod.info file in file CoFHCore-[1.7.10]3.0.4B1-308-dev.jar
+[19:33:07] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (cofh.CoFHCore) - loading
+[19:33:07] [Client thread/TRACE] [CoFHCore/]: Parsed dependency info : [Forge@[10.13.3.1448,10.14)] [Forge@[10.13.3.1448,10.14)] []
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining directory ic2 for potential mods
+[19:33:07] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory ic2
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining file industrialcraft-2-2.2.763-experimental-dev.jar for potential mods
+[19:33:07] [Client thread/TRACE] [FML/]: Located mcmod.info file in file industrialcraft-2-2.2.763-experimental-dev.jar
+[19:33:07] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (ic2.core.IC2) - loading
+[19:33:07] [Client thread/TRACE] [IC2/]: Parsed dependency info : [Forge@[10.13.0.1200,)] [Forge@[10.13.0.1200,)] []
+[19:33:07] [Client thread/DEBUG] [FML/]: Examining file MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar for potential mods
+[19:33:07] [Client thread/TRACE] [FML/]: Located mcmod.info file in file MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:07] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.MineFactoryReloadedCore) - loading
+[19:33:07] [Client thread/TRACE] [MineFactoryReloaded/]: Parsed dependency info : [CoFHCore@[1.7.10R3.0.4B1,), Forge@[10.13.3.1448,10.14)] [Forge@[10.13.3.1448,10.14), CoFHCore@[1.7.10R3.0.4B1,)] []
+[19:33:07] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.ae.AppliedEnergistics) - loading
+[19:33:07] [Client thread/TRACE] [MineFactoryReloaded|CompatAppliedEnergistics/]: Parsed dependency info : [] [MineFactoryReloaded, appliedenergistics2] []
+[19:33:07] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.atum.Atum) - loading
+[19:33:07] [Client thread/TRACE] [MineFactoryReloaded|CompatAtum/]: Parsed dependency info : [] [MineFactoryReloaded, Atum] []
+[19:33:08] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.backtools.BackTools) - loading
+[19:33:08] [Client thread/TRACE] [MineFactoryReloaded|CompatBackTools/]: Parsed dependency info : [] [MineFactoryReloaded, mod_BackTools] []
+[19:33:08] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.buildcraft.Buildcraft) - loading
+[19:33:08] [Client thread/TRACE] [MineFactoryReloaded|CompatBuildCraft/]: Parsed dependency info : [] [MineFactoryReloaded, BuildCraft|Core] []
+[19:33:08] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.chococraft.Chococraft) - loading
+[19:33:08] [Client thread/TRACE] [MineFactoryReloaded|CompatChococraft/]: Parsed dependency info : [MineFactoryReloaded] [MineFactoryReloaded, chococraft] []
+[19:33:08] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.extrabiomes.ExtraBiomes) - loading
+[19:33:08] [Client thread/TRACE] [MineFactoryReloaded|CompatExtraBiomes/]: Parsed dependency info : [] [MineFactoryReloaded, ExtrabiomesXL] []
+[19:33:08] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.forestry.Forestry) - loading
+[19:33:08] [Client thread/TRACE] [MineFactoryReloaded|CompatForestry/]: Parsed dependency info : [] [MineFactoryReloaded, Forestry] []
+[19:33:08] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.forgemultiparts.FMP) - loading
+[19:33:08] [Client thread/TRACE] [MineFactoryReloaded|CompatForgeMicroblock/]: Parsed dependency info : [] [MineFactoryReloaded] []
+[19:33:08] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.ic2.IC2) - loading
+[19:33:08] [Client thread/TRACE] [MineFactoryReloaded|CompatIC2/]: Parsed dependency info : [] [MineFactoryReloaded, IC2] []
+[19:33:08] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.mystcraft.Mystcraft) - loading
+[19:33:08] [Client thread/TRACE] [MineFactoryReloaded|CompatMystcraft/]: Parsed dependency info : [] [MineFactoryReloaded, Mystcraft] []
+[19:33:08] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.projectred.ProjectRedCompat) - loading
+[19:33:08] [Client thread/TRACE] [MineFactoryReloaded|CompatProjRed/]: Parsed dependency info : [] [MineFactoryReloaded, ProjRed|Core, ProjRed|Exploration] []
+[19:33:08] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.railcraft.Railcraft) - loading
+[19:33:08] [Client thread/TRACE] [MineFactoryReloaded|CompatRailcraft/]: Parsed dependency info : [] [MineFactoryReloaded, Railcraft] []
+[19:33:08] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.sufficientbiomes.SufficientBiomes) - loading
+[19:33:08] [Client thread/TRACE] [MineFactoryReloaded|CompatSufficientBiomes/]: Parsed dependency info : [] [MineFactoryReloaded, EmasherWorldGen] []
+[19:33:08] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.thaumcraft.Thaumcraft) - loading
+[19:33:08] [Client thread/TRACE] [MineFactoryReloaded|CompatThaumcraft/]: Parsed dependency info : [] [MineFactoryReloaded, Thaumcraft] []
+[19:33:08] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.thermalexpansion.ThermalExpansion) - loading
+[19:33:08] [Client thread/TRACE] [MineFactoryReloaded|CompatThermalExpansion/]: Parsed dependency info : [] [MineFactoryReloaded, ThermalExpansion] []
+[19:33:08] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.tinkersconstruct.TConstruct) - loading
+[19:33:08] [Client thread/TRACE] [MineFactoryReloaded|CompatTConstruct/]: Parsed dependency info : [] [MineFactoryReloaded, TConstruct] []
+[19:33:08] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.twilightforest.TwilightForest) - loading
+[19:33:08] [Client thread/TRACE] [MineFactoryReloaded|CompatTwilightForest/]: Parsed dependency info : [] [MineFactoryReloaded, TwilightForest] []
+[19:33:08] [Client thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (powercrystals.minefactoryreloaded.modhelpers.vanilla.Vanilla) - loading
+[19:33:08] [Client thread/TRACE] [MineFactoryReloaded|CompatVanilla/]: Parsed dependency info : [] [MineFactoryReloaded] []
+[19:33:08] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 26 mods to load
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.lib.gui.element.listbox (owned by CoFHLib providing CoFHLib|gui|element|listbox) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API ic2.api.energy (owned by IC2 providing IC2API) embedded in bm
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API ic2.api.recipe (owned by IC2 providing IC2API) embedded in IC2
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.lib.render.particle (owned by CoFHLib providing CoFHLib|render|particle) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API ic2.api.energy (owned by IC2 providing IC2API) embedded in IC2
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.api.core (owned by CoFHAPI providing CoFHAPI|core) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.lib.gui.container (owned by CoFHLib providing CoFHLib|gui|container) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.lib (owned by CoFHCore providing CoFHLib) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.api.modhelpers (owned by CoFHAPI providing CoFHAPI|modhelpers) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API ic2.api.network (owned by IC2 providing IC2API) embedded in IC2
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.lib.world.feature (owned by CoFHLib providing CoFHLib|world|feature) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.lib.util.position (owned by CoFHLib providing CoFHLib|util|position) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.api.item (owned by CoFHAPI providing CoFHAPI|item) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API ic2.api.tile (owned by IC2 providing IC2API) embedded in IC2
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.lib.audio (owned by CoFHLib providing CoFHLib|audio) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.lib.world (owned by CoFHLib providing CoFHLib|world) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.lib.gui (owned by CoFHLib providing CoFHLib|gui) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API ic2.api.reactor (owned by IC2 providing IC2API) embedded in IC2
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API ic2.api.energy.prefab (owned by IC2 providing IC2API) embedded in IC2
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API ic2.api.event (owned by IC2 providing IC2API) embedded in IC2
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.lib.util (owned by CoFHLib providing CoFHLib|util) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API ic2.api.energy.tile (owned by IC2 providing IC2API) embedded in IC2
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.api.fluid (owned by CoFHAPI providing CoFHAPI|fluid) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.lib.render (owned by CoFHLib providing CoFHLib|render) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API ic2.api.item (owned by IC2 providing IC2API) embedded in IC2
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.api.transport (owned by CoFHAPI providing CoFHAPI|transport) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.lib.gui.element (owned by CoFHLib providing CoFHLib|gui|element) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API ic2.api.info (owned by IC2 providing IC2API) embedded in IC2
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API ic2.api.energy.event (owned by IC2 providing IC2API) embedded in IC2
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.lib.inventory (owned by CoFHLib providing CoFHLib|inventory) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.api.inventory (owned by CoFHAPI providing CoFHAPI|inventory) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.api.tileentity (owned by CoFHAPI providing CoFHAPI|tileentity) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.lib.gui.slot (owned by CoFHLib providing CoFHLib|gui|slot) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.api.block (owned by CoFHAPI providing CoFHAPI|block) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API ic2.api.crops (owned by IC2 providing IC2API) embedded in IC2
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.api.world (owned by CoFHAPI providing CoFHAPI|world) embedded in CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API ic2.api.util (owned by IC2 providing IC2API) embedded in IC2
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API ic2.api (owned by IC2 providing IC2API) embedded in IC2
+[19:33:08] [Client thread/DEBUG] [FML/]: Found API cofh.lib.util.helpers (owned by CoFHLib providing CoFHLib|util|helpers) embedded in CoFHCore
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|render|particle:1.7.10R1.0.4B1}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|render|particle: owner: CoFHLib, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|fluid:1.7.10R1.0.13}
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|fluid:1.7.10R1.0.13}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|fluid: owner: CoFHAPI, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|inventory:1.7.10R1.0.4B1}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|inventory: owner: CoFHLib, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui|element:1.7.10R1.0.4B1}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui|element: owner: CoFHLib, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|util:1.7.10R1.0.4B1}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|util: owner: CoFHLib, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|render:1.7.10R1.0.4B1}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|render: owner: CoFHLib, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|world|feature:1.7.10R1.0.4B1}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|world|feature: owner: CoFHLib, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui|element|listbox:1.7.10R1.0.4B1}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui|element|listbox: owner: CoFHLib, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|world:1.7.10R1.0.4B1}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|world: owner: CoFHLib, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|util|position:1.7.10R1.0.4B1}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|util|position: owner: CoFHLib, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|inventory:1.7.10R1.0.13}
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|inventory:1.7.10R1.0.13}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|inventory: owner: CoFHAPI, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|transport:1.7.10R1.0.13}
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|transport:1.7.10R1.0.13}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|transport: owner: CoFHAPI, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|modhelpers:1.7.10R1.0.13}
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|modhelpers:1.7.10R1.0.13}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|modhelpers: owner: CoFHAPI, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|core:1.7.10R1.0.13}
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|core:1.7.10R1.0.13}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|core: owner: CoFHAPI, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui|container:1.7.10R1.0.4B1}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui|container: owner: CoFHLib, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|tileentity:1.7.10R1.0.13}
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|tileentity:1.7.10R1.0.13}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|tileentity: owner: CoFHAPI, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|energy:1.7.10R1.0.13}
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|energy:1.7.10R1.0.13}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|energy: owner: CoFHAPI, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|item:1.7.10R1.0.13}
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|item:1.7.10R1.0.13}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|item: owner: CoFHAPI, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|world:1.7.10R1.0.13}
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|world:1.7.10R1.0.13}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|world: owner: CoFHAPI, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui:1.7.10R1.0.4B1}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui: owner: CoFHLib, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI:1.7.10R1.0.13}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI: owner: CoFHLib, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|block:1.7.10R1.0.13}
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHAPI|block:1.7.10R1.0.13}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|block: owner: CoFHAPI, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|gui|slot:1.7.10R1.0.4B1}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|gui|slot: owner: CoFHLib, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|util|helpers:1.7.10R1.0.4B1}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|util|helpers: owner: CoFHLib, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Removing upstream parent CoFHCore from APIContainer{CoFHLib|audio:1.7.10R1.0.4B1}
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib|audio: owner: CoFHLib, dependents: []
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API IC2API: owner: IC2, dependents: [bm]
+[19:33:08] [Client thread/DEBUG] [FML/]: Creating API container dummy for API CoFHLib: owner: CoFHCore, dependents: []
+[19:33:08] [Client thread/TRACE] [FML/]: Received a system property request ''
+[19:33:08] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[19:33:08] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[19:33:08] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar [en_US, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, de_DE, el_GR, en_US, es_ES, fa_IR, fi_FI, fr_FR, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, ru_RU, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW, en_US]
+[19:33:08] [Client thread/DEBUG] [FML/]: Found translations in forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar [en_US, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, de_DE, el_GR, en_US, es_ES, fa_IR, fi_FI, fr_FR, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, ru_RU, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW, en_US]
+[19:33:08] [Client thread/DEBUG] [bm/]: Enabling mod bm
+[19:33:08] [Client thread/DEBUG] [FML/]: Injecting found translation assets for lang en_UK at assets/bm/lang/en_UK.lang into language system
+[19:33:08] [Client thread/DEBUG] [FML/]: Injecting found translation assets for lang en_US at assets/bm/lang/en_US.lang into language system
+[19:33:08] [Client thread/DEBUG] [CoFHCore/]: Enabling mod CoFHCore
+[19:33:08] [Client thread/DEBUG] [FML/]: Found translations in CoFHCore-[1.7.10]3.0.4B1-308-dev.jar [cs_CZ, de_DE, en_US, es_ES, fr_CA, fr_FR, hu_HU, it_IT, ko_KR, pl_PL, ru_RU, zh_CN, zh_TW]
+[19:33:08] [Client thread/DEBUG] [IC2/]: Enabling mod IC2
+[19:33:08] [Client thread/DEBUG] [FML/]: Found translations in industrialcraft-2-2.2.763-experimental-dev.jar [en_IC]
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded/]: Enabling mod MineFactoryReloaded
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatAppliedEnergistics/]: Enabling mod MineFactoryReloaded|CompatAppliedEnergistics
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatAtum/]: Enabling mod MineFactoryReloaded|CompatAtum
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatBackTools/]: Enabling mod MineFactoryReloaded|CompatBackTools
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatBuildCraft/]: Enabling mod MineFactoryReloaded|CompatBuildCraft
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatChococraft/]: Enabling mod MineFactoryReloaded|CompatChococraft
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatExtraBiomes/]: Enabling mod MineFactoryReloaded|CompatExtraBiomes
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatForestry/]: Enabling mod MineFactoryReloaded|CompatForestry
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatForgeMicroblock/]: Enabling mod MineFactoryReloaded|CompatForgeMicroblock
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatIC2/]: Enabling mod MineFactoryReloaded|CompatIC2
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatMystcraft/]: Enabling mod MineFactoryReloaded|CompatMystcraft
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatProjRed/]: Enabling mod MineFactoryReloaded|CompatProjRed
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatRailcraft/]: Enabling mod MineFactoryReloaded|CompatRailcraft
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatSufficientBiomes/]: Enabling mod MineFactoryReloaded|CompatSufficientBiomes
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatThaumcraft/]: Enabling mod MineFactoryReloaded|CompatThaumcraft
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatThermalExpansion/]: Enabling mod MineFactoryReloaded|CompatThermalExpansion
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatTConstruct/]: Enabling mod MineFactoryReloaded|CompatTConstruct
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatTwilightForest/]: Enabling mod MineFactoryReloaded|CompatTwilightForest
+[19:33:08] [Client thread/DEBUG] [MineFactoryReloaded|CompatVanilla/]: Enabling mod MineFactoryReloaded|CompatVanilla
+[19:33:08] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[19:33:08] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[19:33:08] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[19:33:08] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[19:33:08] [Client thread/DEBUG] [FML/]: Mod sorting data
+[19:33:08] [Client thread/DEBUG] [FML/]: 	IC2(IndustrialCraft 2:2.2.763-experimental): industrialcraft-2-2.2.763-experimental-dev.jar (required-after:Forge@[10.13.0.1200,))
+[19:33:08] [Client thread/DEBUG] [FML/]: 	IC2API(API: IC2API:1.0): industrialcraft-2-2.2.763-experimental-api.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	bm(Balloons Mod:1.7.10-0.1): bin ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHCore(CoFH Core:1.7.10R3.0.4B1): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar (required-after:Forge@[10.13.3.1448,10.14);)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded(MineFactory Reloaded:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (required-after:Forge@[10.13.3.1448,10.14);;required-after:CoFHCore@[1.7.10R3.0.4B1,))
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatAppliedEnergistics(MFR Compat: Applied Energistics:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded;after:appliedenergistics2)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatAtum(MFR Compat: Atum:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded;after:Atum)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatBackTools(MFR Compat: BackTools:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded;after:mod_BackTools)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatBuildCraft(MFR Compat: BuildCraft:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded;after:BuildCraft|Core)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatChococraft(MFR Compat: Chococraft:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (required-after:MineFactoryReloaded;after:chococraft)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatExtraBiomes(MFR Compat: ExtraBiomes:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded;after:ExtrabiomesXL)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatForestry(MFR Compat: Forestry:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded;after:Forestry)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatForgeMicroblock(MFR Compat: ForgeMicroblock:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatIC2(MFR Compat: IC2:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded;after:IC2)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatMystcraft(MFR Compat: Mystcraft:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded;after:Mystcraft)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatProjRed(MFR Compat ProjectRed:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded;after:ProjRed|Core;after:ProjRed|Exploration)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatRailcraft(MFR Compat: Railcraft:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded;after:Railcraft)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatSufficientBiomes(MFR Compat: Sufficient Biomes:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded;after:EmasherWorldGen)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatThaumcraft(MFR Compat: Thaumcraft:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded;after:Thaumcraft)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatThermalExpansion(MFR Compat: Thermal Expansion:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded;after:ThermalExpansion)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatTConstruct(MFR Compat: Tinkers' Construct:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded;after:TConstruct)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatTwilightForest(MFR Compat: TwilightForest:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded;after:TwilightForest)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	MineFactoryReloaded|CompatVanilla(MFR Compat: Vanilla:1.7.10R2.8.1B1): MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar (after:MineFactoryReloaded)
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHLib(API: CoFHLib:1.7.10R1.0.4B1): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHLib|render|particle(API: CoFHLib|render|particle:1.7.10R1.0.4B1): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHAPI(API: CoFHAPI:1.7.10R1.0.13): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHAPI|fluid(API: CoFHAPI|fluid:1.7.10R1.0.13): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHLib|inventory(API: CoFHLib|inventory:1.7.10R1.0.4B1): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHLib|gui|element(API: CoFHLib|gui|element:1.7.10R1.0.4B1): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHLib|util(API: CoFHLib|util:1.7.10R1.0.4B1): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHLib|render(API: CoFHLib|render:1.7.10R1.0.4B1): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHLib|world|feature(API: CoFHLib|world|feature:1.7.10R1.0.4B1): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHLib|gui|element|listbox(API: CoFHLib|gui|element|listbox:1.7.10R1.0.4B1): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHLib|world(API: CoFHLib|world:1.7.10R1.0.4B1): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHLib|util|position(API: CoFHLib|util|position:1.7.10R1.0.4B1): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHAPI|inventory(API: CoFHAPI|inventory:1.7.10R1.0.13): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHAPI|transport(API: CoFHAPI|transport:1.7.10R1.0.13): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHAPI|modhelpers(API: CoFHAPI|modhelpers:1.7.10R1.0.13): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHAPI|core(API: CoFHAPI|core:1.7.10R1.0.13): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHLib|gui|container(API: CoFHLib|gui|container:1.7.10R1.0.4B1): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHAPI|tileentity(API: CoFHAPI|tileentity:1.7.10R1.0.13): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHAPI|energy(API: CoFHAPI|energy:1.7.10R1.0.13): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHAPI|item(API: CoFHAPI|item:1.7.10R1.0.13): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHAPI|world(API: CoFHAPI|world:1.7.10R1.0.13): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHLib|gui(API: CoFHLib|gui:1.7.10R1.0.4B1): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHAPI|block(API: CoFHAPI|block:1.7.10R1.0.13): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHLib|gui|slot(API: CoFHLib|gui|slot:1.7.10R1.0.4B1): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHLib|util|helpers(API: CoFHLib|util|helpers:1.7.10R1.0.4B1): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/DEBUG] [FML/]: 	CoFHLib|audio(API: CoFHLib|audio:1.7.10R1.0.4B1): CoFHCore-[1.7.10]3.0.4B1-308-dev.jar ()
+[19:33:08] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[19:33:08] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[19:33:08] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.005s
+[19:33:08] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[19:33:09] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[19:33:09] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[19:33:09] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[19:33:09] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, <CoFH ASM>, bm, CoFHCore, IC2, MineFactoryReloaded, MineFactoryReloaded|CompatAppliedEnergistics, MineFactoryReloaded|CompatAtum, MineFactoryReloaded|CompatBackTools, MineFactoryReloaded|CompatBuildCraft, MineFactoryReloaded|CompatChococraft, MineFactoryReloaded|CompatExtraBiomes, MineFactoryReloaded|CompatForestry, MineFactoryReloaded|CompatForgeMicroblock, MineFactoryReloaded|CompatIC2, MineFactoryReloaded|CompatMystcraft, MineFactoryReloaded|CompatProjRed, MineFactoryReloaded|CompatRailcraft, MineFactoryReloaded|CompatSufficientBiomes, MineFactoryReloaded|CompatThaumcraft, MineFactoryReloaded|CompatThermalExpansion, MineFactoryReloaded|CompatTConstruct, MineFactoryReloaded|CompatTwilightForest, MineFactoryReloaded|CompatVanilla] at CLIENT
+[19:33:09] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, <CoFH ASM>, bm, CoFHCore, IC2, MineFactoryReloaded, MineFactoryReloaded|CompatAppliedEnergistics, MineFactoryReloaded|CompatAtum, MineFactoryReloaded|CompatBackTools, MineFactoryReloaded|CompatBuildCraft, MineFactoryReloaded|CompatChococraft, MineFactoryReloaded|CompatExtraBiomes, MineFactoryReloaded|CompatForestry, MineFactoryReloaded|CompatForgeMicroblock, MineFactoryReloaded|CompatIC2, MineFactoryReloaded|CompatMystcraft, MineFactoryReloaded|CompatProjRed, MineFactoryReloaded|CompatRailcraft, MineFactoryReloaded|CompatSufficientBiomes, MineFactoryReloaded|CompatThaumcraft, MineFactoryReloaded|CompatThermalExpansion, MineFactoryReloaded|CompatTConstruct, MineFactoryReloaded|CompatTwilightForest, MineFactoryReloaded|CompatVanilla] at SERVER
+[19:33:09] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[19:33:09] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.834s
+[19:33:09] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[19:33:09] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[19:33:09] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[19:33:09] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1492)
+[19:33:09] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[19:33:09] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.055s
+[19:33:09] [Client thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event FMLConstructionEvent to mod <CoFH ASM>
+[19:33:09] [Client thread/DEBUG] [CoFH ASM/<CoFH ASM>]: Scraping data
+[19:33:09] [Client thread/DEBUG] [CoFH ASM/<CoFH ASM>]: Found 2 @Implementable and 20 @Strippable
+[19:33:09] [Client thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event FMLConstructionEvent to mod <CoFH ASM>
+[19:33:09] [Client thread/DEBUG] [FML/]: Bar Step: Construction - CoFH ASM took 0.010s
+[19:33:09] [Client thread/TRACE] [IC2/IC2]: Sending event FMLConstructionEvent to mod IC2
+[19:33:10] [Client thread/TRACE] [FML/IC2]: Mod IC2 is using network checker : Accepting version 2.2.763-experimental
+[19:33:10] [Client thread/TRACE] [FML/IC2]: Testing mod IC2 to verify it accepts its own version in a remote connection
+[19:33:10] [Client thread/TRACE] [FML/IC2]: The mod IC2 accepts its own version (2.2.763-experimental)
+[19:33:10] [Client thread/DEBUG] [FML/IC2]: Attempting to inject @SidedProxy classes into IC2
+[19:33:10] [Client thread/TRACE] [IC2/IC2]: Sent event FMLConstructionEvent to mod IC2
+[19:33:10] [Client thread/DEBUG] [FML/]: Bar Step: Construction - IndustrialCraft 2 took 0.979s
+[19:33:10] [Client thread/TRACE] [bm/bm]: Sending event FMLConstructionEvent to mod bm
+[19:33:10] [Client thread/TRACE] [FML/bm]: Mod bm is using network checker : Accepting version 1.7.10-0.1
+[19:33:10] [Client thread/TRACE] [FML/bm]: Testing mod bm to verify it accepts its own version in a remote connection
+[19:33:10] [Client thread/TRACE] [FML/bm]: The mod bm accepts its own version (1.7.10-0.1)
+[19:33:10] [Client thread/DEBUG] [FML/bm]: Attempting to inject @SidedProxy classes into bm
+[19:33:10] [Client thread/TRACE] [bm/bm]: Sent event FMLConstructionEvent to mod bm
+[19:33:10] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Balloons Mod took 0.057s
+[19:33:10] [Client thread/TRACE] [CoFHCore/CoFHCore]: Sending event FMLConstructionEvent to mod CoFHCore
+[19:33:10] [Client thread/TRACE] [FML/CoFHCore]: Mod CoFHCore is using network checker : Accepting version 1.7.10R3.0.4B1
+[19:33:10] [Client thread/TRACE] [FML/CoFHCore]: Testing mod CoFHCore to verify it accepts its own version in a remote connection
+[19:33:10] [Client thread/TRACE] [FML/CoFHCore]: The mod CoFHCore accepts its own version (1.7.10R3.0.4B1)
+[19:33:10] [Client thread/DEBUG] [FML/CoFHCore]: Attempting to inject @SidedProxy classes into CoFHCore
+[19:33:10] [Client thread/TRACE] [CoFHCore/CoFHCore]: Sent event FMLConstructionEvent to mod CoFHCore
+[19:33:10] [Client thread/DEBUG] [FML/]: Bar Step: Construction - CoFH Core took 0.145s
+[19:33:10] [Client thread/TRACE] [MineFactoryReloaded/MineFactoryReloaded]: Sending event FMLConstructionEvent to mod MineFactoryReloaded
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded]: Mod MineFactoryReloaded is using network checker : Invoking method networkCheck
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded]: Testing mod MineFactoryReloaded to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded]: The mod MineFactoryReloaded accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded]: Attempting to inject @SidedProxy classes into MineFactoryReloaded
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded/MineFactoryReloaded]: Sent event FMLConstructionEvent to mod MineFactoryReloaded
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MineFactory Reloaded took 0.402s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatAppliedEnergistics/MineFactoryReloaded|CompatAppliedEnergistics]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatAppliedEnergistics
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatAppliedEnergistics]: Mod MineFactoryReloaded|CompatAppliedEnergistics is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatAppliedEnergistics]: Testing mod MineFactoryReloaded|CompatAppliedEnergistics to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatAppliedEnergistics]: The mod MineFactoryReloaded|CompatAppliedEnergistics accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatAppliedEnergistics]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatAppliedEnergistics
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatAppliedEnergistics/MineFactoryReloaded|CompatAppliedEnergistics]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatAppliedEnergistics
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: Applied Energistics took 0.014s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatAtum/MineFactoryReloaded|CompatAtum]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatAtum
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatAtum]: Mod MineFactoryReloaded|CompatAtum is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatAtum]: Testing mod MineFactoryReloaded|CompatAtum to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatAtum]: The mod MineFactoryReloaded|CompatAtum accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatAtum]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatAtum
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatAtum/MineFactoryReloaded|CompatAtum]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatAtum
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: Atum took 0.038s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatBackTools/MineFactoryReloaded|CompatBackTools]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatBackTools
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatBackTools]: Mod MineFactoryReloaded|CompatBackTools is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatBackTools]: Testing mod MineFactoryReloaded|CompatBackTools to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatBackTools]: The mod MineFactoryReloaded|CompatBackTools accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatBackTools]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatBackTools
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatBackTools/MineFactoryReloaded|CompatBackTools]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatBackTools
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: BackTools took 0.017s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatBuildCraft/MineFactoryReloaded|CompatBuildCraft]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatBuildCraft
+[19:33:11] [Client thread/DEBUG] [CoFH ASM/MineFactoryReloaded|CompatBuildCraft]: Stripping methods and fields from powercrystals.minefactoryreloaded.modhelpers.buildcraft.Buildcraft
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatBuildCraft]: Mod MineFactoryReloaded|CompatBuildCraft is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatBuildCraft]: Testing mod MineFactoryReloaded|CompatBuildCraft to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatBuildCraft]: The mod MineFactoryReloaded|CompatBuildCraft accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatBuildCraft]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatBuildCraft
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatBuildCraft/MineFactoryReloaded|CompatBuildCraft]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatBuildCraft
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: BuildCraft took 0.022s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatChococraft/MineFactoryReloaded|CompatChococraft]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatChococraft
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatChococraft]: Mod MineFactoryReloaded|CompatChococraft is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatChococraft]: Testing mod MineFactoryReloaded|CompatChococraft to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatChococraft]: The mod MineFactoryReloaded|CompatChococraft accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatChococraft]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatChococraft
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatChococraft/MineFactoryReloaded|CompatChococraft]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatChococraft
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: Chococraft took 0.108s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatExtraBiomes/MineFactoryReloaded|CompatExtraBiomes]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatExtraBiomes
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatExtraBiomes]: Mod MineFactoryReloaded|CompatExtraBiomes is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatExtraBiomes]: Testing mod MineFactoryReloaded|CompatExtraBiomes to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatExtraBiomes]: The mod MineFactoryReloaded|CompatExtraBiomes accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatExtraBiomes]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatExtraBiomes
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatExtraBiomes/MineFactoryReloaded|CompatExtraBiomes]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatExtraBiomes
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: ExtraBiomes took 0.019s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatForestry/MineFactoryReloaded|CompatForestry]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatForestry
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatForestry]: Mod MineFactoryReloaded|CompatForestry is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatForestry]: Testing mod MineFactoryReloaded|CompatForestry to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatForestry]: The mod MineFactoryReloaded|CompatForestry accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatForestry]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatForestry
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatForestry/MineFactoryReloaded|CompatForestry]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatForestry
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: Forestry took 0.022s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatForgeMicroblock/MineFactoryReloaded|CompatForgeMicroblock]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatForgeMicroblock
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatForgeMicroblock]: Mod MineFactoryReloaded|CompatForgeMicroblock is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatForgeMicroblock]: Testing mod MineFactoryReloaded|CompatForgeMicroblock to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatForgeMicroblock]: The mod MineFactoryReloaded|CompatForgeMicroblock accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatForgeMicroblock]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatForgeMicroblock
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatForgeMicroblock/MineFactoryReloaded|CompatForgeMicroblock]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatForgeMicroblock
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: ForgeMicroblock took 0.024s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatIC2/MineFactoryReloaded|CompatIC2]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatIC2
+[19:33:11] [Client thread/DEBUG] [CoFH ASM/MineFactoryReloaded|CompatIC2]: Stripping methods and fields from powercrystals.minefactoryreloaded.modhelpers.ic2.IC2
+[19:33:11] [Client thread/DEBUG] [CoFH ASM/MineFactoryReloaded|CompatIC2]: Nothing stripped from powercrystals.minefactoryreloaded.modhelpers.ic2.IC2
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatIC2]: Mod MineFactoryReloaded|CompatIC2 is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatIC2]: Testing mod MineFactoryReloaded|CompatIC2 to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatIC2]: The mod MineFactoryReloaded|CompatIC2 accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatIC2]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatIC2
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatIC2/MineFactoryReloaded|CompatIC2]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatIC2
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: IC2 took 0.071s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatMystcraft/MineFactoryReloaded|CompatMystcraft]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatMystcraft
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatMystcraft]: Mod MineFactoryReloaded|CompatMystcraft is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatMystcraft]: Testing mod MineFactoryReloaded|CompatMystcraft to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatMystcraft]: The mod MineFactoryReloaded|CompatMystcraft accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatMystcraft]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatMystcraft
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatMystcraft/MineFactoryReloaded|CompatMystcraft]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatMystcraft
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: Mystcraft took 0.018s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatProjRed/MineFactoryReloaded|CompatProjRed]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatProjRed
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatProjRed]: Mod MineFactoryReloaded|CompatProjRed is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatProjRed]: Testing mod MineFactoryReloaded|CompatProjRed to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatProjRed]: The mod MineFactoryReloaded|CompatProjRed accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatProjRed]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatProjRed
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatProjRed/MineFactoryReloaded|CompatProjRed]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatProjRed
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat ProjectRed took 0.019s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatRailcraft/MineFactoryReloaded|CompatRailcraft]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatRailcraft
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatRailcraft]: Mod MineFactoryReloaded|CompatRailcraft is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatRailcraft]: Testing mod MineFactoryReloaded|CompatRailcraft to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatRailcraft]: The mod MineFactoryReloaded|CompatRailcraft accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatRailcraft]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatRailcraft
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatRailcraft/MineFactoryReloaded|CompatRailcraft]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatRailcraft
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: Railcraft took 0.017s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatSufficientBiomes/MineFactoryReloaded|CompatSufficientBiomes]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatSufficientBiomes
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatSufficientBiomes]: Mod MineFactoryReloaded|CompatSufficientBiomes is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatSufficientBiomes]: Testing mod MineFactoryReloaded|CompatSufficientBiomes to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatSufficientBiomes]: The mod MineFactoryReloaded|CompatSufficientBiomes accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatSufficientBiomes]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatSufficientBiomes
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatSufficientBiomes/MineFactoryReloaded|CompatSufficientBiomes]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatSufficientBiomes
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: Sufficient Biomes took 0.021s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatThaumcraft/MineFactoryReloaded|CompatThaumcraft]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatThaumcraft
+[19:33:11] [Client thread/DEBUG] [CoFH ASM/MineFactoryReloaded|CompatThaumcraft]: Stripping methods and fields from powercrystals.minefactoryreloaded.modhelpers.thaumcraft.Thaumcraft
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatThaumcraft]: Mod MineFactoryReloaded|CompatThaumcraft is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatThaumcraft]: Testing mod MineFactoryReloaded|CompatThaumcraft to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatThaumcraft]: The mod MineFactoryReloaded|CompatThaumcraft accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatThaumcraft]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatThaumcraft
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatThaumcraft/MineFactoryReloaded|CompatThaumcraft]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatThaumcraft
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: Thaumcraft took 0.036s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatThermalExpansion/MineFactoryReloaded|CompatThermalExpansion]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatThermalExpansion
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatThermalExpansion]: Mod MineFactoryReloaded|CompatThermalExpansion is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatThermalExpansion]: Testing mod MineFactoryReloaded|CompatThermalExpansion to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatThermalExpansion]: The mod MineFactoryReloaded|CompatThermalExpansion accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatThermalExpansion]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatThermalExpansion
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatThermalExpansion/MineFactoryReloaded|CompatThermalExpansion]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatThermalExpansion
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: Thermal Expansion took 0.087s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatTConstruct/MineFactoryReloaded|CompatTConstruct]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatTConstruct
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatTConstruct]: Mod MineFactoryReloaded|CompatTConstruct is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatTConstruct]: Testing mod MineFactoryReloaded|CompatTConstruct to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatTConstruct]: The mod MineFactoryReloaded|CompatTConstruct accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatTConstruct]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatTConstruct
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatTConstruct/MineFactoryReloaded|CompatTConstruct]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatTConstruct
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: Tinkers' Construct took 0.016s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatTwilightForest/MineFactoryReloaded|CompatTwilightForest]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatTwilightForest
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatTwilightForest]: Mod MineFactoryReloaded|CompatTwilightForest is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatTwilightForest]: Testing mod MineFactoryReloaded|CompatTwilightForest to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatTwilightForest]: The mod MineFactoryReloaded|CompatTwilightForest accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatTwilightForest]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatTwilightForest
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatTwilightForest/MineFactoryReloaded|CompatTwilightForest]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatTwilightForest
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: TwilightForest took 0.025s
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatVanilla/MineFactoryReloaded|CompatVanilla]: Sending event FMLConstructionEvent to mod MineFactoryReloaded|CompatVanilla
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatVanilla]: Mod MineFactoryReloaded|CompatVanilla is using network checker : Accepting version 1.7.10R2.8.1B1
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatVanilla]: Testing mod MineFactoryReloaded|CompatVanilla to verify it accepts its own version in a remote connection
+[19:33:11] [Client thread/TRACE] [FML/MineFactoryReloaded|CompatVanilla]: The mod MineFactoryReloaded|CompatVanilla accepts its own version (1.7.10R2.8.1B1)
+[19:33:11] [Client thread/DEBUG] [FML/MineFactoryReloaded|CompatVanilla]: Attempting to inject @SidedProxy classes into MineFactoryReloaded|CompatVanilla
+[19:33:11] [Client thread/TRACE] [MineFactoryReloaded|CompatVanilla/MineFactoryReloaded|CompatVanilla]: Sent event FMLConstructionEvent to mod MineFactoryReloaded|CompatVanilla
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Construction - MFR Compat: Vanilla took 0.045s
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Finished: Construction took 3.104s
+[19:33:11] [Client thread/DEBUG] [FML/]: Mod signature data
+[19:33:11] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
+[19:33:11] [Client thread/DEBUG] [FML/]: 		(de041f9f6187debbc77034a344134053277aa3b0) IC2	(IndustrialCraft 2	2.2.763-experimental)	industrialcraft-2-2.2.763-experimental-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
+[19:33:11] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	7.10.99.99)	forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	10.13.4.1492)	forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		<CoFH ASM>	(CoFH ASM	000)	minecraft.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		bm	(Balloons Mod	1.7.10-0.1)	bin
+[19:33:11] [Client thread/DEBUG] [FML/]: 		CoFHCore	(CoFH Core	1.7.10R3.0.4B1)	CoFHCore-[1.7.10]3.0.4B1-308-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded	(MineFactory Reloaded	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatAppliedEnergistics	(MFR Compat: Applied Energistics	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatAtum	(MFR Compat: Atum	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatBackTools	(MFR Compat: BackTools	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatBuildCraft	(MFR Compat: BuildCraft	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatChococraft	(MFR Compat: Chococraft	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatExtraBiomes	(MFR Compat: ExtraBiomes	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatForestry	(MFR Compat: Forestry	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatForgeMicroblock	(MFR Compat: ForgeMicroblock	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatIC2	(MFR Compat: IC2	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatMystcraft	(MFR Compat: Mystcraft	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatProjRed	(MFR Compat ProjectRed	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatRailcraft	(MFR Compat: Railcraft	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatSufficientBiomes	(MFR Compat: Sufficient Biomes	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatThaumcraft	(MFR Compat: Thaumcraft	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatThermalExpansion	(MFR Compat: Thermal Expansion	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatTConstruct	(MFR Compat: Tinkers' Construct	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatTwilightForest	(MFR Compat: TwilightForest	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: 		MineFactoryReloaded|CompatVanilla	(MFR Compat: Vanilla	1.7.10R2.8.1B1)	MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0.017s
+[19:33:11] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0.046s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0.038s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Balloons Mod took 0.010s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:CoFH Core took 0.003s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:IndustrialCraft 2 took 0.036s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MineFactory Reloaded took 0.008s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: Applied Energistics took 0.006s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: Atum took 0.006s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: BackTools took 0.009s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: BuildCraft took 0.006s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: Chococraft took 0.009s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: ExtraBiomes took 0.016s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: Forestry took 0.005s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: ForgeMicroblock took 0.004s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: IC2 took 0.004s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: Mystcraft took 0.004s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat ProjectRed took 0.004s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: Railcraft took 0.003s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: Sufficient Biomes took 0.004s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: Thaumcraft took 0.003s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: Thermal Expansion took 0.004s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: Tinkers' Construct took 0.003s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: TwilightForest took 0.003s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:MFR Compat: Vanilla took 0.004s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0.045s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0.046s
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 0.300s
+[19:33:12] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [CoFH Core/]: Mod CoFH Core is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MineFactory Reloaded/]: Mod MineFactory Reloaded is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: Applied Energistics/]: Mod MFR Compat: Applied Energistics is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: Atum/]: Mod MFR Compat: Atum is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: BackTools/]: Mod MFR Compat: BackTools is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: BuildCraft/]: Mod MFR Compat: BuildCraft is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: Chococraft/]: Mod MFR Compat: Chococraft is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: ExtraBiomes/]: Mod MFR Compat: ExtraBiomes is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: Forestry/]: Mod MFR Compat: Forestry is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: ForgeMicroblock/]: Mod MFR Compat: ForgeMicroblock is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: IC2/]: Mod MFR Compat: IC2 is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: Mystcraft/]: Mod MFR Compat: Mystcraft is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat ProjectRed/]: Mod MFR Compat ProjectRed is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: Railcraft/]: Mod MFR Compat: Railcraft is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: Sufficient Biomes/]: Mod MFR Compat: Sufficient Biomes is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: Thaumcraft/]: Mod MFR Compat: Thaumcraft is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: Thermal Expansion/]: Mod MFR Compat: Thermal Expansion is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: Tinkers' Construct/]: Mod MFR Compat: Tinkers' Construct is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: TwilightForest/]: Mod MFR Compat: TwilightForest is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/DEBUG] [MFR Compat: Vanilla/]: Mod MFR Compat: Vanilla is missing a pack.mcmeta file, substituting a dummy one
+[19:33:12] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[19:33:12] [Client thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[19:33:12] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[19:33:12] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[19:33:12] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[19:33:12] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.003s
+[19:33:12] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[19:33:12] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.017s
+[19:33:12] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[19:33:12] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[19:33:12] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.081s
+[19:33:12] [Client thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sending event FMLPreInitializationEvent to mod <CoFH ASM>
+[19:33:12] [Client thread/TRACE] [<CoFH ASM>/<CoFH ASM>]: Sent event FMLPreInitializationEvent to mod <CoFH ASM>
+[19:33:12] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - CoFH ASM took 0.001s
+[19:33:12] [Client thread/TRACE] [IC2/IC2]: Sending event FMLPreInitializationEvent to mod IC2
+[19:33:12] [Client thread/DEBUG] [IC2.General/IC2]: Starting pre-init.
+[19:33:12] [ic2-poolthread-1/DEBUG] [IC2.Resource/IC2]: Translations loaded from file C:\Users\Leonic\workspace\Forge\mods\industrialcraft-2-2.2.763-experimental-dev.jar.
+[19:33:12] [Client thread/DEBUG] [IC2.Audio/IC2]: Using 32 audio sources.
+[19:33:14] [Client thread/DEBUG] [FML/IC2]: Method ic2.core.block.TileEntityLiquidTankElectricMachine.getTankFluidId()I: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[19:33:14] [Client thread/DEBUG] [FML/IC2]: Method ic2.core.block.TileEntityLiquidTankStandardMaschine.getTankFluidId()I: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[19:33:15] [Client thread/DEBUG] [FML/IC2]: Method ic2.core.block.machine.gui.GuiCanner.drawGuiContainerBackgroundLayer(FII)V: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[19:33:15] [Client thread/DEBUG] [FML/IC2]: Method ic2.core.block.machine.gui.GuiCanner.drawGuiContainerBackgroundLayer(FII)V: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[19:33:16] [Client thread/DEBUG] [FML/IC2]: Method ic2.core.AdvRecipe.expand(Ljava/lang/Object;)Ljava/util/List;: Replacing GETFIELD fluidID with INVOKEVIRTUAL getFluidID
+[19:33:16] [Client thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity MiningLaser as IC2.MiningLaser
+[19:33:16] [Client thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Dynamite as IC2.Dynamite
+[19:33:16] [Client thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity StickyDynamite as IC2.StickyDynamite
+[19:33:16] [Client thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Itnt as IC2.Itnt
+[19:33:16] [Client thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Nuke as IC2.Nuke
+[19:33:16] [Client thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity BoatCarbon as IC2.BoatCarbon
+[19:33:16] [Client thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity BoatRubber as IC2.BoatRubber
+[19:33:16] [Client thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity BoatElectric as IC2.BoatElectric
+[19:33:16] [Client thread/TRACE] [FML/IC2]: Automatically registered mod IC2 entity Particle as IC2.Particle
+[19:33:16] [Client thread/DEBUG] [IC2.General/IC2]: Finished pre-init after 4102 ms.
+[19:33:16] [Client thread/TRACE] [IC2/IC2]: Sent event FMLPreInitializationEvent to mod IC2
+[19:33:16] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - IndustrialCraft 2 took 4.106s
+[19:33:16] [Client thread/TRACE] [bm/bm]: Sending event FMLPreInitializationEvent to mod bm
+[19:33:16] [Client thread/INFO] [Balloons Mod/bm]: Config read...
+[19:33:16] [Client thread/DEBUG] [Balloons Mod/bm]: Bunch Of Balloons Entity has an ID of: 580
+[19:33:16] [Client thread/DEBUG] [Balloons Mod/bm]: Allowed to intergrate with IC2
+[19:33:16] [Client thread/INFO] [Balloons Mod/bm]: Config saved...
+[19:33:16] [Client thread/TRACE] [FML/bm]: Automatically registered mod bm entity Bunch of Balloons as bm.Bunch of Balloons
+[19:33:16] [Client thread/INFO] [Balloons Mod/bm]: IC2 is loaded. Adding intergration.
+[19:33:16] [Client thread/INFO] [Balloons Mod/bm]: Added macerator recipes.
+[19:33:16] [Client thread/INFO] [Balloons Mod/bm]: Balloons is up to date!
+[19:33:16] [Client thread/INFO] [Balloons Mod/bm]: Grabbing the Helium tanks...
+[19:33:16] [Client thread/TRACE] [bm/bm]: Sent event FMLPreInitializationEvent to mod bm
+[19:33:16] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Balloons Mod took 0.375s
+[19:33:16] [Client thread/TRACE] [CoFHCore/CoFHCore]: Sending event FMLPreInitializationEvent to mod CoFHCore
+[19:33:17] [Client thread/INFO] [CoFHWorld/CoFHCore]: Registering Default Templates.
+[19:33:17] [Client thread/INFO] [CoFHWorld/CoFHCore]: Registering default generators
+[19:33:17] [Client thread/INFO] [CoFHWorld/CoFHCore]: Complete
+[19:33:17] [Client thread/TRACE] [CoFHCore/CoFHCore]: Sent event FMLPreInitializationEvent to mod CoFHCore
+[19:33:17] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - CoFH Core took 0.737s
+[19:33:17] [Client thread/TRACE] [MineFactoryReloaded/MineFactoryReloaded]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded
+[19:33:17] [Client thread/DEBUG] [CoFH ASM/MineFactoryReloaded]: Stripping methods and fields from powercrystals.minefactoryreloaded.tile.base.TileEntityFactory
+[19:33:17] [Client thread/DEBUG] [CoFH ASM/MineFactoryReloaded]: Stripping methods and fields from powercrystals.minefactoryreloaded.tile.base.TileEntityFactoryPowered
+[19:33:17] [Client thread/DEBUG] [CoFH ASM/MineFactoryReloaded]: Stripping methods and fields from powercrystals.minefactoryreloaded.tile.machine.TileEntityEjector
+[19:33:18] [Client thread/DEBUG] [FML/MineFactoryReloaded]: Bar Finished: Loading Resource - BaseMod$LangManager took 0.171s
+[19:33:18] [Client thread/DEBUG] [CoFH ASM/MineFactoryReloaded]: Stripping methods and fields from powercrystals.minefactoryreloaded.tile.transport.TileEntityConveyor
+[19:33:18] [Client thread/DEBUG] [CoFH ASM/MineFactoryReloaded]: Stripping methods and fields from powercrystals.minefactoryreloaded.tile.rednet.TileEntityRedNetEnergy
+[19:33:18] [Client thread/DEBUG] [CoFH ASM/MineFactoryReloaded]: Stripping methods and fields from powercrystals.minefactoryreloaded.tile.rednet.TileEntityRedNetHistorian
+[19:33:18] [Client thread/DEBUG] [CoFH ASM/MineFactoryReloaded]: Adding runtime interfaces to powercrystals.minefactoryreloaded.item.tool.ItemFactoryHammer
+[19:33:18] [Client thread/DEBUG] [CoFH ASM/MineFactoryReloaded]: Nothing implemented on powercrystals.minefactoryreloaded.item.tool.ItemFactoryHammer
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded/MineFactoryReloaded]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MineFactory Reloaded took 1.362s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatAppliedEnergistics/MineFactoryReloaded|CompatAppliedEnergistics]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatAppliedEnergistics
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatAppliedEnergistics/MineFactoryReloaded|CompatAppliedEnergistics]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatAppliedEnergistics
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: Applied Energistics took 0.001s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatAtum/MineFactoryReloaded|CompatAtum]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatAtum
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatAtum/MineFactoryReloaded|CompatAtum]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatAtum
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: Atum took 0.001s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatBackTools/MineFactoryReloaded|CompatBackTools]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatBackTools
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatBackTools/MineFactoryReloaded|CompatBackTools]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatBackTools
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: BackTools took 0.001s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatBuildCraft/MineFactoryReloaded|CompatBuildCraft]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatBuildCraft
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatBuildCraft/MineFactoryReloaded|CompatBuildCraft]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatBuildCraft
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: BuildCraft took 0.001s
+[19:33:19] [Client thread/ERROR] [MineFactoryReloaded|CompatChococraft/]: Skipping event FMLPreInitializationEvent and marking errored mod MineFactoryReloaded|CompatChococraft since required dependency MineFactoryReloaded has errored
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: Chococraft took 0.001s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatExtraBiomes/MineFactoryReloaded|CompatExtraBiomes]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatExtraBiomes
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatExtraBiomes/MineFactoryReloaded|CompatExtraBiomes]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatExtraBiomes
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: ExtraBiomes took 0.001s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatForestry/MineFactoryReloaded|CompatForestry]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatForestry
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatForestry/MineFactoryReloaded|CompatForestry]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatForestry
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: Forestry took 0.001s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatForgeMicroblock/MineFactoryReloaded|CompatForgeMicroblock]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatForgeMicroblock
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatForgeMicroblock/MineFactoryReloaded|CompatForgeMicroblock]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatForgeMicroblock
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: ForgeMicroblock took 0.001s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatIC2/MineFactoryReloaded|CompatIC2]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatIC2
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatIC2/MineFactoryReloaded|CompatIC2]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatIC2
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: IC2 took 0.002s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatMystcraft/MineFactoryReloaded|CompatMystcraft]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatMystcraft
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatMystcraft/MineFactoryReloaded|CompatMystcraft]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatMystcraft
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: Mystcraft took 0.001s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatProjRed/MineFactoryReloaded|CompatProjRed]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatProjRed
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatProjRed/MineFactoryReloaded|CompatProjRed]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatProjRed
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat ProjectRed took 0.001s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatRailcraft/MineFactoryReloaded|CompatRailcraft]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatRailcraft
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatRailcraft/MineFactoryReloaded|CompatRailcraft]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatRailcraft
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: Railcraft took 0.001s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatSufficientBiomes/MineFactoryReloaded|CompatSufficientBiomes]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatSufficientBiomes
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatSufficientBiomes/MineFactoryReloaded|CompatSufficientBiomes]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatSufficientBiomes
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: Sufficient Biomes took 0.001s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatThaumcraft/MineFactoryReloaded|CompatThaumcraft]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatThaumcraft
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatThaumcraft/MineFactoryReloaded|CompatThaumcraft]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatThaumcraft
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: Thaumcraft took 0.001s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatThermalExpansion/MineFactoryReloaded|CompatThermalExpansion]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatThermalExpansion
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatThermalExpansion/MineFactoryReloaded|CompatThermalExpansion]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatThermalExpansion
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: Thermal Expansion took 0.001s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatTConstruct/MineFactoryReloaded|CompatTConstruct]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatTConstruct
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatTConstruct/MineFactoryReloaded|CompatTConstruct]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatTConstruct
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: Tinkers' Construct took 0.001s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatTwilightForest/MineFactoryReloaded|CompatTwilightForest]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatTwilightForest
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatTwilightForest/MineFactoryReloaded|CompatTwilightForest]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatTwilightForest
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: TwilightForest took 0.001s
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatVanilla/MineFactoryReloaded|CompatVanilla]: Sending event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatVanilla
+[19:33:19] [Client thread/TRACE] [MineFactoryReloaded|CompatVanilla/MineFactoryReloaded|CompatVanilla]: Sent event FMLPreInitializationEvent to mod MineFactoryReloaded|CompatVanilla
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - MFR Compat: Vanilla took 0.001s
+[19:33:19] [Client thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 6.697s
+[19:33:19] [Client thread/INFO] [FML/]: Applying holder lookups
+[19:33:19] [Client thread/INFO] [FML/]: Holder lookups applied
+[19:33:19] [Client thread/INFO] [FML/]: Injecting itemstacks
+[19:33:19] [Client thread/INFO] [FML/]: Itemstack injection complete
+[19:33:19] [Client thread/ERROR] [FML/]: Fatal errors were detected during the transition from PREINITIALIZATION to INITIALIZATION. Loading cannot continue
+[19:33:19] [Client thread/ERROR] [FML/]: 
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCH	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCH	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar) 
+	UCH	Forge{10.13.4.1492} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar) 
+	UCH	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+	UCH	IC2{2.2.763-experimental} [IndustrialCraft 2] (industrialcraft-2-2.2.763-experimental-dev.jar) 
+	UCH	bm{1.7.10-0.1} [Balloons Mod] (bin) 
+	UCH	CoFHCore{1.7.10R3.0.4B1} [CoFH Core] (CoFHCore-[1.7.10]3.0.4B1-308-dev.jar) 
+	UCE	MineFactoryReloaded{1.7.10R2.8.1B1} [MineFactory Reloaded] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatAppliedEnergistics{1.7.10R2.8.1B1} [MFR Compat: Applied Energistics] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatAtum{1.7.10R2.8.1B1} [MFR Compat: Atum] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatBackTools{1.7.10R2.8.1B1} [MFR Compat: BackTools] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatBuildCraft{1.7.10R2.8.1B1} [MFR Compat: BuildCraft] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCE	MineFactoryReloaded|CompatChococraft{1.7.10R2.8.1B1} [MFR Compat: Chococraft] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatExtraBiomes{1.7.10R2.8.1B1} [MFR Compat: ExtraBiomes] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatForestry{1.7.10R2.8.1B1} [MFR Compat: Forestry] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatForgeMicroblock{1.7.10R2.8.1B1} [MFR Compat: ForgeMicroblock] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatIC2{1.7.10R2.8.1B1} [MFR Compat: IC2] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatMystcraft{1.7.10R2.8.1B1} [MFR Compat: Mystcraft] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatProjRed{1.7.10R2.8.1B1} [MFR Compat ProjectRed] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatRailcraft{1.7.10R2.8.1B1} [MFR Compat: Railcraft] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatSufficientBiomes{1.7.10R2.8.1B1} [MFR Compat: Sufficient Biomes] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatThaumcraft{1.7.10R2.8.1B1} [MFR Compat: Thaumcraft] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatThermalExpansion{1.7.10R2.8.1B1} [MFR Compat: Thermal Expansion] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatTConstruct{1.7.10R2.8.1B1} [MFR Compat: Tinkers' Construct] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatTwilightForest{1.7.10R2.8.1B1} [MFR Compat: TwilightForest] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatVanilla{1.7.10R2.8.1B1} [MFR Compat: Vanilla] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+[19:33:19] [Client thread/ERROR] [FML/]: The following problems were captured during this phase
+[19:33:19] [Client thread/ERROR] [FML/]: Caught exception from MineFactoryReloaded
+java.lang.IllegalAccessError: tried to access field net.minecraft.block.Block.unlocalizedName from class powercrystals.minefactoryreloaded.block.fluid.BlockFactoryFluid
+	at powercrystals.minefactoryreloaded.block.fluid.BlockFactoryFluid.getUnlocalizedName(BlockFactoryFluid.java:249) ~[BlockFactoryFluid.class:?]
+	at powercrystals.minefactoryreloaded.MFRRegistry.registerBlock(MFRRegistry.java:454) ~[MFRRegistry.class:?]
+	at powercrystals.minefactoryreloaded.MineFactoryReloadedCore.registerBlock(MineFactoryReloadedCore.java:570) ~[MineFactoryReloadedCore.class:?]
+	at powercrystals.minefactoryreloaded.MineFactoryReloadedCore.preInit(MineFactoryReloadedCore.java:482) ~[MineFactoryReloadedCore.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_79]
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532) ~[forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar:?]
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_79]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212) ~[forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar:?]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190) ~[forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_79]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) ~[guava-17.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) ~[guava-17.0.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119) [LoadController.class:?]
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:556) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:243) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:522) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_79]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_79]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_79]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_79]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
+[19:33:19] [Client thread/INFO] [STDOUT/]: [net.minecraft.client.Minecraft:displayCrashReport:388]: ---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 14/08/15 19:33
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+cpw.mods.fml.common.LoaderException: java.lang.IllegalAccessError: tried to access field net.minecraft.block.Block.unlocalizedName from class powercrystals.minefactoryreloaded.block.fluid.BlockFactoryFluid
+	at cpw.mods.fml.common.LoadController.transition(LoadController.java:163)
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:559)
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:243)
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:522)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+Caused by: java.lang.IllegalAccessError: tried to access field net.minecraft.block.Block.unlocalizedName from class powercrystals.minefactoryreloaded.block.fluid.BlockFactoryFluid
+	at powercrystals.minefactoryreloaded.block.fluid.BlockFactoryFluid.getUnlocalizedName(BlockFactoryFluid.java:249)
+	at powercrystals.minefactoryreloaded.MFRRegistry.registerBlock(MFRRegistry.java:454)
+	at powercrystals.minefactoryreloaded.MineFactoryReloadedCore.registerBlock(MineFactoryReloadedCore.java:570)
+	at powercrystals.minefactoryreloaded.MineFactoryReloadedCore.preInit(MineFactoryReloadedCore.java:482)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:532)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.preinitializeMods(Loader.java:556)
+	... 12 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.7.0_79, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 641726960 bytes (611 MB) / 958922752 bytes (914 MB) up to 958922752 bytes (914 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1492 26 mods loaded, 26 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCH	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCH	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar) 
+	UCH	Forge{10.13.4.1492} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar) 
+	UCH	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) 
+	UCH	IC2{2.2.763-experimental} [IndustrialCraft 2] (industrialcraft-2-2.2.763-experimental-dev.jar) 
+	UCH	bm{1.7.10-0.1} [Balloons Mod] (bin) 
+	UCH	CoFHCore{1.7.10R3.0.4B1} [CoFH Core] (CoFHCore-[1.7.10]3.0.4B1-308-dev.jar) 
+	UCE	MineFactoryReloaded{1.7.10R2.8.1B1} [MineFactory Reloaded] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatAppliedEnergistics{1.7.10R2.8.1B1} [MFR Compat: Applied Energistics] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatAtum{1.7.10R2.8.1B1} [MFR Compat: Atum] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatBackTools{1.7.10R2.8.1B1} [MFR Compat: BackTools] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatBuildCraft{1.7.10R2.8.1B1} [MFR Compat: BuildCraft] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCE	MineFactoryReloaded|CompatChococraft{1.7.10R2.8.1B1} [MFR Compat: Chococraft] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatExtraBiomes{1.7.10R2.8.1B1} [MFR Compat: ExtraBiomes] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatForestry{1.7.10R2.8.1B1} [MFR Compat: Forestry] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatForgeMicroblock{1.7.10R2.8.1B1} [MFR Compat: ForgeMicroblock] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatIC2{1.7.10R2.8.1B1} [MFR Compat: IC2] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatMystcraft{1.7.10R2.8.1B1} [MFR Compat: Mystcraft] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatProjRed{1.7.10R2.8.1B1} [MFR Compat ProjectRed] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatRailcraft{1.7.10R2.8.1B1} [MFR Compat: Railcraft] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatSufficientBiomes{1.7.10R2.8.1B1} [MFR Compat: Sufficient Biomes] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatThaumcraft{1.7.10R2.8.1B1} [MFR Compat: Thaumcraft] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatThermalExpansion{1.7.10R2.8.1B1} [MFR Compat: Thermal Expansion] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatTConstruct{1.7.10R2.8.1B1} [MFR Compat: Tinkers' Construct] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatTwilightForest{1.7.10R2.8.1B1} [MFR Compat: TwilightForest] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	UCH	MineFactoryReloaded|CompatVanilla{1.7.10R2.8.1B1} [MFR Compat: Vanilla] (MineFactoryReloaded-[1.7.10]2.8.1B1-128-dev.jar) 
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.5.13399 Compatibility Profile Context 15.200.1046.2' Renderer: 'AMD Radeon HD 7660G + HD 7600M Dual Graphics'
+	CoFHCore: -[1.7.10]3.0.4B1-308
+	MineFactoryReloaded: -[1.7.10]2.8.1B1-128
+[19:33:19] [Client thread/INFO] [STDOUT/]: [net.minecraft.client.Minecraft:displayCrashReport:398]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\Leonic\workspace\Forge\.\crash-reports\crash-2015-08-14_19.33.19-client.txt
