@@ -23,6 +23,7 @@ import net.minecraft.world.World;
 
 public class DropIt extends ItemRecord
 {
+	@SuppressWarnings("rawtypes")
 	private static final Map records = new HashMap();
 
 

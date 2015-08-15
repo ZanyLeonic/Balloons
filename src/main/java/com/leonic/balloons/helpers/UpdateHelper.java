@@ -55,7 +55,7 @@ public class UpdateHelper {
 				}
 		}else {
 			show = true;
-			updateStatus = "Balloons failed to connect to check if update are available!";
+			updateStatus = "Balloons failed to connect to check if updates are available!";
 			LogHelper.error("Failed to connect to check if update are available!");
 		}
 	}

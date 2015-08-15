@@ -14,7 +14,7 @@ public class FunctionHandler {
 	 * @param MODID Mods ID
 	 * @return true if mod is install false if not.
 	 */
-	public boolean isModLoaded(String MODID) {
+	public static boolean isModLoaded(String MODID) {
 		if(Loader.isModLoaded(MODID)){
 			return true;
 		}else{

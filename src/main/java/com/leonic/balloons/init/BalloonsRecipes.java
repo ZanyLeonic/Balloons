@@ -1,13 +1,19 @@
 package com.leonic.balloons.init;
 
+import com.leonic.balloons.References;
+import com.leonic.balloons.helpers.LogHelper;
+
 import cpw.mods.fml.common.registry.GameRegistry;
+import ic2.api.item.IC2Items;
+import ic2.api.recipe.RecipeInputItemStack;
+import ic2.api.recipe.Recipes;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
 /**
  * Registers all Crafting recipes on startup.
  * @author ZanyLeonic
- * @version 0.1
+ * @version 0.2
  */
 public class BalloonsRecipes {
 	/**
@@ -139,10 +145,29 @@ public class BalloonsRecipes {
 	}
 	
 	/**
-	 * Adds support for other mods (e.g IC2 and Minefactory Reloaded.)
+	 * Adds support for other mods (e.g IC2 and Minefactory Reloaded)
 	 */
 	public static void externalRecpies() {
-		
+		Boolean isIC2Loaded = FunctionHandler.isModLoaded("IC2");
+		if(isIC2Loaded == true){
+			if(References.ALLOW_IC2_INTERGRATION == true){
+			LogHelper.info("IC2 is loaded. Adding intergration.");
+			
+			Recipes.macerator.addRecipe(new RecipeInputItemStack(IC2Items.getItem("rubber")), null, new ItemStack(BalloonsItems.itemRubber, 2));
+			LogHelper.info("Added macerator recipes...");
+			
+			Recipes.compressor.addRecipe(new RecipeInputItemStack(IC2Items.getItem("rubber")), null, new ItemStack(BalloonsItems.itemRubberSheet));
+			Recipes.compressor.addRecipe(new RecipeInputItemStack(new ItemStack(BalloonsItems.itemRubber)), null, new ItemStack(BalloonsItems.itemRubberSheet));
+			Recipes.compressor.addRecipe(new RecipeInputItemStack(new ItemStack(BalloonsItems.itemRubberSheet, 3)), null, new ItemStack(BalloonsItems.itemRubberBall));
+			LogHelper.info("Added compressor recipes...");
+			
+			}else{
+				LogHelper.info("IC2 is loaded, but the config has ALLOW_INTERGRATION on IC2 is set to false.");
+				LogHelper.info("You can change this in the config, but it isn't necessary.");
+			}
+		}else{
+			LogHelper.info("IC2 is not loaded, No biggy. Disabling intergration.");
+		}
 	}
 	
 

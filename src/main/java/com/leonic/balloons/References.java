@@ -32,8 +32,23 @@ public class References {
     public static final String CLIENT_PROXY = "com.leonic.balloons.proxies.ClientProxy";
     
     /**
-     * Bunch of Balloons Entity id
+     * Bunch of Balloons Entity id (Changeable in config.)
      */
     public static int ENTITY_BALLOONS_ID = 580;
+    
+    /**
+     * Allows this mod to integrate with IC2 (Changeable in config.)
+     */
+    public static boolean ALLOW_IC2_INTERGRATION = true;
+    
+    /**
+     * If set to true, notifies the user about any new versions. (Changeable in config.)
+     */
+    public static boolean NOTIFY_FOR_NEW_VERSION = true;
+    
+    /**
+     * If set to true, checks for updates on startup. (Changeable in config.)
+     */
+    public static boolean CHECK_FOR_UPDATES = true;
     
 }

@@ -14,7 +14,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class EntityBunchOfBalloonsRenderer extends Render {
 
-	private static final float QUAD_HALF_SIZE = 2.4f;
+	public static final float QUAD_HALF_SIZE = 2.4f;
 	private static final float ONGROUND_ROTATION = 90f;
 	private static ModelBalloon model;
 	
@@ -44,29 +44,29 @@ public class EntityBunchOfBalloonsRenderer extends Render {
 		if (isLocalPlayer) {
 			if (isDeployed) {
 				// move up and closer to back
-				GL11.glTranslated(0, -0.2, +0.3);
+				//GL11.glTranslated(0, -0.2, +0.3);
 			} else {
 				if (isFpp) {
 					// move over head when flying in FPP
-					GL11.glTranslated(0, +0.2, 0);
+					//GL11.glTranslated(0, +0.2, 0);
 				} else {
 					// move closer to back and forward when flying in TDD
-					GL11.glTranslated(0, -0.8, -1.0);
+					//GL11.glTranslated(0, -0.8, -1.0);
 				}
 			}
 		} else {
 			if (isDeployed) {
 				// move up little bit (other player center is lower)
-				GL11.glTranslated(0, +0.2, +0.3);
+				//GL11.glTranslated(0, +0.2, +0.3);
 			} else {
 				// move closer to back and forward when flying
-				GL11.glTranslated(0, -0.5, -1.0);
+				//GL11.glTranslated(0, -0.5, -1.0);
 			}
 		}
 
 		if (isDeployed) {
-			GL11.glRotatef(ONGROUND_ROTATION, 1, 0, 0);
-			GL11.glScalef(0.4f, 1f, 0.4f);
+			GL11.glRotatef(ONGROUND_ROTATION, 0, 0, 0);
+			//GL11.glScalef(0.4f, 1f, 0.4f);
 			
 		}
 
