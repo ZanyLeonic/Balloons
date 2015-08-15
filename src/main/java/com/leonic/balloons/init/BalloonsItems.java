@@ -1,6 +1,5 @@
 package com.leonic.balloons.init;
 
-import com.leonic.balloons.Balloons;
 import com.leonic.balloons.helpers.RegisterHelper;
 import com.leonic.balloons.items.ItemHoverBalloon;
 import com.leonic.balloons.items.ItemRubber;
@@ -29,7 +28,7 @@ import net.minecraft.item.Item;
 /**
  * A class which calls the RegisterHelper to register the items on startup.
  * @author ZanyLeonic
- * @version 0.1
+ * @version 0.2
  * 
  */
 public class BalloonsItems {
@@ -60,7 +59,7 @@ public class BalloonsItems {
     public static Item itemBalloonYellow = new ItemBalloonYellow("ballooni");
     
     //Records... lol
-    public static Item record_dropit;
+    public static Item record_dropit = new DropIt("dropit");
     
     
     /**
@@ -68,7 +67,6 @@ public class BalloonsItems {
      */
     public static void registerItems()
     {
-    	record_dropit = new DropIt("dropit").setUnlocalizedName("record_dropit").setCreativeTab(Balloons.balloons);
     	
         RegisterHelper.registerItem(itemRubber);
         RegisterHelper.registerItem(itemRubberSheet);

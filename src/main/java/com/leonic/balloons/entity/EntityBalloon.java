@@ -121,8 +121,8 @@ public class EntityBalloon extends Entity implements IEntityAdditionalSpawnData 
 			final double verticalSpeed;
 
 			if (player.isSneaking()) {
-				horizontalSpeed = 0.1;
-				verticalSpeed = 0.3;
+				horizontalSpeed = 0.01;
+				verticalSpeed = 0.1;
 			} else {
 				horizontalSpeed = 0.01;
 				verticalSpeed = 0.1;
