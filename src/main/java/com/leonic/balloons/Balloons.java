@@ -97,7 +97,7 @@ public class Balloons {
     	NOTIFYFORNEWVERSION.comment = "Notifies the user on login if an update is available.";
     	References.NOTIFY_FOR_NEW_VERSION = NOTIFYFORNEWVERSION.getBoolean();
     	
-    	config.addCustomCategoryComment("ENTITY_ID", "Sets the entity ID for items like the Bunch of Balloons. Only use if it conflicts with another mod.");
+    	config.addCustomCategoryComment("ENTITY_ID", "Sets the entity ID for items like the Bunch of Balloons. Only use if it conflicts with another mod. (Not used in this version).");
     	config.addCustomCategoryComment("ITEM_RARITY", "Sets the Rarity of items in these mods from showing up in Dungeon chests.");
     	config.addCustomCategoryComment("ALLOW_INTERGRATION", "Sets if you want this mod to intergrate with other mods.");
     	config.addCustomCategoryComment("UPDATE_OPTIONS", "Sets options for the updater,");

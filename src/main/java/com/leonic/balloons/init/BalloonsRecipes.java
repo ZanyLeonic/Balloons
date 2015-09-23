@@ -157,10 +157,11 @@ public class BalloonsRecipes {
 			LogHelper.info("Added macerator recipes...");
 			
 			Recipes.compressor.addRecipe(new RecipeInputItemStack(IC2Items.getItem("rubber")), null, new ItemStack(BalloonsItems.itemRubberSheet));
-			Recipes.compressor.addRecipe(new RecipeInputItemStack(new ItemStack(BalloonsItems.itemRubber)), null, new ItemStack(BalloonsItems.itemRubberSheet));
+			Recipes.compressor.addRecipe(new RecipeInputItemStack(new ItemStack(BalloonsItems.itemRubberBall)), null, new ItemStack(BalloonsItems.itemRubberSheet));
 			Recipes.compressor.addRecipe(new RecipeInputItemStack(new ItemStack(BalloonsItems.itemRubberSheet, 3)), null, new ItemStack(BalloonsItems.itemRubberBall));
-			LogHelper.info("Added compressor recipes...");
+			Recipes.compressor.addRecipe(new RecipeInputItemStack(new ItemStack(BalloonsItems.itemRubber, 2)), null, IC2Items.getItem("rubber"));
 			
+			LogHelper.info("Added compressor recipes...");
 			}else{
 				LogHelper.info("IC2 is loaded, but the config has ALLOW_INTERGRATION on IC2 is set to false.");
 				LogHelper.info("You can change this in the config, but it isn't necessary.");

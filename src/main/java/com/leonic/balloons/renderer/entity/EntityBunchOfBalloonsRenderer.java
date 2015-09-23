@@ -23,18 +23,18 @@ public class EntityBunchOfBalloonsRenderer extends Render {
 	@Override
 	public void doRender(Entity entity, double x, double y, double z, float f, float f1) {
 		model = new ModelBalloon();
-		final EntityBalloon glider = (EntityBalloon)entity;
-		final EntityPlayer owner = glider.getPlayer();
+		final EntityBalloon balloon = (EntityBalloon)entity;
+		final EntityPlayer owner = balloon.getPlayer();
 		if (owner == null) return;
 
 		final Minecraft minecraft = Minecraft.getMinecraft();
 		final boolean isLocalPlayer = owner == minecraft.thePlayer;
 		final boolean isFpp = minecraft.gameSettings.thirdPersonView == 0;
-		final boolean isDeployed = glider.isDeployed();
+		final boolean isDeployed = balloon.isDeployed();
 
 		if (isLocalPlayer && isFpp && isDeployed) return;
 
-		final float rotation = interpolateRotation(glider.prevRotationYaw, glider.rotationYaw, f1);
+		final float rotation = interpolateRotation(balloon.prevRotationYaw, balloon.rotationYaw, f1);
 
 		GL11.glPushMatrix();
 		
@@ -44,7 +44,7 @@ public class EntityBunchOfBalloonsRenderer extends Render {
 		if (isLocalPlayer) {
 			if (isDeployed) {
 				// move up and closer to back
-				//GL11.glTranslated(0, -0.2, +0.3);
+				GL11.glTranslated(0, -0.2, +0.3);
 			} else {
 				if (isFpp) {
 					// move over head when flying in FPP

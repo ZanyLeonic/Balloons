@@ -8,7 +8,7 @@
             }
         ]
     },
-    "block.balloon1": {
+    "step.balloon": {
         "category": "block",
         "sounds": [
             {
@@ -17,29 +17,11 @@
             }
         ]
     },
-    "block.balloon2": {
+    "dig.balloon": {
         "category": "block",
         "sounds": [
             {
-                "name": "balloon2",
-                "stream": false
-            }
-        ]
-    },
-    "block.balloon3": {
-        "category": "block",
-        "sounds": [
-            {
-                "name": "balloon3",
-                "stream": false
-            }
-        ]
-    },
-    "block.balloon4": {
-        "category": "block",
-        "sounds": [
-            {
-                "name": "balloon4",
+                "name": "balloon1",
                 "stream": false
             }
         ]

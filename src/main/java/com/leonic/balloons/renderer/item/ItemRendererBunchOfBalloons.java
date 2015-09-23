@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package com.leonic.balloons.renderer.item;
 
 import org.lwjgl.opengl.GL11;
@@ -15,7 +13,10 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
 import net.minecraftforge.client.IItemRenderer;
-
+/**
+ * Bunch of balloons render
+ * @version 0.1
+ */
 public class ItemRendererBunchOfBalloons implements IItemRenderer{
 
 	@Override
@@ -42,10 +43,11 @@ public class ItemRendererBunchOfBalloons implements IItemRenderer{
 		Tessellator tessellator = Tessellator.instance;
 		GL11.glEnable(GL12.GL_RESCALE_NORMAL);
 		GL11.glTranslatef(-0.0F, -0.3F, 0.0F);
-		GL11.glScalef(1.5F, 1.5F, 1.5F);
+		//GL11.glScalef(1.5F, 1.5F, 1.5F);
 		GL11.glRotatef(50.0F, 0.0F, 1.0F, 0.0F);
 		GL11.glRotatef(335.0F, 0.0F, 0.0F, 1.0F);
 		GL11.glTranslatef(-0.9375F, -0.0625F, 0.0F);
+	
 		ItemRenderer.renderItemIn2D(tessellator,
 				icon.getMaxU(), icon.getMinV(),
 				icon.getMinU(), icon.getMaxV(),

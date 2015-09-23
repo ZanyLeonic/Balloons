@@ -1,8 +1,5 @@
 package com.leonic.balloons.proxies;
 
-import com.leonic.balloons.client.HoverBalloonRenderHandler;
-import com.leonic.balloons.entity.EntityBalloon;
-import com.leonic.balloons.init.BalloonsItems;
 import com.leonic.balloons.renderer.RenderBalloonBlack;
 import com.leonic.balloons.renderer.RenderBalloonBlue;
 import com.leonic.balloons.renderer.RenderBalloonBrown;
@@ -19,8 +16,6 @@ import com.leonic.balloons.renderer.RenderBalloonPurple;
 import com.leonic.balloons.renderer.RenderBalloonRed;
 import com.leonic.balloons.renderer.RenderBalloonWhite;
 import com.leonic.balloons.renderer.RenderBalloonYellow;
-import com.leonic.balloons.renderer.entity.EntityBunchOfBalloonsRenderer;
-import com.leonic.balloons.renderer.item.ItemRendererBunchOfBalloons;
 import com.leonic.balloons.tileentities.TileEntityBalloonBlockBlack;
 import com.leonic.balloons.tileentities.TileEntityBalloonBlockBlue;
 import com.leonic.balloons.tileentities.TileEntityBalloonBlockBrown;
@@ -39,10 +34,8 @@ import com.leonic.balloons.tileentities.TileEntityBalloonBlockWhite;
 import com.leonic.balloons.tileentities.TileEntityBalloonBlockYellow;
 
 import cpw.mods.fml.client.registry.ClientRegistry;
-import cpw.mods.fml.client.registry.RenderingRegistry;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
-import net.minecraftforge.client.MinecraftForgeClient;
-import net.minecraftforge.common.MinecraftForge;
+
 /**
  * Renders and does stuff on the client side.
  * @author ZanyLeonic 
@@ -113,10 +106,13 @@ public class ClientProxy extends CommonProxy {
 	
 	@Override
 	public void registerRenderInformation(){
-		if (BalloonsItems.itemBunchOfBalloon != null) {
+		
+		/* Unfinished
+		 * if (BalloonsItems.itemBunchOfBalloon != null) {
 			RenderingRegistry.registerEntityRenderingHandler(EntityBalloon.class, new EntityBunchOfBalloonsRenderer());
 			MinecraftForgeClient.registerItemRenderer(BalloonsItems.itemBunchOfBalloon, new ItemRendererBunchOfBalloons());
 			MinecraftForge.EVENT_BUS.register(new HoverBalloonRenderHandler());
 		}
+		*/
 	}
 }
