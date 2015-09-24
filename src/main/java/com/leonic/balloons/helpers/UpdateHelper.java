@@ -37,7 +37,7 @@ public class UpdateHelper {
 					show = true;
 					//getNewestFeatures();
 					getNewestVersionURL();
-					updateStatus = "There is a newer version of Balloons. Your version:" + currentVersion + " Latest version: " + newestVersion;
+					updateStatus = "There is a newer version of Balloons. Your version: " + currentVersion + " Latest version: " + newestVersion;
 					/*	Broken
 					if(newestVersionInfo != null && newestVersionInfoURL != null){	
 							updateNews = "§rNew features:\n" + newestVersionInfo + "\n You can look at the full change log at: " + newestVersionInfoURL;
@@ -55,7 +55,7 @@ public class UpdateHelper {
 				}
 		}else {
 			show = true;
-			updateStatus = "Balloons failed to connect to check if update are available!";
+			updateStatus = "Balloons failed to connect to check if updates are available!";
 			LogHelper.error("Failed to connect to check if update are available!");
 		}
 	}

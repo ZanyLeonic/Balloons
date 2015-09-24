@@ -1,5 +1,8 @@
 package com.leonic.balloons.init;
 
+import java.util.Random;
+
+import com.leonic.balloons.References;
 import com.leonic.balloons.blocks.BlockBalloonBlack;
 import com.leonic.balloons.blocks.BlockBalloonBlue;
 import com.leonic.balloons.blocks.BlockBalloonBrown;
@@ -41,10 +44,30 @@ import net.minecraft.block.Block;
  * A class which calls the RegisterHelper to register the blocks on startup.
  * For custom model blocks we don't use RegisterHelper.
  * @author ZanyLeonic
- * @version 0.1
+ * @version 0.2
  * 
  */
 public class BalloonsBlocks {
+	
+	//Balloons SoundTypes
+	public static final Block.SoundType soundTypeBalloon = new Block.SoundType("balloon", 1.0F, 1.0F)
+    {
+        private static final String __OBFID = "CL_00000701";
+        /**
+         * Used when a block breaks, e.g.: Player break, Sheep eating grass, etc..
+         */
+        @Override
+        public String getBreakSound()
+        {
+			return References.MODID + ":" + "dig.balloon";
+            
+        }
+        
+        public String getStepResourcePath()
+        {
+			return References.MODID + ":" + "step.balloon";
+        }
+    };
 	
 	//Balloon blocks
 	public static Block blockBalloonBlack = new BlockBalloonBlack();
@@ -65,23 +88,22 @@ public class BalloonsBlocks {
 	public static Block blockBalloonYellow = new BlockBalloonYellow();
 	
 	//Collision blocks
-	public static Block blockBalloonBlackColls = new BlockBalloonCollisionBlack("colls1");
-	public static Block blockBalloonBlueColls = new BlockBalloonCollisionBlue("colls2");
-	public static Block blockBalloonBrownColls = new BlockBalloonCollisionBrown("colls3");
-	public static Block blockBalloonCyanColls = new BlockBalloonCollisionCyan("colls4");
-	public static Block blockBalloonGreenColls = new BlockBalloonCollisionGreen("colls5");
-	public static Block blockBalloonGreyColls = new BlockBalloonCollisionGrey("colls6");
-	public static Block blockBalloonLBlueColls = new BlockBalloonCollisionLBlue("colls7");
-	public static Block blockBalloonLGreyColls = new BlockBalloonCollisionLGrey("colls8");
-	public static Block blockBalloonLimeColls = new BlockBalloonCollisionLime("colls9");
-	public static Block blockBalloonMagentaColls = new BlockBalloonCollisionMagenta("colls10");
-	public static Block blockBalloonOrangeColls = new BlockBalloonCollisionOrange("colls11");
-	public static Block blockBalloonPinkColls = new BlockBalloonCollisionPink("colls12");
-	public static Block blockBalloonPurpleColls = new BlockBalloonCollisionPurple("colls13");
-	public static Block blockBalloonRedColls = new BlockBalloonCollisionRed("colls14");
-	public static Block blockBalloonWhiteColls = new BlockBalloonCollisionWhite("colls15");
-	public static Block blockBalloonYellowColls = new BlockBalloonCollisionYellow("colls16");
-	
+	public static Block blockBalloonBlackColls = new BlockBalloonCollisionBlack("colls1").setStepSound(soundTypeBalloon);
+	public static Block blockBalloonBlueColls = new BlockBalloonCollisionBlue("colls2").setStepSound(soundTypeBalloon);
+	public static Block blockBalloonBrownColls = new BlockBalloonCollisionBrown("colls3").setStepSound(soundTypeBalloon);
+	public static Block blockBalloonCyanColls = new BlockBalloonCollisionCyan("colls4").setStepSound(soundTypeBalloon);
+	public static Block blockBalloonGreenColls = new BlockBalloonCollisionGreen("colls5").setStepSound(soundTypeBalloon);
+	public static Block blockBalloonGreyColls = new BlockBalloonCollisionGrey("colls6").setStepSound(soundTypeBalloon);
+	public static Block blockBalloonLBlueColls = new BlockBalloonCollisionLBlue("colls7").setStepSound(soundTypeBalloon);
+	public static Block blockBalloonLGreyColls = new BlockBalloonCollisionLGrey("colls8").setStepSound(soundTypeBalloon);
+	public static Block blockBalloonLimeColls = new BlockBalloonCollisionLime("colls9").setStepSound(soundTypeBalloon);
+	public static Block blockBalloonMagentaColls = new BlockBalloonCollisionMagenta("colls10").setStepSound(soundTypeBalloon);
+	public static Block blockBalloonOrangeColls = new BlockBalloonCollisionOrange("colls11").setStepSound(soundTypeBalloon);
+	public static Block blockBalloonPinkColls = new BlockBalloonCollisionPink("colls12").setStepSound(soundTypeBalloon);
+	public static Block blockBalloonPurpleColls = new BlockBalloonCollisionPurple("colls13").setStepSound(soundTypeBalloon);
+	public static Block blockBalloonRedColls = new BlockBalloonCollisionRed("colls14").setStepSound(soundTypeBalloon);
+	public static Block blockBalloonWhiteColls = new BlockBalloonCollisionWhite("colls15").setStepSound(soundTypeBalloon);
+	public static Block blockBalloonYellowColls = new BlockBalloonCollisionYellow("colls16").setStepSound(soundTypeBalloon);
 	
     /**
      * Uses RegisterHelper to register all the blocks. (Not for custom model blocks.)
@@ -90,22 +112,22 @@ public class BalloonsBlocks {
     {
 		
 		//Declaring the Balloons
-		blockBalloonBlack = new BlockBalloonBlack().setBlockName("balloon_black");
-		blockBalloonBlue = new BlockBalloonBlue().setBlockName("balloon_blue");
-		blockBalloonBrown = new BlockBalloonBrown().setBlockName("balloon_brown");
-		blockBalloonCyan = new BlockBalloonCyan().setBlockName("balloon_cyan");
-		blockBalloonLBlue = new BlockBalloonLBlue().setBlockName("balloon_lblue");
-		blockBalloonGreen = new BlockBalloonGreen().setBlockName("balloon_green");
-		blockBalloonGrey = new BlockBalloonGrey().setBlockName("balloon_grey");
-		blockBalloonLGrey = new BlockBalloonLGrey().setBlockName("balloon_lgrey");
-		blockBalloonLime = new BlockBalloonLime().setBlockName("balloon_lime");
-		blockBalloonMagenta = new BlockBalloonMagenta().setBlockName("balloon_magenta");
-		blockBalloonOrange = new BlockBalloonOrange().setBlockName("balloon_orange");
-		blockBalloonPink = new BlockBalloonPink().setBlockName("balloon_pink");
-		blockBalloonPurple = new BlockBalloonPurple().setBlockName("balloon_purple");
-		blockBalloonRed = new BlockBalloonRed().setBlockName("balloon_red");
-		blockBalloonWhite = new BlockBalloonWhite().setBlockName("balloon_white");
-		blockBalloonYellow = new BlockBalloonYellow().setBlockName("balloon_yellow");
+		blockBalloonBlack = new BlockBalloonBlack().setBlockName("balloon_black").setStepSound(soundTypeBalloon);
+		blockBalloonBlue = new BlockBalloonBlue().setBlockName("balloon_blue").setStepSound(soundTypeBalloon);
+		blockBalloonBrown = new BlockBalloonBrown().setBlockName("balloon_brown").setStepSound(soundTypeBalloon);
+		blockBalloonCyan = new BlockBalloonCyan().setBlockName("balloon_cyan").setStepSound(soundTypeBalloon);
+		blockBalloonLBlue = new BlockBalloonLBlue().setBlockName("balloon_lblue").setStepSound(soundTypeBalloon);
+		blockBalloonGreen = new BlockBalloonGreen().setBlockName("balloon_green").setStepSound(soundTypeBalloon);
+		blockBalloonGrey = new BlockBalloonGrey().setBlockName("balloon_grey").setStepSound(soundTypeBalloon);
+		blockBalloonLGrey = new BlockBalloonLGrey().setBlockName("balloon_lgrey").setStepSound(soundTypeBalloon);
+		blockBalloonLime = new BlockBalloonLime().setBlockName("balloon_lime").setStepSound(soundTypeBalloon);
+		blockBalloonMagenta = new BlockBalloonMagenta().setBlockName("balloon_magenta").setStepSound(soundTypeBalloon);
+		blockBalloonOrange = new BlockBalloonOrange().setBlockName("balloon_orange").setStepSound(soundTypeBalloon);
+		blockBalloonPink = new BlockBalloonPink().setBlockName("balloon_pink").setStepSound(soundTypeBalloon);
+		blockBalloonPurple = new BlockBalloonPurple().setBlockName("balloon_purple").setStepSound(soundTypeBalloon);
+		blockBalloonRed = new BlockBalloonRed().setBlockName("balloon_red").setStepSound(soundTypeBalloon);
+		blockBalloonWhite = new BlockBalloonWhite().setBlockName("balloon_white").setStepSound(soundTypeBalloon);
+		blockBalloonYellow = new BlockBalloonYellow().setBlockName("balloon_yellow").setStepSound(soundTypeBalloon);
     	
 		//Registering with Balloons with GameRegistry
 		GameRegistry.registerBlock(blockBalloonBlack, "balloon_black");
@@ -144,11 +166,4 @@ public class BalloonsBlocks {
 		RegisterHelper.registerBlock(blockBalloonYellowColls);
 		
     }
-	/**
-	 * @deprecated Puts all custom blocks into a CreativeTab. Will be removed in next version.
-	 */
-	@Deprecated
-	public static void registerCreativeTabs(){
-		
-	}
 }
