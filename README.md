@@ -9,3 +9,4 @@ Balloons version 0.2 for Minecraft 1.7.10 has been released! Check it <a href="h
 
 <a href="http://ZanyLeonic.github.io/Balloons/doc/1.7.10">Latest JavaDoc</a>
 
+This code is under The MIT License. Read more in License.MD
