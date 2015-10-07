@@ -32,7 +32,7 @@ import net.minecraftforge.common.config.Property;
 /**
  * Balloons mod main class
  * @author ZanyLeonic
- * @version 0.2
+ * @version 0.21
  * 
  */
 @Mod(modid = References.MODID, name = References.NAME, version = References.VERSION)
@@ -152,7 +152,7 @@ public class Balloons {
         ChestGenHooks.getInfo(ChestGenHooks.STRONGHOLD_CORRIDOR).addItem(new WeightedRandomChestContent(new ItemStack(BalloonsItems.itemRubberBall),1,5,strongholdCorridor));
         ChestGenHooks.getInfo(ChestGenHooks.STRONGHOLD_LIBRARY).addItem(new WeightedRandomChestContent(new ItemStack(BalloonsItems.itemRubberBall),1,1,strongholdLibrary));
         ChestGenHooks.getInfo(ChestGenHooks.PYRAMID_JUNGLE_DISPENSER).addItem(new WeightedRandomChestContent(new ItemStack(BalloonsItems.itemRubberSheet),1,1,jungleTempleDispenser));
-        
+        LogHelper.info("I am version " + References.VERSION + "!");
     //"Got past PreInit stage" message.
     	LogHelper.info("Grabbing the Helium tanks...");
     }
