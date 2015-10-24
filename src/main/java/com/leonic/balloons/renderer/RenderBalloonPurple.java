@@ -12,7 +12,7 @@ import net.minecraft.util.ResourceLocation;
  * Used to render the Balloon model in OpenGL. Very complicated stuff.
  * Purple coloured Balloon
  * @author ZanyLeonic
- * @version 0.1
+ * @version 1.8-0.1
  * 
  */
 
@@ -38,9 +38,10 @@ public class RenderBalloonPurple extends TileEntitySpecialRenderer {
 	 *   
 	 */
 	@Override
-	public void renderTileEntityAt(TileEntity tilentity_, double x, double y, double z, float f) {
+	public void renderTileEntityAt(TileEntity p_180535_1_, double posX, double posZ, double p_180535_6_,
+			float p_180535_8_, int p_180535_9_) {
 		GL11.glPushMatrix();
-			GL11.glTranslatef((float)x + 0.5F, (float)y + 1.5F, (float)z + 0.5F);
+			GL11.glTranslatef((float)posX + 0.5F, (float)p_180535_6_ + 1.5F, (float)posZ + 0.5F);
 			GL11.glRotatef(180, 0, 0, 1F);
 			
 			this.bindTexture(texture);
@@ -51,5 +52,4 @@ public class RenderBalloonPurple extends TileEntitySpecialRenderer {
 		GL11.glPopMatrix();
 		
 	}
-
 }

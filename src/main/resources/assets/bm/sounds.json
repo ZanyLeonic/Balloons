@@ -1,0 +1,29 @@
+{
+    "records.dropit": {
+        "category": "record",
+        "sounds": [
+            {
+                "name": "records/dropit",
+                "stream": true
+            }
+        ]
+    },
+    "step.balloon": {
+        "category": "block",
+        "sounds": [
+            {
+                "name": "balloon1",
+                "stream": false
+            }
+        ]
+    },
+    "dig.balloon": {
+        "category": "block",
+        "sounds": [
+            {
+                "name": "balloon1",
+                "stream": false
+            }
+        ]
+    }
+}

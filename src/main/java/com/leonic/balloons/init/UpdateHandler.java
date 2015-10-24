@@ -1,9 +1,10 @@
 package com.leonic.balloons.init;
 
 import com.leonic.balloons.helpers.UpdateHelper;
-import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import cpw.mods.fml.common.gameevent.PlayerEvent;
+
 import net.minecraft.util.ChatComponentText;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.gameevent.PlayerEvent;
 /**
  * UpdateHandler displays Update information in a user friendly way through the chat.
  * @author Leonic

@@ -17,12 +17,13 @@ import com.leonic.balloons.tileentities.TileEntityBalloonBlockRed;
 import com.leonic.balloons.tileentities.TileEntityBalloonBlockWhite;
 import com.leonic.balloons.tileentities.TileEntityBalloonBlockYellow;
 
-import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
 
 /**
  * Registers all the TileEnities in this mod.
  * @author Leonic
- * @version 0.1
+ * @version 1.8-0.1
  */
 public class BalloonsTileEntities {
 	

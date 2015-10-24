@@ -1,14 +1,13 @@
 package com.leonic.balloons.items;
 
 import com.leonic.balloons.Balloons;
-import com.leonic.balloons.References;
 
 import net.minecraft.item.Item;
 
 /**
  * The Item class of Rubber Sheets.
  * @author ZanyLeonic
- * @version 0.1
+ * @version 1.8-0.1
  */
 public class ItemRubberSheet extends Item {
 	
@@ -20,6 +19,5 @@ public class ItemRubberSheet extends Item {
 		super();
 		setCreativeTab(Balloons.balloons);
 		setUnlocalizedName(name);
-		setTextureName(References.MODID + ":" + name);
 	}
 }

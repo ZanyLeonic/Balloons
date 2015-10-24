@@ -5,13 +5,13 @@ import org.apache.logging.log4j.Level;
 
 import com.leonic.balloons.References;
 
-import cpw.mods.fml.common.FMLLog;
+import net.minecraftforge.fml.common.FMLLog;
 
 
 /**
  * LogHelper prints information to the log and the console. 
  * @author ZanyLeonic
- * @version 0.1
+ * @version 1.8-0.1
  * 
  * 
  */

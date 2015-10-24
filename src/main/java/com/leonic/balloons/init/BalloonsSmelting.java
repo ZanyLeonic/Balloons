@@ -1,11 +1,12 @@
 package com.leonic.balloons.init;
 
-import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
 /**
  * Registers all the Smelting recipes from this mod.
  * @author Leonic
- * @version 0.1
+ * @version 1.8-0.1
  */
 public class BalloonsSmelting {
 	

@@ -2,24 +2,22 @@ package com.leonic.balloons.blocks;
 
 import java.util.Random;
 
-import com.leonic.balloons.References;
 import com.leonic.balloons.init.BalloonsItems;
 import com.leonic.balloons.tileentities.TileEntityBalloonBlockGrey;
 
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
-import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.BlockPos;
 import net.minecraft.world.World;
 /**
  * The Block class for the Balloon.
  * For the Grey coloured balloon.
  * @author ZanyLeonic
- * @version 0.1
+ * @version 1.8-0.1
  * 
  */
 public class BlockBalloonGrey extends BlockContainer {
@@ -28,6 +26,7 @@ public class BlockBalloonGrey extends BlockContainer {
 		super(Material.cloth);
 		this.setHardness(1.0F);
 		this.setResistance(1.0F);
+		
 	}
 	@Override
 	public int getRenderType() {
@@ -38,22 +37,15 @@ public class BlockBalloonGrey extends BlockContainer {
 		return false;	
 	}
 	@Override
-	public boolean renderAsNormalBlock(){
-		return false;
-	}
-	
-	@Override
-	public void onBlockDestroyedByPlayer(World world, int x, int y, int z, int metaData) {
-		if(!world.isRemote){
-			if(world.blockExists(x, y+1, z)){
-				world.setBlock(x, y+1, z, Blocks.air);
-			}
+	public void onBlockDestroyedByPlayer(World worldIn, BlockPos pos, IBlockState state) {
+		pos.add(pos.getX(), pos.getY()+1, pos.getZ());
+		if(!worldIn.isRemote){
+			worldIn.setBlockState(pos, Blocks.air.getDefaultState());
 		}
 		
 	}
-	
 	@Override
-    public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_)
+    public Item getItemDropped(IBlockState state, Random rand, int fortune)
     {
         return BalloonsItems.itemBalloonGrey;
     }
@@ -68,8 +60,4 @@ public class BlockBalloonGrey extends BlockContainer {
 		return new TileEntityBalloonBlockGrey();
 	}
 	
-	@SideOnly(Side.CLIENT)
-	public void registerBlockIcons(IIconRegister iconRegister){
-		this.blockIcon = iconRegister.registerIcon(References.MODID + ":" + "balloon_grey");
-	}
 }
